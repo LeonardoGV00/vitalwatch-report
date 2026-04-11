@@ -487,17 +487,17 @@ En esta sección se realizará el análisis competitivo de los competidores iden
 	<tbody>
 		<tr>
 			<td colspan="2">¿Por qué llevar a cabo este análisis?</td>
-			<td colspan="5"> - </td>
+			<td colspan="5">Realizamos este análisis para detectar qué es lo que le falta a las soluciones actuales y asegurar que VitalWatch ofrezca algo único, pensado exclusivamente para el ritmo de un centro de salud. Conocer a fondo a la competencia nos ayuda a construir una herramienta que realmente proteja al personal médico y evite negligencias evitables por cansancio.</td>
 		</tr>
 		<tr>
 			<td colspan="2">
 				<div align="center">Nombre</div>
 			</td>
 			<td><div align="center"><b>VitalWatch</b></div></td>
-			<td><div align="center"><b>C1</b></div></td>
-			<td><div align="center"><b>C2</b></div></td>
-			<td><div align="center"><b>C3</b></div></td>
-			<td><div align="center"><b>C4</b></div></td>
+			<td><div align="center"><b>Readi (Fatigue science)</b></div></td>
+			<td><div align="center"><b>Smartcap</b></div></td>
+			<td><div align="center"><b>Pulsar Informatics</b></div></td>
+			<td><div align="center"><b>Optalert</b></div></td>
 		</tr>
 		<tr>
 			<td colspan="2">
@@ -522,94 +522,94 @@ En esta sección se realizará el análisis competitivo de los competidores iden
 		<tr>
 			<td rowspan="2">Perfil</td>
 			<td>Overview</td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>Herramienta predictiva para que directores clínicos prevengan errores antes de que ocurran.</td>
+			<td>IA que predice el riesgo de fatiga con 18 horas de antelación.</td>
+			<td>Banda EEG que mide ondas cerebrales para detectar sueño al instante.</td>
+			<td>Software que analiza horarios para hallar "huecos" peligrosos de sueño.</td>
+			<td>Tecnología que mide el parpadeo para detectar somnolencia temprana.</td>
 		</tr>
 		<tr>
 			<td>Ventaja Competitiva</td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>Algoritmo "Fatigue Score" que cruza biometría con carga laboral real.</td>
+			<td>Predicción a largo plazo basada en tendencias históricas de sueño.</td>
+			<td>Precisión del 94.7% al usar el estándar de oro médico (EEG).</td>
+			<td>Validación por la NASA y el Departamento de Defensa de EE. UU..</td>
+			<td>Detección de microsueños vital para cirugías de alta precisión.</td>
 		</tr>
 		<tr>
 			<td rowspan="2">Marketing</td>
 			<td>Mercado Objetivo</td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>Clínicas, hospitales y centros de salud especializados.</td>
+			<td>Minería pesada, transporte y deportes de élite.</td>
+			<td>Operadores de maquinaria pesada y minería a cielo abierto.</td>
+			<td>Aerolíneas, defensa y redes hospitalarias académicas.</td>
+			<td>Logística, automotriz y grupos de cirugía avanzada.</td>
 		</tr>
 		<tr>
 			<td>Estrategias</td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>Enfoque humano: reducir estrés médico y evitar demandas legales.</td>
+			<td>Liderazgo científico mediante estudios de "higiene del sueño".</td>
+			<td>Pruebas de concepto directas en sitios de alto riesgo industrial.</td>
+			<td>Cumplimiento normativo y estándares de seguridad gubernamental.</td>
+			<td>Integración nativa en equipos médicos y vehículos de fábrica.</td>
 		</tr>
 		<tr>
 			<td rowspan="3">Producto</td>
 			<td>Servicios</td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>Dashboard predictivo, Fatigue Score y alertas en tiempo real.</td>
+			<td>App Readi, análisis predictivo y consultoría técnica.</td>
+			<td>LifeBand (wearable), pantallas de cabina y monitoreo nube.</td>
+			<td>Fatigue Meter y herramientas de evaluación de horarios.</td>
+			<td>Gafas inteligentes y cámaras infrarrojas de cabina.</td>
 		</tr>
 		<tr>
 			<td>Precios</td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>Suscripción SaaS escalable por número de personal.</td>
+			<td>Suscripción mensual por usuario + costo de hardware.</td>
+			<td>Inversión inicial en bandas EEG + licencia de monitoreo.</td>
+			<td>Licencias corporativas anuales según tamaño de flota.</td>
+			<td>Contratos de integración técnica o venta de hardware.</td>
 		</tr>
 		<tr>
 			<td>Canales</td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>Plataforma Web SaaS.</td>
+			<td>Venta directa B2B y aplicaciones móviles.</td>
+			<td>Venta directa y distribuidores de seguridad industrial.</td>
+			<td>Venta consultiva a grandes instituciones y partners.</td>
+			<td>Canales B2B directos a fabricantes de equipo original.</td>
 		</tr>
 		<tr>
 			<td rowspan="4">SWOT</td>
 			<td>Fortalezas</td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>Diseñado específicamente para el caos de una guardia médica.</td>
+			<td>Algoritmo predictivo validado a nivel mundial.</td>
+			<td>Datos de alerta objetivos basados en el cerebro.</td>
+			<td>Líder en estándares de seguridad crítica y aviación.</td>
+			<td>Previene accidentes segundos antes de que ocurran.</td>
 		</tr>
 		<tr>
 			<td>Debilidades</td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>Startup nueva en fase de validación del algoritmo.</td>
+			<td>Requiere el uso constante de un wearable externo.</td>
+			<td>El hardware puede resultar incómodo en turnos largos.</td>
+			<td>Curva de aprendizaje muy técnica para los usuarios.</td>
+			<td>Implementación costosa por cada puesto de trabajo.</td>
 		</tr>
 		<tr>
 			<td>Oportunidades</td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>Crisis de burnout médico post-pandemia en hospitales.</td>
+			<td>Expansión a logística ligera y servicios de entrega.</td>
+			<td>Miniaturización de sensores EEG para mayor confort.</td>
+			<td>Nuevas leyes globales de seguridad ocupacional médica.</td>
+			<td>Alianzas con fabricantes de monitores hospitalarios.</td>
 		</tr>
 		<tr>
 			<td>Amenazas</td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
-			<td></td>
+			<td>Nuevas leyes de privacidad de datos biométricos de salud.</td>
+			<td>Dispositivos genéricos con sensores de bajo costo.</td>
+			<td>Relojes inteligentes que añadan funciones de fatiga.</td>
+			<td>Cambios bruscos en regulaciones gubernamentales.</td>
+			<td>Tecnologías de visión artificial de código abierto.</td>
 		</tr>
 	</tbody>
 </table>
