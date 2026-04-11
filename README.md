@@ -426,7 +426,7 @@ Escribe aquí
 
 Los segmentos objetivo son grupos específicos de usuarios a los que se dirige un producto o servicio en particular.
 
-Los segmentos objetivos identificados para nuestra plataforma VitaSync, orientada al monitoreo del nivel de fatiga del personal médico, se presentan a continuación:
+Los segmentos objetivos identificados para nuestra plataforma VitalWatch, orientada al monitoreo del nivel de fatiga del personal médico, se presentan a continuación:
 + **S1**<br>
 
     + **Características demográficas:** <br>
