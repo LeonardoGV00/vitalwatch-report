@@ -679,8 +679,54 @@ Explicacion
 # Capítulo IV: Product Design
 
 ## 4.1. Style Guidelines.
+En esta sección se definen las guías de estilo del sistema VitalWatch, con el objetivo de garantizar consistencia visual, usabilidad y una experiencia de usuario clara e intuitiva. Estas guías permiten mantener uniformidad en el diseño de la plataforma y facilitan su desarrollo e implementación.
+
 ### 4.1.1. General Style Guidelines.
+
+Las decisiones de diseño se basan en principios de simplicidad, claridad y consistencia, tomando como referencia sistemas de diseño modernos orientados a aplicaciones SaaS.
+
+**Branding** <br><br> 
+Para la identidad visual de VitalWatch, se ha desarrollado un logotipo moderno y minimalista que refleja el enfoque tecnológico y clínico de la plataforma. El diseño busca transmitir confianza, monitoreo continuo y prevención dentro del entorno de la salud. <br>
+El logotipo está compuesto por un ícono representativo de salud, el cual integra un corazón con una línea de pulso, simbolizando el monitoreo de signos vitales y el análisis de datos en tiempo real. Este elemento visual refuerza la funcionalidad principal del sistema, orientada a la supervisión del estado del personal médico.<br>
+
+<div align="center">
+<img src="Resources/Images/banner.png?raw=true" alt="Imagen del diseño del banner de vitalwatch"/> 
+<div align="justify"><br> 
+
+**Typography** <br><br>
+Para el desarrollo de VitalWatch, se ha seleccionado la tipografía *Plus Jakarta Sans*, una fuente sans-serif moderna y legible que se adapta a la estética digital del producto. Esta tipografía permite mantener una apariencia limpia, profesional y fácil de leer en diferentes dispositivos.<br>Para la jerarquía visual, se utilizan distintos pesos de la fuente con el fin de resaltar la información:
++ **Bold - ExtraBold:** para títulos y encabezados
++ **SemiBold:** para subtítulos
++ **Regular - Medium:** para texto general
++ **Light:** para contenido secundario <br>
+
+A continuación, se presentan los estilos tipográficos utilizados en VitalWatch:
+
+<div align="center">
+<img src="Resources/Images/typography.png?raw=true" alt="Imagen de los estilos de la tipografía Plus Jakarta Sans"/> 
+<div align="justify"><br> 
+
+**Colors** <br><br> 
+Para VitalWatch, se ha definido una paleta de colores basada en tonos azules, los cuales transmiten confianza, tecnología y seguridad en el ámbito de la salud. <br> 
+El uso de estos colores permite mantener una estética moderna y profesional dentro de la plataforma. <br>
+
+<div align="center">
+<img src="Resources/Images/primary_colors.png?raw=true" alt="Imagen de los colores primarios"/> 
+<img src="Resources/Images/neutral_colors.png?raw=true" alt="Imagen de los colores neutrales"/> <br> 
+<img src="Resources/Images/background_color.png?raw=true" alt="Imagen del color de fondo"/> <br>
+<div align="justify"><br> 
+
+**Spacing** <br><br> 
+Para el diseño de VitalWatch, se ha definido un sistema de espaciado basado en una escala consistente, con el objetivo de mantener una interfaz más ordenada, limpia y fácil de usar.<br>El sistema de spacing sigue una progresión que permite mantener uniformidad en todos los elementos de la interfaz.<br>
+
+<div align="center">
+<img src="Resources/Images/spacing.png?raw=true" alt="Imagen de los spacing referenciales"/> 
+<div align="justify"> 
+
 ### 4.1.2. Web Style Guidelines.
+
+
+
 ## 4.2. Information Architecture.
 ### 4.2.1. Organization Systems.
 ### 4.2.2. Labeling Systems.
