@@ -655,6 +655,8 @@ En esta sección se definen las guías de estilo del sistema VitalWatch, con el 
 
 ### 4.1.1. General Style Guidelines.
 
+Las decisiones de diseño se basan en principios de simplicidad, claridad y consistencia, tomando como referencia sistemas de diseño modernos orientados a aplicaciones SaaS.
+
 **Branding** <br><br> 
 Para la identidad visual de VitalWatch, se ha desarrollado un logotipo moderno y minimalista que refleja el enfoque tecnológico y clínico de la plataforma. El diseño busca transmitir confianza, monitoreo continuo y prevención dentro del entorno de la salud. <br>
 El logotipo está compuesto por un ícono representativo de salud, el cual integra un corazón con una línea de pulso, simbolizando el monitoreo de signos vitales y el análisis de datos en tiempo real. Este elemento visual refuerza la funcionalidad principal del sistema, orientada a la supervisión del estado del personal médico.<br>
