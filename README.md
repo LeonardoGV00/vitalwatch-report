@@ -652,8 +652,16 @@ Explicacion
 
 ## 4.1. Style Guidelines.
 En esta sección se definen las guías de estilo del sistema VitalWatch, con el objetivo de garantizar consistencia visual, usabilidad y una experiencia de usuario clara e intuitiva. Estas guías permiten mantener uniformidad en el diseño de la plataforma y facilitan su desarrollo e implementación.
+
 ### 4.1.1. General Style Guidelines.
-**Branding** <br><br> <br><br> 
+
+**Branding** <br><br> 
+Para la identidad visual de VitalWatch, se ha desarrollado un logotipo moderno y minimalista que refleja el enfoque tecnológico y clínico de la plataforma. El diseño busca transmitir confianza, monitoreo continuo y prevención dentro del entorno de la salud. <br>
+El logotipo está compuesto por un ícono representativo de salud, el cual integra un corazón con una línea de pulso, simbolizando el monitoreo de signos vitales y el análisis de datos en tiempo real. Este elemento visual refuerza la funcionalidad principal del sistema, orientada a la supervisión del estado del personal médico.<br>
+
+<div align="center">
+<img src="Resources/Images/banner.png?raw=true" alt="Imagen del diseño del banner de vitalwatch"/> 
+<div align="justify"><br> 
 
 **Typography** <br><br>
 Para el desarrollo de VitalWatch, se ha seleccionado la tipografía *Plus Jakarta Sans*, una fuente sans-serif moderna y legible que se adapta a la estética digital del producto. Esta tipografía permite mantener una apariencia limpia, profesional y fácil de leer en diferentes dispositivos.<br>Para la jerarquía visual, se utilizan distintos pesos de la fuente con el fin de resaltar la información:
