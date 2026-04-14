@@ -665,49 +665,17 @@ En esta sección se abordará la investigación en base a la información que se
 
 ### 2.2.1 Diseño de entrevistas
 
-Se han diseñado dos bloques de preguntas: uno dirigido al personal clínico y otro al personal administrativo de clínicas y hospitales. Las preguntas incluyen aspectos demográficos y variables clave como la carga laboral, el nivel de fatiga, el uso de tecnología y la gestión de turnos.
+Se han diseñado dos bloques de preguntas: uno dirigido al personal administrativo de clínicas y hospitales, y otro al personal clínico. Las preguntas incluyen aspectos demográficos y variables clave como la carga laboral, el nivel de fatiga, el uso de tecnología y la gestión de turnos.
 
 ---
 
-## Segmento 1: Personal clínico (Médicos, Enfermeros y Técnicos)
+## Segmento 1: Personal administrativo (Directores y Administradores)
 
-# Preguntas complementarias
-
-- ¿Cuál es su nombre completo?
-- ¿Cuántos años tiene?
-- ¿En qué distrito o ciudad se ubica su centro de trabajo?
-- ¿En qué tipo de institución trabaja actualmente? (hospital público, clínica privada, mixta)
-- ¿Cuál es su especialidad o rol dentro del equipo clínico?
-- ¿En qué área o servicio trabaja con mayor frecuencia? (UCI, Emergencias, Cirugía, etc.)
-- ¿Qué dispositivos tecnológicos usa con mayor frecuencia durante su jornada laboral?
-- ¿Qué navegador web utiliza normalmente?
-- ¿Cuáles son los métodos que utiliza más para autenticarse en plataformas digitales? (correo institucional, Gmail, doble factor, etc.)
-
-# Preguntas principales
-
-- ¿Cuántas horas trabaja seguidas en una guardia típica y con qué frecuencia se repiten a la semana?
-- Cuando usted o un colega llega a un punto de agotamiento extremo durante una guardia, ¿cómo describiría ese momento?
-- ¿Qué sucede en su institución cuando un médico colapsa por fatiga durante un turno?
-- ¿Existe algún mecanismo formal para detectar o prevenir el agotamiento del personal?
-- ¿Cuál considera que es el problema más urgente relacionado con la fatiga en su trabajo?
-- ¿Cómo definiría un estado de riesgo por fatiga? ¿Qué señales lo identifican?
-- Si un sistema detectara ese riesgo, ¿qué debería hacer automáticamente?
-- ¿Qué resultado esperaría para considerar que el sistema funciona correctamente?
-- ¿Qué información sobre su salud le sería más útil durante una guardia?
-- ¿Qué tan dispuesto estaría a usar un wearable para prevenir errores o agotamiento?
-- ¿Qué condiciones necesitaría para aceptar ese monitoreo? (privacidad, control, etc.)
-- ¿Cómo debería ser el dispositivo para no interferir en su trabajo?
-- ¿Qué funcionalidad no le gustaría que tuviera el sistema?
-
----
-
-## Segmento 2: Administradores y Directores Médicos
-
-# Preguntas complementarias
+### Preguntas complementarias
 
 - ¿Cuál es su nombre completo?
 - ¿Cuántos años tiene?
-- ¿En qué tipo de institución trabaja actualmente?
+- ¿En qué tipo de institución trabaja actualmente? (hospital público, clínica privada, red hospitalaria, etc.)
 - ¿Cuántos años de experiencia tiene en gestión hospitalaria?
 - ¿Cuál es su cargo o responsabilidad principal?
 - ¿Cuántas personas supervisa aproximadamente?
@@ -716,7 +684,7 @@ Se han diseñado dos bloques de preguntas: uno dirigido al personal clínico y o
 - ¿Qué navegador utiliza normalmente?
 - ¿Qué métodos de autenticación usa en sistemas institucionales?
 
-# Preguntas principales
+### Preguntas principales
 
 - ¿Cómo elabora los horarios del personal médico?
 - ¿Cómo se maneja un caso de agotamiento extremo en su institución?
@@ -731,6 +699,38 @@ Se han diseñado dos bloques de preguntas: uno dirigido al personal clínico y o
 - ¿Cómo debería ser el dashboard ideal?
 - ¿Qué reportes necesita para auditoría?
 - ¿Qué integraciones espera con otros sistemas? (HIS, planillas, etc.)
+
+---
+
+## Segmento 2: Personal clínico (Médicos, Enfermeros y Técnicos)
+
+### Preguntas complementarias
+
+- ¿Cuál es su nombre completo?
+- ¿Cuántos años tiene?
+- ¿En qué distrito o ciudad se ubica su centro de trabajo?
+- ¿En qué tipo de institución trabaja actualmente? (hospital público, clínica privada, mixta)
+- ¿Cuál es su especialidad o rol dentro del equipo clínico?
+- ¿En qué área o servicio trabaja con mayor frecuencia? (UCI, Emergencias, Cirugía, etc.)
+- ¿Qué dispositivos tecnológicos usa con mayor frecuencia durante su jornada laboral?
+- ¿Qué navegador web utiliza normalmente?
+- ¿Cuáles son los métodos que utiliza más para autenticarse en plataformas digitales? (correo institucional, Gmail, doble factor, etc.)
+
+### Preguntas principales
+
+- ¿Cuántas horas trabaja seguidas en una guardia típica y con qué frecuencia se repiten a la semana?
+- Cuando usted o un colega llega a un punto de agotamiento extremo durante una guardia, ¿cómo describiría ese momento?
+- ¿Qué sucede en su institución cuando un médico colapsa por fatiga durante un turno?
+- ¿Existe algún mecanismo formal para detectar o prevenir el agotamiento del personal?
+- ¿Cuál considera que es el problema más urgente relacionado con la fatiga en su trabajo?
+- ¿Cómo definiría un estado de riesgo por fatiga? ¿Qué señales lo identifican?
+- Si un sistema detectara ese riesgo, ¿qué debería hacer automáticamente?
+- ¿Qué resultado esperaría para considerar que el sistema funciona correctamente?
+- ¿Qué información sobre su salud le sería más útil durante una guardia?
+- ¿Qué tan dispuesto estaría a usar un wearable para prevenir errores o agotamiento?
+- ¿Qué condiciones necesitaría para aceptar ese monitoreo? (privacidad, control, etc.)
+- ¿Cómo debería ser el dispositivo para no interferir en su trabajo?
+- ¿Qué funcionalidad no le gustaría que tuviera el sistema?
 
 ### 2.2.2 Registro de entrevistas
 
