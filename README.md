@@ -849,6 +849,18 @@ Para el diseño de VitalWatch, se ha definido un sistema de espaciado basado en 
 ### 4.2.5. Navigation Systems.
 ## 4.3. Landing Page UI Design.
 ### 4.3.1. Landing Page Wireframe.
+
+<img src="Resources/Images/Wireframes/landing_page_browser_1.png?raw=true" alt="Pantalla de inicio de la landing page de VitalWatch"/>
+<br> 
+<img src="Resources/Images/Wireframes/landing_page_browser_2.png?raw=true" alt="Pantalla de funciones de la landing page de VitalWatch"/>
+<br> 
+<img src="Resources/Images/Wireframes/landing_page_browser_3.png?raw=true" alt="Pantalla de planes de la landing page de VitalWatch"/>
+<br> 
+<img src="Resources/Images/Wireframes/landing_page_browser_4.png?raw=true" alt="Pantalla de términos de la landing page de VitalWatch"/>
+<br> 
+<img src="Resources/Images/Wireframes/landing_page_browser_5.png?raw=true" alt="Pantalla de contacto de la landing page de VitalWatch"/>
+<br> 
+
 ### 4.3.2. Landing Page Mock-up.
 ## 4.4. Web Applications UX/UI Design.
 ### 4.4.1. Web Applications Wireframes.
