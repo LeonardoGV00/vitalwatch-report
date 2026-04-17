@@ -745,7 +745,7 @@ Se han diseñado dos bloques de preguntas: uno dirigido al personal administrati
 ### Segmento 1:
 ### Segmento 2:
 <div align="center">
-<img src="Resources/Images/Needfinding/UsersPersonas2.jpg" alt="Imagen del User Personas del segundo segmento"/> 
+<img src="Resources/Images/NeedFinding/UsersPersonas2.jpg" alt="Imagen del User Personas del segundo segmento"/> 
 <div align="justify"><br> 
 
 ### 2.3.2. User Task Matrix.
@@ -755,12 +755,15 @@ Se han diseñado dos bloques de preguntas: uno dirigido al personal administrati
 ### Segmento 1:
 ### Segmento 2:
 <div align="center">
-<img src="Resources/Images/Needfinding/JourneyMapping2.jpg" alt="Imagen del Journey Mapping del segundo segmento"/> 
+<img src="Resources/Images/NeedFinding/JourneyMapping2.jpg" alt="Imagen del Journey Mapping del segundo segmento"/> 
 <div align="justify"><br> 
 
 ### 2.3.4. Empathy Mapping.
 ### Segmento 1:
 ### Segmento 2:
+<div align="center">
+<img src="Resources/Images/NeedFinding/EmpathyMapping2.jpg" alt="Imagen del Empathy Mapping del segundo segmento"/> 
+<div align="justify"><br> 
 
 ## 2.4. Big Picture Event Storming.
 
