@@ -1060,7 +1060,20 @@ Para el diseño de VitalWatch, se ha definido un sistema de espaciado basado en 
 ### 5.1.4. Software Deployment Configuration.
 ## 5.2. Landing Page, Services & Applications Implementation.
 ### 5.2.1. Sprint 1
+El primer sprint fue una etapa importante en el desarrollo de VitalWatch, producto de la startup VitaSync. Durante este periodo, el equipo se organizó, distribuyó tareas y trabajó en la construcción de una primera versión funcional de la landing page, siguiendo el enfoque de la metodología ágil Scrum.
 #### 5.2.1.1. Sprint Planning 1.
+| Sprint # | Sprint 1 |
+|---|---|
+| **Sprint Planning Background** |  |
+| Date | 2026-04-11 |
+| Time | 10:00 PM |
+| Location | Reunión virtual realizada a través de Discord |
+| Prepared By | León Morales, Johan Yonel |
+| Attendees (to planning meeting) | - Montes Zamora, Edgar Alexander Mauricio<br>- Güere Calero, Fernando Julio<br>- León Morales, Johan Yonel<br>- Garcia Villanueva, Leonardo Rafael<br>- Lozano Leon, Richard Enrique |
+| **Sprint Goal & User Stories** |  |
+| Sprint 1 Goal | Contar con la primera versión funcional y desplegada de la landing page de VitalWatch, que nos permita presentar de forma clara la propuesta del producto, sus beneficios y la información principal dirigida hacia los segmentos objetivos. |
+| Sprint 1 Velocity |  |
+| Sum of Story Points | |
 #### 5.2.1.2. Aspect Leaders and Collaborators.
 #### 5.2.1.3. Sprint Backlog 1.
 #### 5.2.1.4. Development Evidence for Sprint Review.
