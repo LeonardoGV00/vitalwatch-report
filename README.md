@@ -1060,21 +1060,30 @@ Para el diseño de VitalWatch, se ha definido un sistema de espaciado basado en 
 ### 5.1.4. Software Deployment Configuration.
 ## 5.2. Landing Page, Services & Applications Implementation.
 ### 5.2.1. Sprint 1
-El primer sprint fue una etapa importante en el desarrollo de VitalWatch, producto de la startup VitaSync. Durante este periodo, el equipo se organizó, distribuyó tareas y trabajó en la construcción de una primera versión funcional de la landing page, siguiendo el enfoque de la metodología ágil Scrum.
+El primer sprint fue una  de las etapas importantes durante el desarrollo de VitalWatch, producto de la startup VitaSync. Durante este periodo, el equipo se organizó, distribuyó tareas y trabajó en la construcción de una primera versión funcional de la landing page, siguiendo el enfoque de la metodología ágil Scrum.
 #### 5.2.1.1. Sprint Planning 1.
 | Sprint # | Sprint 1 |
 |---|---|
-| **Sprint Planning Background** |  |
+| **Sprint Planning Background**   |
 | Date | 2026-04-11 |
 | Time | 10:00 PM |
 | Location | Reunión virtual realizada a través de Discord |
 | Prepared By | León Morales, Johan Yonel |
-| Attendees (to planning meeting) | - Montes Zamora, Edgar Alexander Mauricio<br>- Güere Calero, Fernando Julio<br>- León Morales, Johan Yonel<br>- Garcia Villanueva, Leonardo Rafael<br>- Lozano Leon, Richard Enrique |
-| **Sprint Goal & User Stories** |  |
+| Attendees | - Montes Zamora, Edgar Alexander Mauricio<br>- Güere Calero, Fernando Julio<br>- León Morales, Johan Yonel<br>- Garcia Villanueva, Leonardo Rafael<br>- Lozano Leon, Richard Enrique |
+| **Sprint Goal & User Stories**   |
 | Sprint 1 Goal | Contar con la primera versión funcional y desplegada de la landing page de VitalWatch, que nos permita presentar de forma clara la propuesta del producto, sus beneficios y la información principal dirigida hacia los segmentos objetivos. |
 | Sprint 1 Velocity |  |
 | Sum of Story Points | |
 #### 5.2.1.2. Aspect Leaders and Collaborators.
+En esta sección se determinan los aspectos más destacados que enmarcan el alcance del Sprint 1, con la finalidad de especificar quién de los integrantes asumió el rol de liderazgo en cada uno de los aspectos cuáles se integraron en calidad de colaboradores. Por lo que respecta a este sprint, los aspectos priorizados tuvieron que ver con la planificación y documentación de este instante de tiempo de trabajo, las guías de estilos, la información arquitectónica, el diseño de la landing page así como la base de análisis del dominio del problema para VitalWatch.
+
+| Team Member (Last Name, First Name) | GitHub Username | Sprint Planning and Documentation Leader (L) / Collaborator (C) | Style Guidelines Leader (L) / Collaborator (C) | Information Architecture Leader (L) / Collaborator (C) | Landing Page UI Design Leader (L) / Collaborator (C) | Landing Page Implementation Support Leader (L) / Collaborator (C) |
+|---|---|---|---|---|---|---|
+| Montes Zamora, Edgar Alexander Mauricio | Zenk10 | C | C | C | C | L |
+| Güere Calero, Fernando Julio | FerG17 | C | C | L | C | C |
+| León Morales, Johan Yonel | TheCap213 | C | L | C | C | C |
+| Garcia Villanueva, Leonardo Rafael | LeonardoGV00 | C | C | C | L | C |
+| Lozano Leon, Richard Enrique | AikoLz | L | C | C | C | C |
 #### 5.2.1.3. Sprint Backlog 1.
 #### 5.2.1.4. Development Evidence for Sprint Review.
 #### 5.2.1.5. Execution Evidence for Sprint Review.
