@@ -1147,19 +1147,25 @@ Además, tendremos ramas de soporte adicional, y las convenciones que tendremos 
 **Hotfix branches:** Se utilizarán para corregir errores críticos detectados en el despliegue. Estas ramas se crearán a partir de main y después de corregir los problemas, se fusionarán nuevamente en main y develop.
 
 **Commits:** El formato que tendrá será: 
+
 "Type (scope): description of modification"
+
 "Descripción detallada opcional de las modificaciones"
 
-Los tipos de commits que habrán son:
+Los tipos de commits que habrán son: 
 
-feat: Para nuevas funcionalidades.
-fix: Para corregir errores.
-refactor: Para refactorizar el código.
+feat: Para nuevas funcionalidades. 
+
+fix: Para corregir errores. 
+
+refactor: Para refactorizar el código. 
 
 Finalmente, para el versionamiento de los lanzamientos se usará el formato: "vMAJOR.MINOR.PATCH", donde:
 
 MAJOR: Cambios incompatibles con versiones anteriores.
+
 MINOR: Implementación de nuevas funcionalidades compatibles.
+
 PATCH: Arreglo de errores menores.
 
 ### 5.1.3. Source Code Style Guide & Conventions.
