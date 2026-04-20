@@ -1138,7 +1138,7 @@ Implementaremos GitFlow mediante el uso de dos ramas principales:
 
 **develop:** En esta rama se guardarán las actualizaciones progresivas de las ramificaciones de cada feature completado.
 
-Además, tendremos ramas como soporte adicional, y las convenciones que tendremos son:
+Además, tendremos ramas de soporte adicional, y las convenciones que tendremos son:
 
 **Feature branches:** Cada nueva funcionalidad se desarrollará en una rama independiente creada a partir de develop. Esto permitirá trabajar cada feature de forma aislada hasta su integración final.
 
@@ -1225,7 +1225,6 @@ Las convenciones de estilo que serán aplicadas en cada uno de los lenguajes y t
 - Los comentarios se escribirán con # al inicio de la línea cuando sea necesario
 
 ### 5.1.4. Software Deployment Configuration.
-
 
 
 
