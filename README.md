@@ -975,7 +975,7 @@ Para la identidad visual de VitalWatch, se ha desarrollado un logotipo moderno y
 El logotipo está compuesto por un ícono representativo de salud, el cual integra un corazón con una línea de pulso, simbolizando el monitoreo de signos vitales y el análisis de datos en tiempo real. Este elemento visual refuerza la funcionalidad principal del sistema, orientada a la supervisión del estado del personal médico.<br>
 
 <div align="center">
-<img src="Resources/Images/banner.png?raw=true" alt="Imagen del diseño del banner de vitalwatch"/> 
+<img src="Resources/Images/StyleGuidelines/banner.png?raw=true" alt="Imagen del diseño del banner de vitalwatch"/> 
 <div align="justify"><br> 
 
 **Typography** <br><br>
@@ -988,7 +988,7 @@ Para el desarrollo de VitalWatch, se ha seleccionado la tipografía *Plus Jakart
 A continuación, se presentan los estilos tipográficos utilizados en VitalWatch:
 
 <div align="center">
-<img src="Resources/Images/typography.png?raw=true" alt="Imagen de los estilos de la tipografía Plus Jakarta Sans"/> 
+<img src="Resources/Images/StyleGuidelines/typography.png?raw=true" alt="Imagen de los estilos de la tipografía Plus Jakarta Sans"/> 
 <div align="justify"><br> 
 
 **Colors** <br><br> 
@@ -996,16 +996,16 @@ Para VitalWatch, se ha definido una paleta de colores basada en tonos azules, lo
 El uso de estos colores permite mantener una estética moderna y profesional dentro de la plataforma. <br>
 
 <div align="center">
-<img src="Resources/Images/primary_colors.png?raw=true" alt="Imagen de los colores primarios"/> 
-<img src="Resources/Images/neutral_colors.png?raw=true" alt="Imagen de los colores neutrales"/> <br> 
-<img src="Resources/Images/background_color.png?raw=true" alt="Imagen del color de fondo"/> <br>
+<img src="Resources/Images/StyleGuidelines/primary_colors.png?raw=true" alt="Imagen de los colores primarios"/> 
+<img src="Resources/Images/StyleGuidelines/neutral_colors.png?raw=true" alt="Imagen de los colores neutrales"/> <br> 
+<img src="Resources/Images/StyleGuidelines/background_color.png?raw=true" alt="Imagen del color de fondo"/> <br>
 <div align="justify"><br> 
 
 **Spacing** <br><br> 
 Para el diseño de VitalWatch, se ha definido un sistema de espaciado basado en una escala consistente, con el objetivo de mantener una interfaz más ordenada, limpia y fácil de usar.<br>El sistema de spacing sigue una progresión que permite mantener uniformidad en todos los elementos de la interfaz.<br>
 
 <div align="center">
-<img src="Resources/Images/spacing.png?raw=true" alt="Imagen de los spacing referenciales"/> 
+<img src="Resources/Images/StyleGuidelines/spacing.png?raw=true" alt="Imagen de los spacing referenciales"/> 
 <div align="justify"> 
 
 ### 4.1.2. Web Style Guidelines.
