@@ -749,7 +749,7 @@ Se han diseñado dos bloques de preguntas: uno dirigido al personal administrati
 
 **Entrevista 1**
 <p align="center">
-  <img src="Resources/Images/Interview/EntrevistaSegmento1_OpenSource.png" alt="Entrevista con Yeny Calero" width="500"/>
+  <img src="Resources/Images/Interview/EntrevistaSegmento1_N1.png" alt="Entrevista con Yeny Calero" width="500"/>
   <br/><i>Evidencia de entrevista: Yeny Calero</i>
 </p>
 
@@ -767,7 +767,7 @@ La entrevista a Yeny Calero, Coordinadora en el MINSA, revela una gestión de pe
 
 **Entrevista 2**
 <p align="center">
-  <img src="Resources/Images/Interview/EntrevistaSegmento1_OpenSource_2.png" alt="Entrevista con Frank Carrillo"/>
+  <img src="Resources/Images/Interview/EntrevistaSegmento1_N2.png" alt="Entrevista con Frank Carrillo"/>
   <br/><i>Evidencia de entrevista: Frank Carrillo</i>
 </p>
 
@@ -787,7 +787,7 @@ En la entrevista realizada a Frank Carrillo, jefe del Centro de Salud Mental Cus
 
 **Entrevista 1**
 <p align="center">
-  <img src="Resources/Images/Interview/EntrevistaSegmento2_OpenSource.png" alt="Entrevista con Valeria Montalvo" width="500"/>
+  <img src="Resources/Images/Interview/EntrevistaSegmento2_N1.png" alt="Entrevista con Valeria Montalvo" width="500"/>
   <br/><i>Evidencia de entrevista: Valeria Montalvo</i>
 </p>
 
