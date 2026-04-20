@@ -808,6 +808,10 @@ Valeria Montalvo, interna de medicina, describe jornadas de 12 horas que derivan
 
 ### 2.3.1. User Personas.
 ### Segmento 1:
+<div align="center">
+<img src="Resources/Images/NeedFinding/UsersPersonas1.jpg" alt="Imagen del User Personas del primer segmento"/> 
+<div align="justify"><br> 
+
 ### Segmento 2:
 <div align="center">
 <img src="Resources/Images/NeedFinding/UsersPersonas2.jpg" alt="Imagen del User Personas del segundo segmento"/> 
@@ -816,19 +820,23 @@ Valeria Montalvo, interna de medicina, describe jornadas de 12 horas que derivan
 ### 2.3.2. User Task Matrix.
 
 
-| Tarea del usuario |‎ ‎ ‎ ‎ ‎ Maribel||
-|------------------|---------|--|
-|                  | Frecuencia | Importancia |
-| Procesar muestras<br>y entregar resultados | Alta (diaria) | Muy alta |
-| Atender emergencias<br>simultáneamente | Alta | Muy alta |
-| Acceder y usar<br>el sistema clínico | Alta | Alta |
-| Coordinar con<br>colegas | Media | Alta |
-| Gestionar su estrés<br>y fatiga | Alta | Muy alta |
-| Mantener confidencialidad<br>de datos | Alta | Crítica |
-| Cumplir turnos<br>extensos | Alta | Muy alta |
+| Tarea del usuario | Maribel| Maribel| Frank| Frank|
+|------------------|---------|--|---|---|
+|                  | **Frecuencia** |**Importancia** |**Frecuencia**|**Importancia**|
+| Procesar muestras<br>y entregar resultados | Alta (diaria) |Muy Alta|Baja|Media|
+| Atender emergencias<br>simultáneamente | Alta | Muy alta |Media|Alta|
+| Acceder y usar<br>el sistema clínico | Alta | Alta |Alta|Alta|
+| Coordinar con<br>colegas | Media | Alta |Alta|Muy Alta|
+| Gestionar su estrés<br>y fatiga | Alta | Muy alta |Media|Muy Alta|
+| Mantener confidencialidad<br>de datos | Alta | Crítica |Alta|Crítica|
+| Cumplir turnos<br>extensos | Alta | Muy alta |Baja|Media|
 
 ### 2.3.3. User Journey Mapping.
 ### Segmento 1:
+<div align="center">
+<img src="Resources/Images/NeedFinding/JourneyMapping1.jpg" alt="Imagen del Journey Mapping del primer segmento"/> 
+<div align="justify"><br> 
+
 ### Segmento 2:
 <div align="center">
 <img src="Resources/Images/NeedFinding/JourneyMapping2.jpg" alt="Imagen del Journey Mapping del segundo segmento"/> 
@@ -836,6 +844,10 @@ Valeria Montalvo, interna de medicina, describe jornadas de 12 horas que derivan
 
 ### 2.3.4. Empathy Mapping.
 ### Segmento 1:
+<div align="center">
+<img src="Resources/Images/NeedFinding/EmpathyMapping1.jpg" alt="Imagen del Empathy Mapping del primer segmento"/> 
+<div align="justify"><br>
+
 ### Segmento 2:
 <div align="center">
 <img src="Resources/Images/NeedFinding/EmpathyMapping2.jpg" alt="Imagen del Empathy Mapping del segundo segmento"/> 
