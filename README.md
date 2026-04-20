@@ -1267,8 +1267,8 @@ El primer sprint fue una  de las etapas importantes durante el desarrollo de Vit
 | Attendees | - Montes Zamora, Edgar Alexander Mauricio<br>- Güere Calero, Fernando Julio<br>- León Morales, Johan Yonel<br>- Garcia Villanueva, Leonardo Rafael<br>- Lozano Leon, Richard Enrique |
 | **Sprint Goal & User Stories**   |
 | Sprint 1 Goal | Contar con la primera versión funcional y desplegada de la landing page de VitalWatch, que nos permita presentar de forma clara la propuesta del producto, sus beneficios y la información principal dirigida hacia los segmentos objetivos. |
-| Sprint 1 Velocity |  |
-| Sum of Story Points | |
+| Sprint 1 Velocity | 25 |
+| Sum of Story Points | 25 |
 #### 5.2.1.2. Aspect Leaders and Collaborators.
 En esta sección se determinan los aspectos más destacados que enmarcan el alcance del Sprint 1, con la finalidad de especificar quién de los integrantes asumió el rol de liderazgo en cada uno de los aspectos cuáles se integraron en calidad de colaboradores. Por lo que respecta a este sprint, los aspectos priorizados tuvieron que ver con la planificación y documentación de este instante de tiempo de trabajo, las guías de estilos, la información arquitectónica, el diseño de la landing page así como la base de análisis del dominio del problema para VitalWatch.
 
@@ -1280,6 +1280,34 @@ En esta sección se determinan los aspectos más destacados que enmarcan el alca
 | Garcia Villanueva, Leonardo Rafael | LeonardoGV00 | C | C | C | L | C |
 | Lozano Leon, Richard Enrique | AikoLz | L | C | C | C | C |
 #### 5.2.1.3. Sprint Backlog 1.
+El Sprint Backlog 1 resume las User Stories priorizadas para la construcción de la primera versión funcional de la landing page de VitalWatch. En este sprint se consideraron historias orientadas a la presentación del producto, la navegación por secciones, la explicación de beneficios, los planes de suscripción, el formulario de contacto, los términos de servicio, la adaptación a dispositivos móviles y el acceso a redes sociales, con el objetivo de contar con una versión inicial clara, accesible y útil para los segmentos objetivo.
+| Sprint # | Sprint 1 |  |  |  |  |  |  |
+|---|---|---|---|---|---|---|---|
+| **User Story** |  | **Work-Item / Task** |  |  |  |  |  |
+| Id | Title | Id | Title | Description | Estimation (Hours) | Assigned To | Status (To-do / In-Process / To-Review / Done) |
+| US-01 | Primera impresión sobre el producto | T-01 | Implementación de hero section | Diseñar e implementar la sección principal de presentación de VitalWatch con mensaje inicial y llamada a la acción. | 5 | Leonardo Rafael Garcia Villanueva | Done |
+| US-02 | Navegación por secciones | T-02 | Implementación de barra de navegación | Desarrollar la barra de navegación superior con acceso a las secciones principales del landing page. | 4 | Johan Yonel León Morales | Done |
+| US-03 | Explicación detallada del producto | T-03 | Desarrollo de sección de funcionalidades | Implementar la sección donde se explica la propuesta de valor y las funcionalidades principales de VitalWatch. | 4 | Leonardo Rafael Garcia Villanueva | Done |
+| US-04 | Sección de beneficios de gestión | T-04 | Implementación de beneficios administrativos | Incorporar la sección orientada a los beneficios de gestión y supervisión para el personal administrativo. | 3 | Edgar Alexander Mauricio Montes Zamora | Done |
+| US-05 | Sección de beneficios para el personal clínico | T-05 | Implementación de beneficios clínicos | Desarrollar la sección de beneficios orientados al personal clínico dentro de la landing page. | 3 | Fernando Julio Güere Calero | Done |
+| US-06 | Sección de planes de suscripción | T-06 | Implementación de planes | Diseñar e integrar la sección de planes de suscripción con su información comparativa. | 4 | Leonardo Rafael Garcia Villanueva | Done |
+| US-07 | Formulario de contacto | T-07 | Desarrollo de formulario de contacto | Implementar el formulario de contacto con campos necesarios, validación básica y botón de envío. | 5 | Leonardo Rafael Garcia Villanueva | Done |
+| US-08 | Sección de términos de servicio | T-08 | Implementación de términos y condiciones | Agregar la sección de términos de servicio y privacidad en la landing page. | 2 | Richard Enrique Lozano Leon | Done |
+| US-09 | Diseño adaptable para móviles | T-09 | Ajustes responsive y menú móvil | Adaptar la landing page a dispositivos móviles e implementar menú hamburguesa para navegación. | 5 | Leonardo Rafael Garcia Villanueva | In-Process |
+| US-10 | Sección de redes sociales | T-10 | Integración de footer y redes sociales | Incorporar el pie de página con accesos a redes sociales y medios de contacto de VitaSync. | 2 | Fernando Julio Güere Calero | Done |
+
+**Board del Sprint 1 en Trello:**  
+Aquí se presenta el tablero utilizado para organizar y dar seguimiento a las tareas correspondientes al Sprint 1.
+
+<p align="center">
+  <img src="Resources/Images/Trello.png" alt="Board del Sprint 1 en Trello" width="900"/>
+  <br>
+  <i>Figura X. Board del Sprint 1 de VitalWatch en Trello.</i>
+</p>
+
+**URL del board:**  
+https://trello.com/invite/b/69e27f8031ad60d5c5a41c17/ATTI59aefbac89f27b3ab14f825507386b3bEBDA493E/vitalwatch-sprint-1
+
 #### 5.2.1.4. Development Evidence for Sprint Review.
 #### 5.2.1.5. Execution Evidence for Sprint Review.
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review.
