@@ -1280,7 +1280,8 @@ En esta sección se determinan los aspectos más destacados que enmarcan el alca
 | Garcia Villanueva, Leonardo Rafael | LeonardoGV00 | C | C | C | L | C |
 | Lozano Leon, Richard Enrique | AikoLz | L | C | C | C | C |
 #### 5.2.1.3. Sprint Backlog 1.
-El Sprint Backlog 1 resume las User Stories priorizadas para la construcción de la primera versión funcional de la landing page de VitalWatch. En este sprint se consideraron historias orientadas a la presentación del producto, la navegación por secciones, la explicación de beneficios, los planes de suscripción, el formulario de contacto, los términos de servicio, la adaptación a dispositivos móviles y el acceso a redes sociales, con el objetivo de contar con una versión inicial clara, accesible y útil para los segmentos objetivo.
+El Sprint Backlog 1 condensa las user stories que han sido previamente priorizadas y se utilizarán para el desarrollo de la primera versión en modo funcional de la landing page de la aplicación VitalWatch, donde en este Sprint todas las historias recogidas van orientadas a la presentación del producto, la navegación por secciones, la explicación de los beneficios de su uso, los planes de suscripción, el formulario de contacto, los términos de servicio, la adaptabilidad a los dispositivos móviles de la landing page y el acceso a las redes sociales ya que debe resultar, al margen de contenido, una versión inicial fácil de entender, accesible, útil y orientada a los segmentos objetivo.
+
 | Sprint # | Sprint 1 |  |  |  |  |  |  |
 |---|---|---|---|---|---|---|---|
 | **User Story** |  | **Work-Item / Task** |  |  |  |  |  |
@@ -1309,8 +1310,23 @@ Aquí se presenta el tablero utilizado para organizar y dar seguimiento a las ta
 https://trello.com/invite/b/69e27f8031ad60d5c5a41c17/ATTI59aefbac89f27b3ab14f825507386b3bEBDA493E/vitalwatch-sprint-1
 
 #### 5.2.1.4. Development Evidence for Sprint Review.
+Durante este esprint, nuestro grupo decidió hacer un foco en la creación de la primera version del landing page de VitalWatch, por lo tanto, los resultados de esta iteración pasaron a estar relacionados con la creación de la primera estructura inicial del producto, la creación de recursos visuales, la definición de las User Stories del landing page y la creación de wireframes y mockups y sus versiones desktop y mobile. Este sprint no contempló Web Applications y Web Services porque este sprint fue de la landing page.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+|---|---|---|---|---|---|
+| upc-pre-202610-1asi0729-17952-VitaSync/vitalwatch-report | main | 2bdb584 | feat: add resources folder with images and assets | - | 10/04/2026 |
+| upc-pre-202610-1asi0729-17952-VitaSync/vitalwatch-report | main | 38015b1 | docs: add 10 user stories about the landing page | - | 14/04/2026 |
+| upc-pre-202610-1asi0729-17952-VitaSync/vitalwatch-report | main | 71fcf70 | docs: add landing page wireframes for browser | - | 15/04/2026 |
+| upc-pre-202610-1asi0729-17952-VitaSync/vitalwatch-report | main | 39591c0 | docs: add landing page mobile wireframes | - | 16/04/2026 |
+| upc-pre-202610-1asi0729-17952-VitaSync/vitalwatch-report | main | fa01d61 | docs: add landing page desktop and mobile mock ups | - | 16/04/2026 |
+| upc-pre-202610-1asi0729-17952-VitaSync/vitalwatch-report | main | 1e2f71d | docs: fixed landing page UI images | - | 16/04/2026 |
+| upc-pre-202610-1asi0729-17952-VitaSync/vitalwatch-report | main | 0a772ca | docs: fix mobile landing page login button | - | 20/04/2026 |
 #### 5.2.1.5. Execution Evidence for Sprint Review.
+
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review.
+En este sprint no se llevó a cabo ni se documentó ningún Web Service. El Sprint 1 se centró exclusivamente en la construcción de la primera versión funcional de la landing page de VitalWatch, por lo que no se generaron endpoints ni documentación asociada.
+
+Por ello, la especificación de endpoints, verbos HTTP, parámetros, respuestas, capturas de interacción y commits relacionados con Web Services no aplica en este sprint y será desarrollada en iteraciones posteriores del proyecto.
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review.
 #### 5.2.1.8. Team Collaboration Insights during Sprint.
 <!--## 5.3. Validation Interviews.
