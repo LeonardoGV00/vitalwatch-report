@@ -1113,6 +1113,16 @@ Para el diseño de VitalWatch, se ha definido un sistema de espaciado basado en 
 ## 4.5. Web Applications Prototyping.
 ## 4.6. Domain-Driven Software Architecture.
 ### 4.6.1. Design-Level Event Storming.
+
+En esta sección se presenta el Design-Level Event Storming desarrollado para VitalWatch, con el objetivo de refinar el dominio del problema e identificar con mayor nivel de detalle los eventos, comandos, políticas, agregados y bounded contexts del sistema. Esta etapa permitió mejorar la comprensión de los principales procesos y definir con mayor precisión las responsabilidades de cada parte del sistema.
+
+La sesión fue realizada de manera colaborativa en el programa miro a partir del Big Picture Event Storming previamente elaborado. Durante el proceso se identificaron los flujos principales del sistema, se definieron comandos, eventos de dominio y políticas, y posteriormente se agruparon en bounded contexts. Para mantener consistencia con los artefactos de arquitectura, la nomenclatura utilizada en los diagramas se encuentra en inglés.
+
+A continuación, se muestra la representación general del Design-Level Event Storming del sistema:
+
+<img src="Resources/Images/EventStorming/vitalwatch_eventstorming.jpg" alt="Design level event storming del funcionamiento de VitalWatch">
+<br>
+
 ### 4.6.2. Software Architecture Context Diagram.
 ### 4.6.3. Software Architecture Container Diagrams.
 ### 4.6.4. Software Architecture Components Diagrams.
