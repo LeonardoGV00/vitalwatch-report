@@ -962,7 +962,7 @@ Se muestra a continuación el glosario de términos utilizados dentro del domi
 
 ## 3.2. Impact Mapping
 
-<img src="Resources/Images/impact_map.png?raw=true" alt="Gráfico del impact map de VitalWatch"/>
+<img src="Resources/Images/StyleGuidelines/impact_map.png?raw=true" alt="Gráfico del impact map de VitalWatch"/>
 <br> 
 
 ## 3.3. Product Backlog
