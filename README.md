@@ -544,7 +544,7 @@ En esta sección se realizará el análisis competitivo de los competidores iden
 				<div align="center">Logo</div>
 			</td>
 			<td><div align="center">
-				<img src="Resources/Competitors/vitalwatch.png?raw=true" alt="VitalWatch logo"/>
+				<img src="Resources/Images/StyleGuidelines/logo.png?raw=true" alt="VitalWatch logo"/>
 			</div></td>
 			<td><div align="center">
 				<img src="Resources/Competitors/C1.png?raw=true" alt="C1 logo"/>
