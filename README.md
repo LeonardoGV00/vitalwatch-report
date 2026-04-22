@@ -1259,6 +1259,13 @@ Las convenciones de estilo que serán aplicadas en cada uno de los lenguajes y t
 - Los nombres de las funciones deberán describir claramente la acción que realizan
 - Los comentarios solo se usarán cuando aporten claridad adicional a una lógica que no sea evidente
 
+**TypeScript:**
+
+- Los nombres de variables y funciones estarán en inglés y usarán camelCase
+- Las funciones deberán cumplir una sola responsabilidad
+- Los nombres de las funciones deberán mostrar de forma clara la acción que pretenden realizan
+- Los comentarios solo se usarán siguiendo DDD (JSDoc)
+
 **Angular:**
 
 - Los nombres de archivos seguirán el formato kebab-case
