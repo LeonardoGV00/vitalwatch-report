@@ -1319,7 +1319,7 @@ El Sprint Backlog 1 condensa las user stories que han sido previamente priorizad
 Aquí se presenta el tablero utilizado para organizar y dar seguimiento a las tareas correspondientes al Sprint 1.
 
 <p align="center">
-  <img src="Resources/Images/Trello.png" alt="Board del Sprint 1 en Trello" width="900"/>
+  <img src="Resources/Images/StyleGuidelines/Trello.png" alt="Board del Sprint 1 en Trello" width="900"/>
   <br>
   <i>Figura X. Board del Sprint 1 de VitalWatch en Trello.</i>
 </p>
