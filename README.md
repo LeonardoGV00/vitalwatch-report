@@ -164,36 +164,36 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
       <td colspan="3" align = "justify">
       <h3>Montes Zamora, Edgar Alexander Mauricio</h3>
         <b>AV1</b><p></p>
-        <b>TP1</b><p></p>
+        <!--<b>TP1</b><p></p>
         <b>AV2</b><p></p>
-        <b>TF1</b><p></p>
+        <b>TF1</b><p></p>-->
       <h3>Güere Calero, Fernando Julio</h3>
         <b>AV1</b><p></p>
-        <b>TP1</b><p></p>
+        <!--<b>TP1</b><p></p>
         <b>AV2</b><p></p>
-        <b>TF1</b><p></p>
+        <b>TF1</b><p></p>-->
       <h3>León Morales, Johan Yonel</h3>
         <b>AV1</b><p></p>
-        <b>TP1</b><p></p>
+        <!--<b>TP1</b><p></p>
         <b>AV2</b><p></p>
-        <b>TF1</b><p></p>
+        <b>TF1</b><p></p>-->
       <h3>Garcia Villanueva, Leonardo Rafael</h3>
-        <b>AV1</b><p></p>
-        <b>TP1</b><p></p>
+        <b>AV1</b><p>Durante el desarrollo del proyecto participé en reuniones grupales presenciales en la universidad y en reuniones virtuales mediante Google Meet y Discord. En estas reuniones comparti ideas para el proyecto, consulte si mis avances podian mejorarse y ayude en la coordinación de las actividades para el proyecto.</p>
+        <!--<b>TP1</b><p></p>
         <b>AV2</b><p></p>
-        <b>TF1</b><p></p>
+        <b>TF1</b><p></p>-->
       <h3>Lozano Leon, Richard Enrique</h3>
         <b>AV1</b><p></p>
-        <b>TP1</b><p></p>
+        <!--<b>TP1</b><p></p>
         <b>AV2</b><p></p>
-        <b>TF1</b><p></p>
+        <b>TF1</b><p></p>-->
           <br>
       </td>
       <td colspan="3">
-        <b>AV1</b><p></p>
-        <b>TP1</b><p></p>
+        <b>AV1</b><p>El grupo llevó a cabo reuniones presenciales y virtuales en las que se comunicaron diferentes ideas, se resolvieron dudas y se tomaron decisiones de manera conjunta con una comunicación oral clara y efectiva, permitiendo la comprensión entre los integrantes y contribuyendo al cumplimiento de los objetivos del proyecto.</p>
+        <!--<b>TP1</b><p></p>
         <b>AV2</b><p></p>
-        <b>TF1</b><p></p>
+        <b>TF1</b><p></p>-->
       </td>
     </tr>
     <tr>
@@ -201,36 +201,36 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
       <td colspan="3" align = "justify">
       <h3>Montes Zamora, Edgar Alexander Mauricio</h3>
         <b>AV1</b><p></p>
-        <b>TP1</b><p></p>
+        <!--<b>TP1</b><p></p>
         <b>AV2</b><p></p>
-        <b>TF1</b><p></p>
+        <b>TF1</b><p></p>-->
       <h3>Güere Calero, Fernando Julio</h3>
         <b>AV1</b><p></p>
-        <b>TP1</b><p></p>
+        <!--<b>TP1</b><p></p>
         <b>AV2</b><p></p>
-        <b>TF1</b><p></p>
+        <b>TF1</b><p></p>-->
       <h3>León Morales, Johan Yonel</h3>
         <b>AV1</b><p></p>
-        <b>TP1</b><p></p>
+        <!--<b>TP1</b><p></p>
         <b>AV2</b><p></p>
-        <b>TF1</b><p></p>
+        <b>TF1</b><p></p>-->
       <h3>Garcia Villanueva, Leonardo Rafael</h3>
-        <b>AV1</b><p></p>
-        <b>TP1</b><p></p>
+        <b>AV1</b><p>En el desarrollo del proyecto, utilicé WhatsApp para coordinar actividades, realizar preguntas y responder dudas de mis compañeros. Además contribuí con la gestión de las tareas y la continuidad del trabajo.</p>
+        <!--<b>TP1</b><p></p>
         <b>AV2</b><p></p>
-        <b>TF1</b><p></p>
+        <b>TF1</b><p></p>-->
       <h3>Lozano Leon, Richard Enrique</h3>
         <b>AV1</b><p></p>
-        <b>TP1</b><p></p>
+        <!--<b>TP1</b><p></p>
         <b>AV2</b><p></p>
-        <b>TF1</b><p></p>
+        <b>TF1</b><p></p>-->
 		  <br>
       </td>
       <td colspan="3">
-        <b>AV1</b><p></p>
-        <b>TP1</b><p></p>
+        <b>AV1</b><p>El grupo utilizó aplicaciones de mensajería como WhatsApp y Discord para coordinar actividades, resolver dudas y organizar el trabajo de manera eficiente. La comunicación fue clara y oportuna para todos los integrantes, lo que permitió una adecuada gestión de tareas y el cumplimiento del avance del proyecto.</p>
+        <!--<b>TP1</b><p></p>
         <b>AV2</b><p></p>
-        <b>TF1</b><p></p>
+        <b>TF1</b><p></p>-->
       </td>
     </tr>
   </tbody>
@@ -975,7 +975,6 @@ Se muestra a continuación el glosario de términos utilizados dentro del domi
 | **US-18** | Generación automática de reportes periódicos | Como administrador, quiero que el sistema genere reportes automáticos semanales y mensuales sobre el estado de fatiga institucional, para facilitar seguimiento y toma de decisiones estratégicas. |**Escenario 1: Configuración de destinatarios para reportes semanales**<br><br> Dado que el administrador desea automatizar el seguimiento<br><br> Cuando configura los correos electrónicos y selecciona la frecuencia "Semanal"<br><br> Entonces el sistema debe confirmar que el reporte se enviará cada domingo a las 23:59 horas<br><br> **Escenario 2: Recepción de reporte mensual automatizado**<br><br> Dado que ha finalizado el mes calendario<br><br> Cuando el reloj del sistema marca el inicio del nuevo mes<br><br> Entonces el sistema debe enviar automáticamente un resumen ejecutivo en PDF a la dirección de correo configurada<br><br>| **EP-02** |
 | **US-19** | Visualización segmentada por áreas o departamentos | Como responsable de un área, quiero ver los niveles de fatiga agregados solo de mi departamento, para enfocar las medidas preventivas donde son más necesarias. |**Escenario 1: Enfoque de medidas preventivas por jefe de departamento**<br><br> Dado que el responsable de la Unidad de Cuidados Intensivos (UCI) ingresa al dashboard<br><br> Cuando selecciona su departamento en el selector de áreas<br><br> Entonces todos los promedios y alertas mostrados deben limitarse exclusivamente al personal de UCI<br><br> **Escenario 2: Comparación de casos críticos entre servicios**<br><br> Dado que el administrador general revisa la plataforma<br><br> Cuando cambia entre diferentes departamentos en el menú de segmentación<br><br> Entonces los datos deben actualizarse instantáneamente para permitir la identificación de la unidad con mayor fatiga<br><br>| **EP-02** |
 | **US-20** | Consulta de registro de eventos de anomalías | Como usuario autorizado, quiero consultar el historial de eventos donde se detectaron anomalías en los datos biométricos, para análisis y auditoría médica. |**Escenario 1: Auditoría de una anomalía de salud detectada**<br><br> Dado que un usuario autorizado necesita investigar un evento pasado<br><br> Cuando ingresa a la "Interfaz de anomalías"<br><br> Entonces debe poder visualizar la fecha, la identidad del médico y el tipo de irregularidad biométrica detectada originalmente<br><br> **Escenario 2: Búsqueda de eventos específicos por nombre de usuario**<br><br> Dado que se realiza una revisión médica de un doctor específico<br><br> Cuando el usuario autorizado utiliza la barra de búsqueda dentro del registro de eventos<br><br> Entonces el sistema debe filtrar y mostrar cronológicamente solo las anomalías asociadas a ese doctor<br><br>| **EP-02** |
-| **US-XX** | Titulo | Como, quiero, para | **Escenario X: Titulo**<br><br>Dado que<br><br>Cuando<br><br>Entonces<br><br> | **EP-XX** |
 
 ## 3.2. Impact Mapping
 
