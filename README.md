@@ -1461,10 +1461,17 @@ El diagrama de componentes de Gestión de turnos médicos muestra cómo se admin
 <img src="Resources/Images/ClassDiagrams/medicalRestManagement.jpeg" alt="Diseño del package Medical Rest Management"> <br>
 </div>
 
-### Medical Rest Management
+### Alerting and Notification Management
 <div align="center">
 <img src="Resources/Images/ClassDiagrams/alertingAndNotificationManagement.jpeg" alt="Diseño del package Alerting and Notification Management"> <br>
 </div>
+
+
+### State Analysis
+<div align="center">
+<img src="Resources/Images/ClassDiagrams/stateAnalysis.jpeg" alt="Diseño del package State Analysis"> <br>
+</div>
+
 
 
 ## 4.8. Database Design.
