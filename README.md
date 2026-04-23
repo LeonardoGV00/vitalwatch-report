@@ -756,7 +756,9 @@ Se han diseñado dos bloques de preguntas: uno dirigido al personal administrati
 - **Nombre:** Yeny Calero Orbezo
 - **Edad:** 52 años
 - **Residencia:** Chaclacayo
-- **Enlace de la entrevista:** [Ver grabación aquí](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202413169_upc_edu_pe/IQD0dyMXbaROT5fFDo4qoxW8AT992-FFO5cp0yr4PLYm7SM?e=J2eQyf&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+- **Enlace de la entrevista:** [Ver grabación aquí](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231h059_upc_edu_pe/IQBSOpryVVvLT637-k0iYM1RATRl4J9xrMGrBDRTgYgwz30?e=e465Pu&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+- **Duracion:** 09:50
+- **Timing:** 00:00 - 09:50
 
 **Resumen de la entrevista:**
 <div align="justify">
@@ -774,8 +776,10 @@ La entrevista a Yeny Calero, Coordinadora en el MINSA, revela una gestión de pe
 - **Nombre:** Frank Carrillo Pino
 - **Edad:** 51 años
 - **Residencia:** Cusco
-- **Enlace de la entrevista:** [Ver grabación aquí]
-
+- **Enlace de la entrevista:** [Ver grabación aquí](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231h059_upc_edu_pe/IQBSOpryVVvLT637-k0iYM1RATRl4J9xrMGrBDRTgYgwz30?e=e465Pu&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+- **Duracion:** 12:59
+- **Timing:** 09:50 - 22:49
+  
 **Resumen de la entrevista:**
 <div align="justify">
 En la entrevista realizada a Frank Carrillo, jefe del Centro de Salud Mental Cusco del MINSA, muestra que la gestión del personal se maneja principalmente en computadoras fijas y en el sistema interno de la institución, sin uso frecuente de laptops o celulares. El entrevistado indicó que la distribución de turnos se ajusta según la necesidad del centro, priorizando la demanda de los pacientes sobre la disponibilidad individual. Ante situaciones de fatiga o estrés, no existe un protocolo formal establecido, por lo que la intervención se realiza internamente con apoyo de personal de psicología y de salud. Además, señaló que una solución de software que pueda mostrar las alertas preventivas de salud del personal clínico, y que tenga buena seguridad en el manejo de datos y cumplimiento normativo sería algo ideal. Finalmente indicó que prefiere reportes en Excel para las auditorías internas.
@@ -794,9 +798,11 @@ En la entrevista realizada a Frank Carrillo, jefe del Centro de Salud Mental Cus
 
 - **Nombre:** Susana Zegarra Fernandez
 - **Edad:** 43 años
-- **Residencia:** Lima
-- **Enlace de la entrevista:** [Ver grabación aquí](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231h055_upc_edu_pe/IQAN0Esc_r7GRZtA4e1bjj-FAQhwmW-wZCgSJd0Gf98_sck?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=p7S0ba)
-
+- **Residencia:** Lima 
+- **Enlace de la entrevista:** [Ver grabación aquí](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231h059_upc_edu_pe/IQBSOpryVVvLT637-k0iYM1RATRl4J9xrMGrBDRTgYgwz30?e=e465Pu&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+- **Duracion:** 09:02
+- **Timing:** 22:49 - 31:51
+  
 **Resumen de la entrevista:**
 <div align="justify">
 Se realiza una entrevista a la directora médica de un hospital regional en Arequipa, quien detalla los desafíos actuales en la gestión de personal y la organización de turnos. La especialista describe el fenómeno de la fatiga laboral crítica y la necesidad de contar con herramientas tecnológicas que permitan monitorear el cansancio del equipo en tiempo real. Se discute la importancia de implementar alertas preventivas y tableros de control que faciliten la toma de decisiones para redistribuir cargas de trabajo de manera eficiente. Finalmente, se subrayan requisitos técnicos clave como la seguridad de datos, la interoperabilidad con sistemas institucionales y la generación de reportes para auditorías de cumplimiento.
@@ -816,8 +822,10 @@ Se realiza una entrevista a la directora médica de un hospital regional en Areq
 - **Nombre:** Valeria Montalvo Aponte
 - **Edad:** 24 años
 - **Residencia:** Chaclacayo
-- **Enlace de la entrevista:** [Ver grabación aquí](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202413169_upc_edu_pe/IQBOeF7zcoqLT59IFZbU9VAhAS9M7MUiQGm0VvyN2kvgzro?e=kQrnWF&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
-
+- **Enlace de la entrevista:** [Ver grabación aquí](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231h059_upc_edu_pe/IQBSOpryVVvLT637-k0iYM1RATRl4J9xrMGrBDRTgYgwz30?e=e465Pu&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+- **Duracion:** 05:08
+- **Timing:** 43:48 - 48:56
+  
 **Resumen de la entrevista:**
 <div align="justify">
 Valeria Montalvo, interna de medicina, describe jornadas de 12 horas que derivan en un estado de "piloto automático", elevando el riesgo de errores en dosis y diagnósticos. Ante la ausencia de protocolos preventivos y la presión institucional por continuar, destaca la urgencia de contar con dispositivos de monitoreo discreto que aporten datos objetivos sobre el tiempo de reacción y estrés. Para ella, una solución tecnológica exitosa debe ofrecer un respaldo técnico que justifique descansos obligatorios sin comprometer la privacidad, transformando la cultura hospitalaria actual hacia una gestión de seguridad clínica basada en el bienestar del profesional.
@@ -834,8 +842,10 @@ Valeria Montalvo, interna de medicina, describe jornadas de 12 horas que derivan
 - **Nombre:** Maribel Fernandez Chauca
 - **Edad:** 38 años
 - **Residencia:** Ayacucho
-- **Enlace de la entrevista:** [Ver grabación aquí](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231h055_upc_edu_pe/IQD9tsnTkZMFSaHIhyzRkJJQAU37_QdwuOtgMt3qLLnsloE?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=tx72Ux)
-
+- **Enlace de la entrevista:** [Ver grabación aquí](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231h059_upc_edu_pe/IQBSOpryVVvLT637-k0iYM1RATRl4J9xrMGrBDRTgYgwz30?e=e465Pu&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+- **Duracion:** 11:57
+- **Timing:** 31:51 - 43:48
+  
 **Resumen de la entrevista:**
 <div align="justify">
 Maribel Fernandez una profesional de laboratorio clínico que labora en un hospital público en Huanta, Ayacucho, bajo intensas jornadas de guardia de doce horas. La trabajadora describe cómo la falta de personal y la presión por resultados inmediatos generan un severo agotamiento físico y mental, afectando el bienestar emocional del equipo. Se destaca la ausencia de mecanismos institucionales formales para prevenir el colapso del personal de salud, dejando la resolución de crisis al apoyo mutuo entre colegas. La entrevistada muestra una actitud favorable hacia el uso de tecnología vestible, como relojes inteligentes, para monitorear indicadores de fatiga y estrés. Finalmente, enfatiza que cualquier sistema de este tipo debe garantizar la confidencialidad de los datos y servir como evidencia estadística para justificar la contratación de más personal.
@@ -852,8 +862,10 @@ Maribel Fernandez una profesional de laboratorio clínico que labora en un hospi
 - **Nombre:** Yesenia Consuelo Bardales 
 - **Edad:** 47 años
 - **Residencia:** Lima
-- **Enlace de la entrevista:** [Ver grabación aquí]
-
+- **Enlace de la entrevista:** [Ver grabación aquí](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231h059_upc_edu_pe/IQBSOpryVVvLT637-k0iYM1RATRl4J9xrMGrBDRTgYgwz30?e=e465Pu&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+- **Duracion:** 06:24
+- **Timing:** 48:56 - 55:20
+  
 **Resumen de la entrevista:**
 <div align="justify">
 Yesenia Consuelo Bardales, técnica en enfermería que trabaja en un centro materno infantil público en Lima, desempeña su labor principalmente en el área de emergencia y realiza guardias de doce horas entre dos y tres veces por semana. Durante la entrevista, señaló que el agotamiento extremo en su entorno laboral se manifiesta a través del estrés, el cansancio físico y cambios en el estado de ánimo, afectando tanto el desempeño como el bienestar del personal. Asimismo, indicó que en su institución no existe un mecanismo formal para detectar o prevenir el agotamiento del personal de salud, por lo que, ante estas situaciones, el apoyo entre compañeros constituye la principal forma de respuesta. La entrevistada expresó una disposición favorable hacia el uso de tecnología vestible que permita monitorear señales como el pulso y la presión, siempre que el dispositivo sea pequeño, de uso personal y emita alertas útiles. Finalmente, remarcó que el sistema debe respetar la privacidad del trabajador y evitar funciones de geolocalización, ya que considera fundamental que el monitoreo se mantenga enfocado en la salud y el cuidado individual del personal. 
