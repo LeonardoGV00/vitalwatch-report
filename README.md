@@ -1479,6 +1479,12 @@ El diagrama de componentes de Gestión de turnos médicos muestra cómo se admin
 </div>
 
 
+### Medical Staff Management
+<div align="center">
+<img src="Resources/Images/ClassDiagrams/medicalStaffManagement.jpeg" alt="Diseño del package Medical Staff Management"> <br>
+</div>
+
+
 ## 4.8. Database Design.
 ### 4.8.1. Database Diagrams.
 
