@@ -1450,8 +1450,19 @@ El diagrama de componentes de Gestión de turnos médicos muestra cómo se admin
 
 ## 4.7. Software Object-Oriented Design.
 ### 4.7.1. Class Diagrams.
+
+
+
+
+
+
+
 ## 4.8. Database Design.
 ### 4.8.1. Database Diagrams.
+
+<img src="Resources/Images/DataBaseDiagrams/dataBaseDiagram_ERD.png" alt="Diseño del diagrama de base de datos realizado en formato ERD"> <br>
+
+
 
 ---
 # Capítulo V: Product Implementation, Validation & Deployment.
