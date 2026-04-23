@@ -168,7 +168,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <b>AV2</b><p></p>
         <b>TF1</b><p></p>-->
       <h3>Güere Calero, Fernando Julio</h3>
-        <b>AV1</b><p></p>
+        <b>AV1</b><p>A lo largo del desarrollo, participé en diversas sesiones de coordinación grupal, tanto de manera presencial en la universidad como a través de plataformas virtuales como Meet y Discord. En estos encuentros, gestionamos el seguimiento del progreso semanal, la organización de tareas y la distribución equitativa de las actividades del equipo.</p>
         <!--<b>TP1</b><p></p>
         <b>AV2</b><p></p>
         <b>TF1</b><p></p>-->
@@ -205,7 +205,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <b>AV2</b><p></p>
         <b>TF1</b><p></p>-->
       <h3>Güere Calero, Fernando Julio</h3>
-        <b>AV1</b><p></p>
+        <b>AV1</b><p>Durante el desarrollo del proyecto, se empleó WhatsApp como canal principal de comunicación instantánea para la planificación virtual de actividades y la coordinación de reuniones. Asimismo, esta herramienta facilitó la resolución de dudas y permitió validar la idoneidad de las tareas asignadas, agilizando la retroalimentación y la aplicación de modificaciones en tiempo real.</p>
         <!--<b>TP1</b><p></p>
         <b>AV2</b><p></p>
         <b>TF1</b><p></p>-->
