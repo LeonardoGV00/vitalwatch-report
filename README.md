@@ -1516,10 +1516,62 @@ El diagrama de componentes de Gestión de turnos médicos muestra cómo se admin
 ## 4.7. Software Object-Oriented Design.
 ### 4.7.1. Class Diagrams.
 
+### General Class Diagram
+
+<img src="Resources/Images/ClassDiagrams/ClassDiagrammComplete.png" alt="Diseño del diagrama de clases general"> <br>
 
 
+### Medical Rest Management
+<div align="center">
+<img src="Resources/Images/ClassDiagrams/medicalRestManagement.jpeg" alt="Diseño del package Medical Rest Management"> <br>
+</div>
+
+### Alerting and Notification Management
+<div align="center">
+<img src="Resources/Images/ClassDiagrams/alertingAndNotificationManagement.jpeg" alt="Diseño del package Alerting and Notification Management"> <br>
+</div>
 
 
+### State Analysis
+<div align="center">
+<img src="Resources/Images/ClassDiagrams/stateAnalysis.jpeg" alt="Diseño del package State Analysis"> <br>
+</div>
+
+
+### Medical Shift Management
+<div align="center">
+<img src="Resources/Images/ClassDiagrams/medicalShiftManagement.jpeg" alt="Diseño del package Medical Shift Management"> <br>
+</div>
+
+
+### Medical Staff Management
+<div align="center">
+<img src="Resources/Images/ClassDiagrams/medicalStaffManagement.jpeg" alt="Diseño del package Medical Staff Management"> <br>
+</div>
+
+
+### Medical Device Management
+<div align="center">
+<img src="Resources/Images/ClassDiagrams/medicalDeviceManagement.jpeg" alt="Diseño del package Medical Device Management"> <br>
+</div>
+
+
+### Subscription and Payment Management
+<div align="center">
+<img src="Resources/Images/ClassDiagrams/subscriptionAndPaymentManagement.jpeg" alt="Diseño del package Subscription and Payment Management"> <br>
+</div>
+
+
+### Identity and Access Management
+<div align="center">
+<img src="Resources/Images/ClassDiagrams/identityAndAccessManagement.jpeg" alt="Diseño del package Identity and Access Management"> <br>
+</div>
+
+
+### Biometric Data Management
+<div align="center">
+<img src="Resources/Images/ClassDiagrams/biometricDataManagement.jpeg" alt="Diseño del package Biometric Data Management"> <br>
+</div>
 
 
 ## 4.8. Database Design.
@@ -1707,7 +1759,7 @@ En esta sección se determinan los aspectos más destacados que enmarcan el alca
 
 | Team Member (Last Name, First Name) | GitHub Username | Sprint Planning and Documentation Leader (L) / Collaborator (C) | Style Guidelines Leader (L) / Collaborator (C) | Information Architecture Leader (L) / Collaborator (C) | Landing Page UI Design Leader (L) / Collaborator (C) | Landing Page Implementation Support Leader (L) / Collaborator (C) |
 |---|---|---|---|---|---|---|
-| Montes Zamora, Edgar Alexander Mauricio | Zenk10 | C | C | C | C | L |
+| Montes Zamora, Edgar Alexander Mauricio | Zenkit0 | C | C | C | C | L |
 | Güere Calero, Fernando Julio | FerG17 | C | C | L | C | C |
 | León Morales, Johan Yonel | TheCap213 | C | L | C | C | C |
 | Garcia Villanueva, Leonardo Rafael | LeonardoGV00 | C | C | C | L | C |
