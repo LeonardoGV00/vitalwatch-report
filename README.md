@@ -875,6 +875,59 @@ Yesenia Consuelo Bardales, técnica en enfermería que trabaja en un centro mate
 
 ### 2.2.3 Análisis de entrevistas
 
+**Segmento 1: Gestores y Administradores Hospitalarios**
+
+<a name="entrevistado-01-s1"></a>
+**Entrevistado 01: Yeny Calero Orbezo (52 años)** </br>
+* **Cargo y Contexto:** Coordinadora de servicio en un hospital público (MINSA) con 35 médicos a su cargo.
+* **Gestión de Horarios y Criterios Actuales:** Realiza la programación de turnos de forma manual usando Excel, basándose únicamente en la disponibilidad y los descansos de ley, sin aplicar criterios técnicos de carga laboral o fatiga.
+* **Protocolo ante el Agotamiento:** El enfoque es puramente reactivo. Solo se interviene si el personal está visiblemente enfermo o notifica su cansancio al jefe de guardia, derivándolos a salud ocupacional para evaluación médica o vacaciones.
+* **Valoración de la Tecnología:** Considera urgente resolver la sobrecarga laboral. Valida el uso de relojes inteligentes para monitorear al personal, priorizando la visualización de fatiga en tiempo real sobre la reprogramación automática.
+* **Expectativas del Sistema:** Espera que el sistema genere alertas en tiempo real e informes de cansancio que se integren con las planillas para automatizar descansos, optimizando la seguridad del paciente.
+
+<a name="entrevistado-02-s1"></a>
+**Entrevistado 02: Frank Carrillo Pino (51 años)** </br>
+* **Cargo y Contexto:** Jefe de un Centro de Salud Mental en Cusco (MINSA) con 10 años de experiencia administrativa.
+* **Identificación de la Fatiga:** No cuenta con un protocolo formal, pero identifica el estrés y el esfuerzo mental como los problemas más urgentes, especialmente por cómo afectan la salud emocional del trabajador.
+* **Decisiones con Datos en Tiempo Real:** Considera ideal tener una herramienta de monitoreo, señalando que la carga actual por paciente genera una fatiga que requiere ajustes técnicos en los tiempos de atención.
+* **Barreras para la Reprogramación:** Se muestra escéptico ante la reprogramación automática debido a la baja tolerancia de los pacientes en servicios públicos, quienes exigen atención inmediata.
+* **Relevancia de la Seguridad:** Para aprobar el sistema, exige garantías estrictas de seguridad de datos y cumplimiento normativo, prefiriendo un dashboard con alertas en tiempo real.
+
+<a name="entrevistado-03-s1"></a> 
+**Entrevistado 03: Susana Zegarra Fernandez (43 años)** </br> 
+* **Cargo y Contexto:** Directora médica en el Hospital Regional Honorio Delgado Espinoza (MINSA, Arequipa). Supervisa a aproximadamente 250 profesionales de la salud con 13 años de experiencia en gestión.
+* **Gestión de Horarios y Criterios Actuales:** Utiliza el sistema hospitalario interno (HIS) y Excel. La programación es mensual y se basa en carga laboral, proyección de demanda, especialidades y experiencia del personal.
+* **Protocolo ante el Agotamiento:** Define el evento como "Fatiga laboral crítica". Existe un protocolo formal, aunque su aplicación depende de la disponibilidad de personal; las acciones incluyen redirigir pacientes, asignar reemplazos y supervisión de turnos.
+* **Valoración de la Tecnología:** Identifica como problema urgente la falta de monitoreo en tiempo real. Considera que las alertas preventivas son la capacidad más importante, ya que permiten adelantarse a eventos críticos y disminuir errores.
+* **Expectativas del Sistema:** Busca una reducción de eventos adversos y un mayor desempeño del equipo. El dashboard debe combinar resúmenes generales con alertas en tiempo real y estar integrado obligatoriamente con los sistemas HIS, RRHH y planillas.
+
+**Segmento 2: Personal Clínico y Operativo**
+
+<a name="entrevistado-01-s2"></a>
+**Entrevistado 01: Valeria Montalvo (24 años)** </br>
+* **Rol y Experiencia:** Interna de Medicina en Emergencia y Cirugía. Realiza guardias de 12 horas, 6 veces por semana.
+* **Descripción del Agotamiento:** Define la fatiga extrema como estar en "modo zombie", donde se actúa por inercia y se pierde la capacidad de reacción consciente.
+* **Motivaciones y Riesgos:** Identifica el error por distracción (confundir dosis o datos en historias clínicas) como el riesgo más crítico tras jornadas extensas.
+* **Acción Deseada del Sistema:** Busca que el sistema envíe alertas vibratorias privadas y notifique al jefe para gestionar relevos, sirviendo como un respaldo legal para el descanso.
+* **Uso de Wearables:** 100% dispuesta a usarlos siempre que sean dispositivos ligeros, resistentes al alcohol en gel y que no posean funciones invasivas como micrófono o cámara.
+
+<a name="entrevistado-02-s2"></a>
+**Entrevistado 02: Maribel Fernandez Chauca (38 años)** </br>
+* **Rol y Contexto:** Personal de Laboratorio Clínico en Ayacucho. Atiende áreas críticas como UCI y Emergencia.
+* **Impacto de la Falta de Personal:** Describe una alta presión por la demanda inmediata de resultados y la escasez de personal en turnos nocturnos, lo que genera agotamiento extremo.
+* **Mecanismos de Prevención:** Señala la inexistencia de protocolos para atender la parte emocional del personal tras la pandemia.
+* **Valoración del Monitoreo:** Considera valioso evidenciar el riesgo del personal para justificar más contrataciones ante el Estado. Prioriza consultar niveles de fatiga y presión.
+* **Condiciones de Privacidad:** Aceptaría el monitoreo continuo siempre que se garantice la confidencialidad absoluta y que los datos se usen solo para estadísticas internas.
+
+<a name="entrevistado-03-s2"></a>
+**Entrevistado 03: Yesenia Consuelo Bardales (47 años)** </br>
+* **Rol y Contexto:** Enfermera técnica en el área de Emergencia de un centro materno infantil.
+* **Estado de Riesgo:** Identifica la fatiga a través de dolores físicos y cambios en la actitud. Describe el ambiente de guardia como altamente estresante.
+* **Falta de Apoyo Institucional:** Afirma que no existe ningún mecanismo formal de prevención; ante un colapso, el apoyo es únicamente improvisado entre compañeros.
+* **Interés en Wearables:** Está muy dispuesta a usar un wearable que emita alertas, interesándose especialmente en el monitoreo de la presión del corazón.
+* **Privacidad:** Su condición indispensable es que la información sea estrictamente personal y que sus datos no sean rastreables de forma pública.
+
+
 ## 2.3 Needfinding
 
 ### 2.3.1. User Personas.
