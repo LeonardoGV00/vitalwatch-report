@@ -1664,8 +1664,13 @@ Para documentar los avances de este Sprint, utilizamos GitHub como medio princip
 ## 5.4. Video About-the-Product.-->
 ---
 # Conclusiones
+
+En la elaboración del proyecto VitalWatch, se abordó la problemática de la fatiga del personal clínico mediante un enfoque preventivo orientado al monitoreo y análisis de datos en tiempo real. A partir del análisis del contexto y la identificación de necesidades, se planteó una solución que permite visualizar el estado de fatiga, generar alertas y facilitar la toma de decisiones tanto para el personal administrativo como clínico.
+
+Además, se realizaron diferentes actividades como entrevistas a usuarios, análisis competitivo, definición de user stories y el uso de Domain Driven Design, lo que permitió identificar los bounded contexts y estructurar el sistema de manera clara mediante diagramas C4.
+
+Con esto se pudo validar que la solución propuesta responde a una necesidad real, mostrando que el monitoreo de fatiga y la generación de alertas pueden contribuir a una mejor gestión del personal y a la prevención de riesgos en el sector de salud.
+
 # Bibliografía
 Castro Arévalo, N., & Saavedra Leveau, C. A. (2025). Burnout en profesionales de la salud en Tacna. *Newman Business Review, 11*(2), 29–44. 
 https://doi.org/10.22451/3002.nbr2025.vol11.2.10111
-
-# Anexos
