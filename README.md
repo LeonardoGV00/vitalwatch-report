@@ -1390,8 +1390,37 @@ Proporciona vías alternativas para encontrar información o realizar acciones r
 
 ## 4.4. Web Applications UX/UI Design.
 ### 4.4.1. Web Applications Wireframes.
+En esta sección se detallan los esquemas de baja fidelidad, estructurados según el entorno de visualización para garantizar una experiencia de usuario óptima tanto en escritorio como en dispositivos móviles.
+
+<a name="wireframes-web"></a>
+**Interfaces Web (Desktop)** </br>
+<img src="Resources/Images/Wireframes/Registro_wireframe.png?raw=true" alt="Wireframe de registro en formato web de VitalWatch"/>
+<br>
+<img src="Resources/Images/Wireframes/Login_wireframe.png?raw=true" alt="Wireframe de inicio de sesión en formato web de VitalWatch"/>
+<br>
+<img src="Resources/Images/Wireframes/Segmento_admin_wireframe.png?raw=true" alt="Wireframe del dashboard administrativo en formato web de VitalWatch"/>
+<br>
+<img src="Resources/Images/Wireframes/Segmento_clinico_wireframe.png?raw=true" alt="Wireframe de gestión clínica en formato web de VitalWatch"/>
+<br>
+<a name="wireframes-mobile"></a>
+**Interfaces Móviles** </br>
+<img src="Resources/Images/Wireframes/Registro_mobile_wireframe.png?raw=true" alt="Wireframe de registro en formato móvil de VitalWatch"/>
+<br>
+<img src="Resources/Images/Wireframes/Login_mobile_wireframe.png?raw=true" alt="Wireframe de inicio de sesión en formato móvil de VitalWatch"/>
+<br>
+<img src="Resources/Images/Wireframes/Segmento_admin_mobile_wireframe.png?raw=true" alt="Wireframe del dashboard administrativo en formato móvil de VitalWatch"/>
+<br>
+<img src="Resources/Images/Wireframes/Segmento_clinico_mobile_wireframe_1.png?raw=true" alt="Wireframe de monitoreo clínico (vista 1) en formato móvil de VitalWatch"/>
+<br>
+<img src="Resources/Images/Wireframes/Segmento_clinico_mobile_wireframe_2.png?raw=true" alt="Wireframe de monitoreo clínico (vista 2) en formato móvil de VitalWatch"/>
+<br>
+<br>
 ### 4.4.2. Web Applications Wireflow Diagrams.
 ### 4.4.3. Web Applications Mock-ups.
+<a name="mock-up_web"></a>
+**Interfaces Web (Desktop)** </br>
+<img src="Resources/Images/MockUps/Login_mockup.png?raw=true" alt="Mock-up de inicio de sesión de la plataforma VitalWatch"/>
+<br>
 ### 4.4.4. Web Applications User Flow Diagrams.
 ## 4.5. Web Applications Prototyping.
 ## 4.6. Domain-Driven Software Architecture.
