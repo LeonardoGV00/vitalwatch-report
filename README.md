@@ -1403,6 +1403,9 @@ En esta sección se detallan los esquemas de baja fidelidad, estructurados segú
 <br>
 <img src="Resources/Images/Wireframes/Segmento_clinico_wireframe.png?raw=true" alt="Wireframe de gestión clínica en formato web de VitalWatch"/>
 <br>
+<img src="Resources/Images/Wireframes/Alerta_segmento_admin_wireframe.png?raw=true" alt="Wireframe de alerta al administrador en formato web de VitalWatch"/>
+<br>
+
 <a name="wireframes-mobile"></a>
 **Interfaces Móviles** </br>
 <img src="Resources/Images/Wireframes/Registro_mobile_wireframe.png?raw=true" alt="Wireframe de registro en formato móvil de VitalWatch"/>
