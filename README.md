@@ -1223,6 +1223,50 @@ Ocurre cuando el personal médico rechaza una recomendación de descanso y el re
 + **Missing Audit Evidence:**  
 Se genera cuando una decisión crítica, acción del supervisor o bloqueo de turno no queda correctamente registrada en el historial de auditoría.
 
+#### 4.6.1.5 Critical Decision Events
+
+<img src="Resources/Images/EventStorming/critical_decision_events.jpg" alt="Diseño del diagrama de eventos de decisión crítica."> <br>
+
+En esta etapa, se identificaron los eventos que representan puntos clave de decisión dentro de VitalWatch. Estos eventos marcan cambios importantes en el flujo del sistema, ya que pueden activar procesos críticos como apertura de incidentes, escalamiento, bloqueo de turnos, recuperación del personal o generación de evidencia institucional.
+
+Los principales critical decision events identificados fueron:
+
++ **SubscriptionActivated:**  
+Indica que la suscripción del hospital se encuentra activa y que el sistema puede habilitar las funcionalidades correspondientes al plan contratado.
+
++ **RoleAssigned:**  
+Define el nivel de acceso del usuario dentro de la cuenta hospitalaria, permitiendo diferenciar responsabilidades entre administrador, personal médico, supervisor clínico y director médico.
+
++ **ClinicalRiskDetected:**  
+Marca el momento en que VitalWatch identifica un riesgo clínico a partir de los datos biométricos y el nivel de fatiga calculado.
+
++ **ExtremeRiskDetected:**  
+Representa una condición crítica que puede activar procesos de bloqueo de turno o evaluación de asignaciones riesgosas.
+
++ **RiskIncidentOpened:**  
+Convierte un riesgo detectado en un incidente formal que debe ser gestionado por el personal responsable.
+
++ **SupervisorResponseTimedOut:**  
+Indica que el supervisor clínico no respondió dentro del tiempo esperado, por lo que el sistema debe activar un proceso de escalamiento.
+
++ **RiskEscalated:**  
+Señala que el incidente fue elevado a una autoridad superior, como el director médico, para asegurar atención oportuna.
+
++ **ShiftBlocked:**  
+Representa una acción preventiva para evitar que un médico en riesgo sea asignado a un turno o procedimiento crítico.
+
++ **ShiftReassigned:**  
+Confirma que la carga médica fue reasignada para mantener la continuidad operacional del hospital.
+
++ **RecoveryPlanRejected:**  
+Indica que el personal médico rechazó una recomendación de descanso, por lo que el sistema debe registrar esta decisión.
+
++ **RecoveryConfirmed:**  
+Confirma que el proceso de recuperación fue completado satisfactoriamente.
+
++ **AuditLogUpdated:**  
+Consolida la trazabilidad de las decisiones críticas tomadas dentro del sistema.
+
 ### 4.6.2. Software Architecture Context Diagram.
 
 <img src="Resources/Images/C4Diagrams/context_diagram.png" alt="Diseño del diagrama de contexto."> <br>
