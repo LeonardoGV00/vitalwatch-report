@@ -1323,6 +1323,33 @@ Este contexto utiliza políticas para gestionar la recuperación del personal m�
 + **Audit & Compliance:**  
 Las políticas de auditoría registran evidencia de eventos críticos. `RiskAssessmentAuditPolicy`, `CriticalDecisionAuditPolicy`, `SupervisorActionAuditPolicy` y `ShiftBlockingAuditPolicy` guardan trazabilidad de decisiones importantes. Finalmente, `AuditTrailSynchronizationPolicy` actualiza el historial de auditoría para mantener evidencia institucional consolidada.
 
+#### 4.6.1.8 Decision Support Read Models
+
+<img src="Resources/Images/EventStorming/read_models.jpg" alt="Diseño del diagrama de read models de soporte a la decisión."> <br>
+
+En esta etapa, se identificaron los read models necesarios para que los usuarios de VitalWatch puedan consultar información relevante y tomar decisiones dentro del sistema. Estas vistas no representan la lógica principal del dominio, sino proyecciones de información generadas a partir de los eventos, comandos y políticas previamente definidos.
+
++ **Subscription & Plan Management:**  
+Incluye vistas como `Subscription Plan View`, `Active Subscription Summary` y `Available Features View`, que permiten al `Hospital Administrator` revisar el plan contratado, el estado de la suscripción y las funcionalidades disponibles.
+
++ **Identity & Access Management:**  
+Considera read models como `User Management View`, `Role Assignment View` y `Access Status View`, utilizados para visualizar usuarios invitados, cuentas registradas, roles asignados y permisos activos dentro de la cuenta hospitalaria.
+
++ **Clinical Risk Assessment:**  
+Contiene vistas como `Personal Risk Status View`, `Clinical Risk Dashboard` y `Biometric Data Summary`. Estas permiten al personal médico consultar su propio estado de riesgo y a los supervisores revisar indicadores de fatiga o riesgo clínico.
+
++ **Incident & Escalation Management:**  
+Incluye `Incident Management View`, `Supervisor Alert Queue` y `Escalated Incident View`, que permiten gestionar incidentes abiertos, alertas pendientes y casos escalados al director médico.
+
++ **Shift Coordination:**  
+Utiliza vistas como `Shift Risk View`, `Replacement Suggestions View` y `Workload Distribution View`, orientadas a revisar turnos críticos, reemplazos sugeridos y redistribución de carga laboral.
+
++ **Staff Recovery:**  
+Considera `Recovery Recommendation View` y `Recovery Status View`, que permiten al personal médico revisar recomendaciones de descanso y al supervisor monitorear la aceptación, rechazo o confirmación de recuperación.
+
++ **Audit & Compliance:**  
+Incluye `Audit Log View` y `Compliance Report View`, destinadas a consultar registros de auditoría, decisiones críticas y reportes de cumplimiento institucional.
+
 ### 4.6.2. Software Architecture Context Diagram.
 
 <img src="Resources/Images/C4Diagrams/context_diagram.png" alt="Diseño del diagrama de contexto."> <br>
