@@ -1113,48 +1113,53 @@ Para el diseño de VitalWatch, se ha definido un sistema de espaciado basado en 
 ## 4.5. Web Applications Prototyping.
 ## 4.6. Domain-Driven Software Architecture.
 ### 4.6.1. Design-Level Event Storming.
+### 4.6.1.1 Event Storming Notation Guide.
 
-En esta sección se presenta el Design-Level Event Storming desarrollado para VitalWatch, con el objetivo de refinar el dominio del problema e identificar con mayor nivel de detalle los eventos, comandos, políticas, agregados y bounded contexts del sistema. Esta etapa permitió mejorar la comprensión de los principales procesos y definir con mayor precisión las responsabilidades de cada parte del sistema.
+#### 4.6.1.1 Event Storming Notation Guide
 
-La sesión fue realizada de manera colaborativa en el programa miro a partir del Big Picture Event Storming previamente elaborado. Durante el proceso se identificaron los flujos principales del sistema, se definieron comandos, eventos de dominio y políticas, y posteriormente se agruparon en bounded contexts. Para mantener consistencia con los artefactos de arquitectura, la nomenclatura utilizada en los diagramas se encuentra en inglés.
+Para la elaboración del Design-Level Event Storming de VitalWatch se utilizó una notación visual basada en colores, con el propósito de diferenciar actores, comandos, eventos, políticas, agregados, vistas de consulta y sistemas externos dentro del flujo de dominio.
 
-A continuación, se muestra la representación general del Design-Level Event Storming del sistema:
+| Element | Color | Descripción |
+|---|---|---|
+| Actor | Amarillo | Rol de usuario que ejecuta acciones dentro del sistema. |
+| Command | Azul | Intención o acción que desencadena un evento. |
+| Domain Event | Naranja | Hecho relevante que ya ocurrió en el dominio. |
+| Policy | Morado | Regla de negocio que reacciona ante eventos. |
+| Aggregate | Amarillo claro | Objeto de dominio que protege reglas e invariantes. |
+| Read Model | Verde | Vista de consulta usada para apoyar decisiones. |
+| External System | Rosado | Servicio externo integrado con VitalWatch. | 
 
-<img src="Resources/Images/EventStorming/vitalwatch_eventstorming.jpg" alt="Design level event storming del funcionamiento de VitalWatch">
-<br><br>
+<br>
+<img src="Resources/Images/EventStorming/notation_guide.jpg" alt="Guía de notación para el Event Storming de diseño de VitalWatch"/>
 
-En conjunto, estos bounded contexts permiten representar el flujo completo del sistema, desde la captura y almacenamiento de datos biométricos, su análisis y detección de estados, hasta la generación de alertas y la gestión operativa y administrativa de la plataforma.
+#### 4.6.1.2 Domain Event Discovery
 
-A partir del análisis realizado, se identificaron bounded contexts que cumplen distintos roles dentro del sistema. Algunos representan el núcleo funcional de la solución, como State Analysis y Medical Rest Management, mientras que otros cumplen funciones de soporte, como Identity and Access Management y Subscription and Payment Management.
+<img src="Resources/Images/EventStorming/domain_event_discovery.jpg" alt="Diseño del diagrama de descubrimiento de eventos de dominio."> <br>
 
-A continuación, se describe cada bounded context de manera individual.
+En esta fase inicial, el objetivo fue reconocer los hechos importantes que ocurren dentro del sistema y que permiten representar el dominio desde una perspectiva orientada a prevención de riesgo clínico, continuidad operacional hospitalaria y gestión segura del personal médico.
 
-  * **State Analysis:** Este bounded context se encarga de analizar los datos biométricos capturados por los dispositivos, con el fin de identificar si el estado del médico se encuentra dentro de niveles normales o si presenta valores críticos.<br><br>
-  <img src="Resources/Images/EventStorming/state_analysis.jpg" alt="Event Storming del bounded context de Análisis de Estado">
+Los eventos fueron agrupados en siete bounded contexts:
 
-  * **Biometric Data Management:** Este bounded context gestiona el almacenamiento, actualización y respaldo de los datos biométricos obtenidos desde los dispositivos, asegurando su persistencia y disponibilidad para su posterior análisis. <br><br>
-  <img src="Resources/Images/EventStorming/biometric_data.jpg" alt="Event Storming del bounded context de Gestión de Datos Biométricos">
++ **Subscription & Plan Management:**  
+Gestiona la selección del plan, confirmación del pago, activación de la suscripción y habilitación de funcionalidades contratadas.
 
-  * **Alerting and Notification Management:** Este bounded context se encarga de generar y enviar alertas y notificaciones cuando se detectan condiciones relevantes, permitiendo informar tanto al médico como a los administradores del sistema. <br><br>
-  <img src="Resources/Images/EventStorming/alerting_and_notification.jpg" alt="Event Storming del bounded context de Gestión de Alertas y Notificaciones">
++ **Identity & Access Management:**  
+Administra el registro, autenticación, invitaciones, asignación de roles y control de acceso de los usuarios dentro de la cuenta hospitalaria.
 
-  * **Medical Rest Management:** Este bounded context gestiona la programación, modificación y validación de los periodos de descanso del personal médico, incluyendo recomendaciones basadas en el estado del usuario. <br><br>
-  <img src="Resources/Images/EventStorming/medical_rest.jpg" alt="Event Storming del bounded context de Gestión de Descansos Médicos">
++ **Clinical Risk Assessment:**  
+Procesa datos biométricos, calcula el nivel de fatiga y detecta riesgos clínicos o condiciones extremas en el personal médico.
 
-  * **Medical Shift Management:** Este bounded context administra la asignación, validación y reprogramación de turnos médicos, asegurando la disponibilidad del personal. <br><br>
-  <img src="Resources/Images/EventStorming/medical_shift.jpg" alt="Event Storming del bounded context de Gestión de Turnos Médicos">
++ **Incident & Escalation Management:**  
+Gestiona la apertura de incidentes, asignación de prioridad, alertas al supervisor y escalamiento al director médico cuando no existe respuesta oportuna.
 
-  * **Medical Device Management:** Este bounded context gestiona la vinculación de dispositivos médicos con las cuentas de usuario, así como la configuración de umbrales para el monitoreo. <br><br>
-  <img src="Resources/Images/EventStorming/medical_device.jpg" alt="Event Storming del bounded context de Gestión de Dispositivos Médicos">
++ **Shift Coordination:**  
+Evalúa turnos críticos, detecta sobrecarga, bloquea asignaciones riesgosas y permite sugerir reemplazos para mantener la continuidad operativa.
 
-  * **Medical Staff Management:** Este bounded context permite la gestión del personal médico, incluyendo su registro y búsqueda dentro del sistema. <br><br>
-  <img src="Resources/Images/EventStorming/medical_staff.jpg" alt="Event Storming del bounded context de Gestión de Personal Médico">
++ **Staff Recovery:**  
+Gestiona recomendaciones de descanso, notificación al personal médico y seguimiento de la aceptación o rechazo del plan de recuperación.
 
-  * **Identity and Access Management:** Este bounded context se encarga de la creación, verificación y control de acceso de las cuentas de usuario dentro de la plataforma. <br><br>
-  <img src="Resources/Images/EventStorming/identity_and_access.jpg" alt="Event Storming del bounded context de Gestión de Identidad y Acceso">
-
-  * **Subscription and Payment Management:** Este bounded context gestiona los planes de suscripción, pagos y el acceso a funcionalidades del sistema según el estado de la suscripción. <br><br>
-  <img src="Resources/Images/EventStorming/subscription_and_payment.jpg" alt="Event Storming del bounded context de Suscripciones y Gestión de Pagos">
++ **Audit & Compliance:**  
+Registra decisiones críticas, acciones del supervisor, bloqueos de turno y reportes de cumplimiento para asegurar trazabilidad institucional.
 
 ### 4.6.2. Software Architecture Context Diagram.
 
