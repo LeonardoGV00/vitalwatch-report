@@ -1161,6 +1161,36 @@ Gestiona recomendaciones de descanso, notificación al personal médico y seguim
 + **Audit & Compliance:**  
 Registra decisiones críticas, acciones del supervisor, bloqueos de turno y reportes de cumplimiento para asegurar trazabilidad institucional.
 
+#### 4.6.1.3 Operational Event Flows
+
+<img src="Resources/Images/EventStorming/operational_event_flows.jpg" alt="Diseño del diagrama de flujos operativos de eventos."> <br>
+
+En esta etapa, los eventos identificados previamente fueron organizados en secuencias operativas para representar cómo evoluciona cada proceso dentro de VitalWatch. A diferencia de la fase inicial, aquí se define un orden lógico entre eventos, permitiendo visualizar cómo una acción o condición del dominio puede desencadenar nuevos procesos dentro del sistema.
+
+Los flujos fueron organizados según los bounded contexts definidos:
+
++ **Subscription & Plan Management:**  
+Representa el flujo comercial inicial del hospital, desde la selección del plan hasta la activación de la suscripción y habilitación de funcionalidades. También contempla la restricción de acceso cuando la suscripción expira.
+
++ **Identity & Access Management:**  
+Describe el proceso de incorporación de usuarios mediante invitaciones. El administrador hospitalario invita a los usuarios, estos aceptan la invitación, completan su registro, reciben un rol y acceden al sistema según sus permisos.
+
++ **Clinical Risk Assessment:**  
+Muestra cómo VitalWatch recibe datos biométricos, calcula el puntaje de fatiga y actualiza el nivel de riesgo. A partir de esta evaluación, el sistema puede detectar fatiga elevada, anomalías biométricas o riesgo extremo.
+
++ **Incident & Escalation Management:**  
+Representa el flujo de gestión de incidentes cuando se detecta un riesgo clínico. El incidente se abre, se asigna prioridad y se alerta al supervisor. Si el supervisor no responde oportunamente, el riesgo se escala al director médico.
+
++ **Shift Coordination:**  
+Describe el proceso de evaluación de turnos críticos. Cuando se identifica un riesgo extremo o una sobrecarga, VitalWatch puede bloquear el turno, sugerir un reemplazo y apoyar la redistribución de la carga laboral.
+
++ **Staff Recovery:**  
+Representa el flujo de recuperación del personal médico. El sistema identifica la necesidad de descanso, emite una recomendación, notifica al profesional y registra si el plan fue aceptado o rechazado.
+
++ **Audit & Compliance:**  
+Funciona como un flujo transversal. Registra evaluaciones de riesgo, decisiones críticas, acciones del supervisor y bloqueos de turno, manteniendo trazabilidad para reportes de cumplimiento.
+
+
 ### 4.6.2. Software Architecture Context Diagram.
 
 <img src="Resources/Images/C4Diagrams/context_diagram.png" alt="Diseño del diagrama de contexto."> <br>
