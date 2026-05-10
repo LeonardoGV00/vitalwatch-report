@@ -1188,7 +1188,7 @@ Representa el flujo de recuperación del personal médico. El sistema identifica
 + **Audit & Compliance:**  
 Funciona como un flujo transversal. Registra evaluaciones de riesgo, decisiones críticas, acciones del supervisor y bloqueos de turno, manteniendo trazabilidad para reportes de cumplimiento.
 
-#### 4.6.1.4 Friction and Risk Points
+#### 4.6.1.4. Friction and Risk Points
 
 <img src="Resources/Images/EventStorming/friction_and_risk_points.jpg" alt="Diseño del diagrama de puntos de fricción y riesgo."> <br>
 
@@ -1223,7 +1223,7 @@ Ocurre cuando el personal médico rechaza una recomendación de descanso y el re
 + **Missing Audit Evidence:**  
 Se genera cuando una decisión crítica, acción del supervisor o bloqueo de turno no queda correctamente registrada en el historial de auditoría.
 
-#### 4.6.1.5 Critical Decision Events
+#### 4.6.1.5. Critical Decision Events
 
 <img src="Resources/Images/EventStorming/critical_decision_events.jpg" alt="Diseño del diagrama de eventos de decisión crítica."> <br>
 
@@ -1267,7 +1267,7 @@ Confirma que el proceso de recuperación fue completado satisfactoriamente.
 + **AuditLogUpdated:**  
 Consolida la trazabilidad de las decisiones críticas tomadas dentro del sistema.
 
-#### 4.6.1.6 Actor and System Commands
+#### 4.6.1.6. Actor and System Commands
 
 <img src="Resources/Images/EventStorming/actor_and_system_commands.jpg" alt="Diseño del diagrama de comandos impulsados por actores y el sistema"> <br>
 
@@ -1296,7 +1296,7 @@ Este contexto contiene comandos asociados a la recomendación y seguimiento de r
 + **Audit & Compliance:**  
 Incluye comandos destinados a registrar evidencia y generar trazabilidad institucional. La mayoría son ejecutados automáticamente por políticas de auditoría, como `RecordRiskAssessment`, `RecordCriticalDecision`, `RecordSupervisorAction`, `RecordShiftBlocking` y `UpdateAuditLog`. Finalmente, el `Hospital Administrator` o el `Medical Director` pueden ejecutar `GenerateComplianceReport` para consultar evidencia consolidada.
 
-#### 4.6.1.7 Business Policies and Automated Reactions
+#### 4.6.1.7. Business Policies and Automated Reactions
 
 <img src="Resources/Images/EventStorming/business_policies_and_automated_reactions.jpg" alt="Diseño del diagrama de políticas de negocio y reacciones automatizadas."> <br>
 
@@ -1323,7 +1323,7 @@ Este contexto utiliza políticas para gestionar la recuperación del personal m�
 + **Audit & Compliance:**  
 Las políticas de auditoría registran evidencia de eventos críticos. `RiskAssessmentAuditPolicy`, `CriticalDecisionAuditPolicy`, `SupervisorActionAuditPolicy` y `ShiftBlockingAuditPolicy` guardan trazabilidad de decisiones importantes. Finalmente, `AuditTrailSynchronizationPolicy` actualiza el historial de auditoría para mantener evidencia institucional consolidada.
 
-#### 4.6.1.8 Decision Support Read Models
+#### 4.6.1.8. Decision Support Read Models
 
 <img src="Resources/Images/EventStorming/read_models.jpg" alt="Diseño del diagrama de read models de soporte a la decisión."> <br>
 
@@ -1350,7 +1350,7 @@ Considera `Recovery Recommendation View` y `Recovery Status View`, que permiten 
 + **Audit & Compliance:**  
 Incluye `Audit Log View` y `Compliance Report View`, destinadas a consultar registros de auditoría, decisiones críticas y reportes de cumplimiento institucional.
 
-#### 4.6.1.9 Integrated External Services
+#### 4.6.1.9. Integrated External Services
 
 <img src="Resources/Images/EventStorming/integrated_external_services.jpg" alt="Diseño del diagrama de servicios externos integrados."> <br>
 
@@ -1367,6 +1367,36 @@ Se utiliza para enviar correos relacionados con invitaciones, alertas y notifica
 
 + **Mock Biometric API:**  
 Representa una API simulada basada en datos JSON, desplegada para la entrega del proyecto. Esta API permite obtener información biométrica y operacional del personal médico, sirviendo como fuente de datos para eventos como `BiometricDataReceived`.
+
+#### 4.6.1.10. Domain Aggregates and Responsibility Boundaries
+
+<img src="Resources/Images/EventStorming/domain_aggregates.jpg" alt="Diseño del diagrama de aggregates y límites de responsabilidad."> <br>
+
+En esta etapa, se identificaron los aggregates principales de VitalWatch. Cada aggregate representa un objeto de dominio encargado de proteger reglas, validar cambios de estado y mantener la consistencia dentro de su bounded context.
+
++ **Subscription:**  
+Pertenece a `Subscription & Plan Management` y controla la selección del plan, activación de la suscripción, habilitación de funcionalidades y restricción de acceso cuando la suscripción expira.
+
++ **HospitalWorkspace:**  
+Pertenece a `Identity & Access Management` y representa el espacio institucional del hospital. Gestiona invitaciones, roles y accesos de los usuarios vinculados a una cuenta hospitalaria.
+
++ **UserAccount:**  
+También pertenece a `Identity & Access Management` y representa la cuenta individual del usuario. Controla el registro, autenticación y cierre de sesión.
+
++ **RiskAssessment:**  
+Pertenece a `Clinical Risk Assessment` y centraliza la evaluación de datos biométricos. Permite calcular el puntaje de fatiga, actualizar el nivel de riesgo y detectar condiciones clínicas relevantes.
+
++ **RiskIncident:**  
+Pertenece a `Incident & Escalation Management` y gestiona el ciclo de vida de un incidente, desde su apertura hasta su resolución o escalamiento al director médico.
+
++ **ShiftAssignment:**  
+Pertenece a `Shift Coordination` y controla la evaluación de turnos críticos, bloqueo de asignaciones riesgosas, sugerencia de reemplazos y redistribución de carga laboral.
+
++ **RecoveryPlan:**  
+Pertenece a `Staff Recovery` y gestiona las recomendaciones de descanso, aceptación o rechazo del plan y confirmación de recuperación del personal médico.
+
++ **AuditTrail:**  
+Pertenece a `Audit & Compliance` y registra las decisiones críticas del sistema, manteniendo trazabilidad sobre riesgos, incidentes, acciones del supervisor y bloqueos de turno.
 
 ### 4.6.2. Software Architecture Context Diagram.
 
