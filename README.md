@@ -1350,6 +1350,24 @@ Considera `Recovery Recommendation View` y `Recovery Status View`, que permiten 
 + **Audit & Compliance:**  
 Incluye `Audit Log View` y `Compliance Report View`, destinadas a consultar registros de auditoría, decisiones críticas y reportes de cumplimiento institucional.
 
+#### 4.6.1.9 Integrated External Services
+
+<img src="Resources/Images/EventStorming/integrated_external_services.jpg" alt="Diseño del diagrama de servicios externos integrados."> <br>
+
+En esta etapa, se identificaron los sistemas externos que interactúan con VitalWatch para complementar sus procesos principales. Estos servicios permiten cubrir funcionalidades relacionadas con pagos, autenticación, envío de correos y simulación de datos biométricos.
+
++ **Stripe Sandbox:**  
+Se utiliza para simular el pago de suscripciones de los planes contratados por el hospital. Este servicio se relaciona con el flujo de `Subscription & Plan Management`, especialmente entre el comando `ConfirmSubscriptionPayment` y el evento `SubscriptionPaymentConfirmed`.
+
++ **Firebase Authentication:**  
+Permite gestionar el registro, inicio de sesión y cierre de sesión de los usuarios. Este sistema externo apoya al contexto de `Identity & Access Management`, principalmente en eventos como `UserRegistered`, `UserAuthenticated` y `UserLoggedOut`.
+
++ **Resend Email API:**  
+Se utiliza para enviar correos relacionados con invitaciones, alertas y notificaciones importantes. Participa en procesos como `UserInvited`, `SupervisorAlerted`, `MedicalDirectorNotified` y `MedicalStaffNotified`.
+
++ **Mock Biometric API:**  
+Representa una API simulada basada en datos JSON, desplegada para la entrega del proyecto. Esta API permite obtener información biométrica y operacional del personal médico, sirviendo como fuente de datos para eventos como `BiometricDataReceived`.
+
 ### 4.6.2. Software Architecture Context Diagram.
 
 <img src="Resources/Images/C4Diagrams/context_diagram.png" alt="Diseño del diagrama de contexto."> <br>
