@@ -1763,9 +1763,6 @@ Permite gestionar el registro, inicio de sesión y cierre de sesión de los usua
 + **Resend Email API:**  
 Se utiliza para enviar correos relacionados con invitaciones, alertas y notificaciones importantes. Participa en procesos como `UserInvited`, `SupervisorAlerted`, `MedicalDirectorNotified` y `MedicalStaffNotified`.
 
-+ **Mock Biometric API:**  
-Representa una API simulada basada en datos JSON, desplegada para la entrega del proyecto. Esta API permite obtener información biométrica y operacional del personal médico, sirviendo como fuente de datos para eventos como `BiometricDataReceived`.
-
 #### 4.6.1.10. Domain Aggregates and Responsibility Boundaries
 
 <img src="Resources/Images/EventStorming/domain_aggregates.jpg" alt="Diseño del diagrama de aggregates y límites de responsabilidad."> <br>
