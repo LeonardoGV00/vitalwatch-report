@@ -1113,9 +1113,7 @@ Para el diseño de VitalWatch, se ha definido un sistema de espaciado basado en 
 ## 4.5. Web Applications Prototyping.
 ## 4.6. Domain-Driven Software Architecture.
 ### 4.6.1. Design-Level Event Storming.
-### 4.6.1.1 Event Storming Notation Guide.
-
-#### 4.6.1.1 Event Storming Notation Guide
+#### 4.6.1.1. Event Storming Notation Guide.
 
 Para la elaboración del Design-Level Event Storming de VitalWatch se utilizó una notación visual basada en colores, con el propósito de diferenciar actores, comandos, eventos, políticas, agregados, vistas de consulta y sistemas externos dentro del flujo de dominio.
 
@@ -1132,7 +1130,7 @@ Para la elaboración del Design-Level Event Storming de VitalWatch se utilizó u
 <br>
 <img src="Resources/Images/EventStorming/notation_guide.jpg" alt="Guía de notación para el Event Storming de diseño de VitalWatch"/>
 
-#### 4.6.1.2 Domain Event Discovery
+#### 4.6.1.2. Domain Event Discovery
 
 <img src="Resources/Images/EventStorming/domain_event_discovery.jpg" alt="Diseño del diagrama de descubrimiento de eventos de dominio."> <br>
 
@@ -1161,7 +1159,7 @@ Gestiona recomendaciones de descanso, notificación al personal médico y seguim
 + **Audit & Compliance:**  
 Registra decisiones críticas, acciones del supervisor, bloqueos de turno y reportes de cumplimiento para asegurar trazabilidad institucional.
 
-#### 4.6.1.3 Operational Event Flows
+#### 4.6.1.3. Operational Event Flows
 
 <img src="Resources/Images/EventStorming/operational_event_flows.jpg" alt="Diseño del diagrama de flujos operativos de eventos."> <br>
 
@@ -1190,6 +1188,40 @@ Representa el flujo de recuperación del personal médico. El sistema identifica
 + **Audit & Compliance:**  
 Funciona como un flujo transversal. Registra evaluaciones de riesgo, decisiones críticas, acciones del supervisor y bloqueos de turno, manteniendo trazabilidad para reportes de cumplimiento.
 
+#### 4.6.1.4 Friction and Risk Points
+
+<img src="Resources/Images/EventStorming/friction_and_risk_points.jpg" alt="Diseño del diagrama de puntos de fricción y riesgo."> <br>
+
+En esta etapa, se identificaron los principales puntos de fricción que pueden afectar los procesos operativos y administrativos de VitalWatch. Estos puntos representan situaciones donde el flujo puede retrasarse, generar errores o requerir mayor atención por parte de los usuarios responsables.
+
+Los principales friction and risk points identificados fueron:
+
++ **Payment Confirmation Delay:**  
+Puede ocurrir cuando la confirmación del pago de la suscripción tarda o falla, retrasando la activación del servicio para el hospital.
+
++ **Invitation Acceptance Friction:**  
+Se presenta cuando un usuario invitado no comprende el proceso de aceptación o intenta registrarse sin estar vinculado a una cuenta hospitalaria.
+
++ **Incomplete Biometric Data:**  
+Ocurre cuando los datos biométricos recibidos son incompletos, desactualizados o inconsistentes, afectando el cálculo del puntaje de fatiga.
+
++ **Risk Misclassification:**  
+Puede generarse cuando el sistema clasifica incorrectamente el nivel de riesgo, provocando alertas innecesarias o la omisión de un caso crítico.
+
++ **Supervisor Response Delay:**  
+Se produce cuando el supervisor clínico no atiende oportunamente una alerta de riesgo, retrasando la intervención preventiva.
+
++ **Escalation Delay:**  
+Aparece cuando un incidente crítico no escala a tiempo al director médico luego de que el supervisor no responde.
+
++ **Replacement Not Available:**  
+Se presenta cuando el sistema bloquea un turno riesgoso, pero no existe un reemplazo disponible para mantener la continuidad operativa.
+
++ **Unresolved Recovery Refusal:**  
+Ocurre cuando el personal médico rechaza una recomendación de descanso y el rechazo queda pendiente de seguimiento.
+
++ **Missing Audit Evidence:**  
+Se genera cuando una decisión crítica, acción del supervisor o bloqueo de turno no queda correctamente registrada en el historial de auditoría.
 
 ### 4.6.2. Software Architecture Context Diagram.
 
