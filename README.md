@@ -39,6 +39,7 @@
 |1\.1\.1|10/04/2026|Johan Yonel León Morales|Se agregaron los perfiles de los integrantes del equipo|
 |1\.2\.0|20/04/2026|Edgar Alexander Mauricio Montes Zamora<br>Fernando Julio Güere Calero<br>Johan Yonel León Morales<br>Leonardo Rafael Garcia Villanueva<br>Richard Enrique Lozano Leon|Se agregaron los capítulos I, II, III, IV, un avance del capítulo V hasta el punto 5.2.1.8|
 |1\.3\.0|23/04/2026|Edgar Alexander Mauricio Montes Zamora<br>Fernando Julio Güere Calero<br>Johan Yonel León Morales<br>Leonardo Rafael Garcia Villanueva<br>Richard Enrique Lozano Leon|Se culminó con los capítulos I, II, III, IV y el avance del capítulo V, correspondientes al AV1|
+|1\.4\.0|12/05/2026|Edgar Alexander Mauricio Montes Zamora<br>Fernando Julio Güere Calero<br>Johan Yonel León Morales<br>Leonardo Rafael Garcia Villanueva<br>Richard Enrique Lozano Leon|Se corrigieron las observaciones realizadas a los capítulos I, II, III, IV y se añadió el Sprint 2 en el capítulo V|
 </div><br><br>
 
 
@@ -51,8 +52,15 @@ https://github.com/upc-pre-202610-1asi0729-17952-VitaSync
 
 URL de Repositorio del Project Report: https://github.com/upc-pre-202610-1asi0729-17952-VitaSync/vitalwatch-report
 
-<strong>*Entrega TB1:*</strong>
+URL de la Landing Page: https://upc-pre-202610-1asi0729-17952-vitasync.github.io/vitalwatch-website/
 
+<strong>*Entrega AV1:*</strong> Para este avance el equipo se organizó tanto presencialmente como mediante un grupo de WhatsApp y llamadas por Google Meet y Discord, se envió un documento de asignación de actividades y tareas a realizar por cada integrante del equipo, así como también las que se tenian que realizar en grupo, se acordó que cada avance significativo y completo o corrección tenga que agregarse al repositorio de GitHub, todos participaron equitativamente.
+A continuación los gráficos de analíticos de colaboración en GitHub, considerando únicamente hasta el 20 de abril.
+<img src="Resources/Images/TeamInsights/contributors.png" alt="Gráfico de contribuidores del primer avance"/>
+
+<strong>*Entrega TB1:*</strong> Para este avance el equipo continuó coordinandose por los mismos medios, y se envió otro documento de asignación de actividades y correcciones a realizar por cada miembro del equipo, en este caso las secciones trabajadas por los integrantes en la anterior entrega y que tuvieron observaciones fueron corregidos por los mismos, y en este caso para la elaboración del Sprint 2 todos participaron equitativamente.
+A continuación los gráficos de analíticos de colaboración en GitHub, considerando desde el 27 de abril hasta el 11 de mayo.
+<img src="Resources/Images/TeamInsights/contributors.png" alt="Gráfico de contribuidores del segundo avance"/>
 
 # Contenido
 
@@ -1892,6 +1900,8 @@ Durante este esprint, nuestro grupo decidió hacer un foco en la creación de la
 | upc-pre-202610-1asi0729-17952-VitaSync/vitalwatch-report | main | 0a772ca | docs: fix mobile landing page login button | - | 20/04/2026 |
 #### 5.2.1.5. Execution Evidence for Sprint Review.
 
+
+
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review.
 En este sprint no se llevó a cabo ni se documentó ningún Web Service. El Sprint 1 se centró exclusivamente en la construcción de la primera versión funcional de la landing page de VitalWatch, por lo que no se generaron endpoints ni documentación asociada.
 
@@ -1908,6 +1918,8 @@ Por ello, la especificación de endpoints, verbos HTTP, parámetros, respuestas,
 <br>
 <img src="Resources/Images/Deploy/deploy_5.png" alt="Quinto paso para deploy"/>
 <br>
+
+Enlace de la landing page desplegada: https://upc-pre-202610-1asi0729-17952-vitasync.github.io/vitalwatch-website/
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint.
 
