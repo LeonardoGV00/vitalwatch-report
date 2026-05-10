@@ -1269,7 +1269,7 @@ Consolida la trazabilidad de las decisiones críticas tomadas dentro del sistema
 
 #### 4.6.1.6 Actor and System Commands
 
-<img src="Resources/Images/EventStorming/actor_and_system_commands.jpg" alt="Diseño del diagrama de comandos impulsados por actores"> <br>
+<img src="Resources/Images/EventStorming/actor_and_system_commands.jpg" alt="Diseño del diagrama de comandos impulsados por actores y el sistema"> <br>
 
 En esta etapa, se identificaron los comandos que permiten desencadenar eventos dentro de VitalWatch. Estos comandos representan acciones intencionales que pueden ser ejecutadas directamente por los actores del sistema o disparadas automáticamente por políticas de negocio.
 
@@ -1295,6 +1295,33 @@ Este contexto contiene comandos asociados a la recomendación y seguimiento de r
 
 + **Audit & Compliance:**  
 Incluye comandos destinados a registrar evidencia y generar trazabilidad institucional. La mayoría son ejecutados automáticamente por políticas de auditoría, como `RecordRiskAssessment`, `RecordCriticalDecision`, `RecordSupervisorAction`, `RecordShiftBlocking` y `UpdateAuditLog`. Finalmente, el `Hospital Administrator` o el `Medical Director` pueden ejecutar `GenerateComplianceReport` para consultar evidencia consolidada.
+
+#### 4.6.1.7 Business Policies and Automated Reactions
+
+<img src="Resources/Images/EventStorming/business_policies_and_automated_reactions.jpg" alt="Diseño del diagrama de políticas de negocio y reacciones automatizadas."> <br>
+
+En esta etapa, se definieron las políticas de negocio que permiten que VitalWatch reaccione automáticamente ante eventos relevantes del dominio. Estas políticas representan reglas que conectan eventos con nuevos comandos, permitiendo automatizar decisiones como activación de suscripciones, cálculo de riesgo, apertura de incidentes, escalamiento, bloqueo de turnos y registro de auditoría.
+
++ **Subscription & Plan Management:**  
+Las políticas de este contexto controlan la activación del servicio según el estado de pago y suscripción. `PaidSubscriptionConfirmedPolicy` permite activar la suscripción después de confirmar el pago, `ActiveSubscriptionFeaturePolicy` habilita las funcionalidades del plan contratado y `ExpiredSubscriptionRestrictionPolicy` restringe el acceso cuando la suscripción vence.
+
++ **Identity & Access Management:**  
+Este contexto usa políticas para validar el acceso de los usuarios según sus roles. `RoleBasedAccessPolicy` permite conceder acceso después de asignar un rol, mientras que `PermissionValidationPolicy` verifica si el usuario tiene permisos suficientes para ejecutar una acción dentro del sistema.
+
++ **Clinical Risk Assessment:**  
+Las políticas de este contexto procesan los datos biométricos y determinan el nivel de riesgo. `FatigueScoreEvaluationPolicy` calcula el puntaje de fatiga, `RiskLevelClassificationPolicy` clasifica el nivel de riesgo, `FatigueThresholdPolicy` detecta umbrales excedidos, `BiometricAnomalyPolicy` identifica anomalías y `ExtremeRiskPolicy` reconoce condiciones críticas.
+
++ **Incident & Escalation Management:**  
+Este contexto aplica políticas para gestionar incidentes clínicos. `DetectedRiskIncidentPolicy` abre un incidente cuando se detecta riesgo clínico, `IncidentPriorityPolicy` asigna su prioridad, `SupervisorNotificationPolicy` alerta al supervisor, `SupervisorTimeoutPolicy` detecta falta de respuesta y `UnattendedRiskEscalationPolicy` escala el caso al director médico.
+
++ **Shift Coordination:**  
+Las políticas de este contexto apoyan la continuidad operacional. `UnsafeShiftDetectionPolicy` detecta asignaciones riesgosas, `CriticalShiftBlockingPolicy` bloquea turnos críticos, `ReplacementSelectionPolicy` sugiere reemplazos disponibles y `WorkloadRedistributionPolicy` actualiza la distribución de carga laboral.
+
++ **Staff Recovery:**  
+Este contexto utiliza políticas para gestionar la recuperación del personal médico. `RecoveryNeedPolicy` detecta la necesidad de descanso, `RecoveryNotificationPolicy` notifica al personal médico sobre recomendaciones de recuperación y `RecoveryRefusalTrackingPolicy` registra el rechazo de un plan de recuperación.
+
++ **Audit & Compliance:**  
+Las políticas de auditoría registran evidencia de eventos críticos. `RiskAssessmentAuditPolicy`, `CriticalDecisionAuditPolicy`, `SupervisorActionAuditPolicy` y `ShiftBlockingAuditPolicy` guardan trazabilidad de decisiones importantes. Finalmente, `AuditTrailSynchronizationPolicy` actualiza el historial de auditoría para mantener evidencia institucional consolidada.
 
 ### 4.6.2. Software Architecture Context Diagram.
 
