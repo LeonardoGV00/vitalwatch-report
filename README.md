@@ -1836,7 +1836,12 @@ El Container Diagram detalla la estructura principal de VitalWatch a nivel de co
 
 ### 4.6.4. Software Architecture Components Diagrams.
 
+### 4.6.4.1. Frontend Components Diagram
+#### 4.6.4.1.1. VitalWatch Single Page Application
 
+<img src="Resources/Images/C4-Diagrams/Frontend/container_spa_diagram.png" alt="Diseño del diagrama de componentes del frontend de VitalWatch"/> <br>
+
+Este diagrama muestra la organización interna del frontend de VitalWatch. La Web App carga la aplicación Angular, que se apoya en un Shared Module para navegación, servicios comunes y componentes reutilizables. Cada bounded context del frontend representa un módulo funcional independiente que consume endpoints de la REST API.
 
 ## 4.7. Software Object-Oriented Design.
 ### 4.7.1. Class Diagrams.
