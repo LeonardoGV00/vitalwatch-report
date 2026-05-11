@@ -1849,6 +1849,48 @@ Este diagrama muestra la organización interna del frontend de VitalWatch. La We
 
 Este diagrama muestra el módulo de Identity & Access Management en el frontend. Se encarga de las vistas de login, registro, invitaciones, roles y control de acceso, organizando su lógica en capas de presentación, aplicación, dominio e infraestructura.
 
++ **Subscription & Plan Management** <br>
+
+<img src="Resources/Images/C4-Diagrams/Frontend/subscription_components.png" alt="Diseño del diagrama de componentes del módulo de Subscription & Plan Management"/> <br>
+
+Este diagrama representa el módulo de planes y suscripciones. Permite visualizar planes, estado de suscripción y funcionalidades habilitadas, comunicándose con la REST API para gestionar la información comercial del hospital.
+
++ **Clinical Risk Assessment** <br>
+
+<img src="Resources/Images/C4-Diagrams/Frontend/clinical_risk_components.png" alt="Diseño del diagrama de componentes del módulo de Clinical Risk Assessment"/> <br>
+
+Este diagrama muestra el módulo encargado de visualizar datos biométricos, puntaje de fatiga y nivel de riesgo clínico. Sus componentes permiten consultar el estado personal del médico y los indicadores de riesgo para supervisión.
+
++ **Incident & Escalation Management** <br> 
+
+<img src="Resources/Images/C4-Diagrams/Frontend/incident_components.png" alt="Diseño del diagrama de componentes del módulo de Incident & Escalation Management"/> <br>
+
+Este diagrama representa el módulo de incidentes y escalamiento. Permite visualizar incidentes abiertos, alertas pendientes y casos escalados, apoyando la respuesta del supervisor clínico o director médico ante riesgos detectados.
+
++ **Shift Coordination**  <br>
+
+<img src="Resources/Images/C4-Diagrams/Frontend/coordination_components.png" alt="Diseño del diagrama de componentes del módulo de Shift Coordination"/> <br>
+
+Este diagrama muestra el módulo de coordinación de turnos. Sus componentes permiten revisar turnos críticos, bloqueos preventivos, sugerencias de reemplazo y redistribución de carga médica.
+
++ **Staff Recovery**  <br>
+
+<img src="Resources/Images/C4-Diagrams/Frontend/staff_recovery_components.png" alt="Diseño del diagrama de componentes del módulo de Staff Recovery"/> <br>
+
+Este diagrama representa el módulo de recuperación del personal médico. Permite visualizar recomendaciones de descanso, planes de recuperación y el estado de aceptación o rechazo por parte del personal médico.
+
++ **Audit & Compliance**  <br>
+
+<img src="Resources/Images/C4-Diagrams/Frontend/audit_components.png" alt="Diseño del diagrama de componentes del módulo de Audit & Compliance"/> <br>
+
+Este diagrama muestra el módulo de auditoría y cumplimiento. Permite consultar registros de auditoría, decisiones críticas y reportes de cumplimiento generados a partir de eventos importantes del sistema.
+
++ **Shared Module**  <br>
+
+<img src="Resources/Images/C4-Diagrams/Frontend/shared_module_components.png" alt="Diseño del diagrama de componentes del módulo compartido del frontend"/> <br>
+
+Este diagrama representa el módulo compartido del frontend. Centraliza elementos reutilizables como layout, navegación, componentes visuales, servicios comunes, tipos compartidos e infraestructura HTTP utilizada por los demás módulos de VitalWatch.
+
 ## 4.7. Software Object-Oriented Design.
 ### 4.7.1. Class Diagrams.
 
