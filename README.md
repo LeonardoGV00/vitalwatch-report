@@ -1824,77 +1824,129 @@ Registra decisiones críticas, acciones relevantes y eventos auditables para man
 
 ### 4.6.2. Software Architecture Context Diagram.
 
-<img src="Resources/Images/C4Diagrams/context_diagram.png" alt="Diseño del diagrama de contexto."> <br>
+<img src="Resources/Images/C4-Diagrams/context_diagram.png" alt="Diseño del diagrama de contexto de VitalWatch"/> <br>
 
-El diagrama de contexto muestra a VitalWatch como el sistema central y permite observar, de forma general, con qué usuarios y servicios externos interactúa. En este caso, se representa la relación con el personal administrativo y el personal médico, así como con servicios externos como Auth0, FCM API, SendGrid API, Google Calendar API y Stripe.
+El Context Diagram muestra a VitalWatch como el sistema principal de la solución, interactuando con dos grupos de usuarios: Personal Administrativo y Personal Médico. El Personal Administrativo representa a los responsables de gestionar usuarios, turnos, suscripciones, incidentes, auditoría y reportes, mientras que el Personal Médico consulta su estado de fatiga, alertas, recomendaciones de descanso y turnos asignados. Además, se muestran los sistemas externos que apoyan funciones específicas, como autenticación, pagos y envío de correos.
 
 ### 4.6.3. Software Architecture Container Diagrams.
 
-<img src="Resources/Images/C4Diagrams/container_diagram.png" alt="Diseño del diagrama de contenedores."> <br>
+<img src="Resources/Images/C4-Diagrams/container_diagram.png" alt="Diseño del diagrama de contenedores de VitalWatch"/> <br>
 
-El diagrama de contenedores muestra la organización general del frontend de VitalWatch. Se observa que el sistema cuenta con una Web App, encargada de servir el contenido estático y la landing page, y una Single Page Application, que representa la aplicación interactiva utilizada por el personal administrativo y médico. Además, se muestran las integraciones externas utilizadas por la aplicación para autenticación, notificaciones, programación y pagos.
+El Container Diagram detalla la estructura principal de VitalWatch a nivel de contenedores. La plataforma se compone de una Landing Page informativa, una Web App que entrega la aplicación Angular, una Single Page Application utilizada por los usuarios, una REST API desarrollada en Java/Spring Boot que concentra la lógica de negocio, y una base de datos MySQL para almacenar información del sistema. También se visualizan las integraciones externas con Firebase Authentication, Stripe Sandbox y Resend Email API, las cuales son gestionadas desde el backend para mantener centralizada la lógica de autenticación, suscripciones y notificaciones.
 
 ### 4.6.4. Software Architecture Components Diagrams.
 
-### VitalWatch Single Page Application
+### 4.6.4.1. Frontend Components Diagram
 
-<img src="Resources/Images/C4Diagrams/spa_diagram.png" alt="Diseño del diagrama de componentes de VitalWatch Single Page Application."> <br>
++ **SPA Component Diagram** <br>
 
-El diagrama muestra la relación entre la VitalWatch Single Page Application, la API Application y la base de datos. Dentro de la API Application se representan los bounded contexts identificados en el event storming, los cuales organizan la lógica principal del backend y se relacionan con la base de datos para persistir la información del sistema.
+<img src="Resources/Images/C4-Diagrams/Frontend/container_spa_diagram.png" alt="Diseño del diagrama de componentes del frontend de VitalWatch"/> <br>
 
-### State Analysis
+Este diagrama muestra la organización interna del frontend de VitalWatch. La Web App carga la aplicación Angular, que se apoya en un Shared Module para navegación, servicios comunes y componentes reutilizables. Cada bounded context del frontend representa un módulo funcional independiente que consume endpoints de la REST API.
 
-<img src="Resources/Images/C4Diagrams/state_diagram.png" alt="Diseño del diagrama de componentes del bounded context de Análisis de estado."> <br>
++ **Identity and Access Management** <br>
 
-El diagrama de componentes de Análisis de estado muestra cómo se estructura este bounded context para procesar los datos biométricos y determinar el nivel de fatiga del personal médico. Además, presenta sus capas internas y su relación con la base de datos.
+<img src="Resources/Images/C4-Diagrams/Frontend/iam_components.png" alt="Diseño del diagrama de componentes del módulo de Identity and Access Management"/> <br>
 
-### Medical Rest Management
+Este diagrama muestra el módulo de Identity & Access Management en el frontend. Se encarga de las vistas de login, registro, invitaciones, roles y control de acceso, organizando su lógica en capas de presentación, aplicación, dominio e infraestructura.
 
-<img src="Resources/Images/C4Diagrams/rest_diagram.png" alt="Diseño del diagrama de componentes del bounded context de Gestión del descanso médico."> <br>
++ **Subscription & Plan Management** <br>
 
-El diagrama de componentes de Gestión del descanso médico muestra cómo se administran los descansos del personal médico, incluyendo su programación, modificación, validación y recomendaciones asociadas al nivel de fatiga.
+<img src="Resources/Images/C4-Diagrams/Frontend/subscription_components.png" alt="Diseño del diagrama de componentes del módulo de Subscription & Plan Management"/> <br>
 
-### Alerting and Notification Management
+Este diagrama representa el módulo de planes y suscripciones. Permite visualizar planes, estado de suscripción y funcionalidades habilitadas, comunicándose con la REST API para gestionar la información comercial del hospital.
 
-<img src="Resources/Images/C4Diagrams/alerting_diagram.png" alt="Diseño del diagrama de componentes del bounded context de Gestión de alertas y notificaciones."> <br>
++ **Clinical Risk Assessment** <br>
 
-El diagrama de componentes de Gestión de alertas y notificaciones muestra cómo el sistema genera alertas y envía notificaciones a partir de los eventos detectados en otros bounded contexts.
+<img src="Resources/Images/C4-Diagrams/Frontend/clinical_risk_components.png" alt="Diseño del diagrama de componentes del módulo de Clinical Risk Assessment"/> <br>
 
-### Biometric Data Management
+Este diagrama muestra el módulo encargado de visualizar datos biométricos, puntaje de fatiga y nivel de riesgo clínico. Sus componentes permiten consultar el estado personal del médico y los indicadores de riesgo para supervisión.
 
-<img src="Resources/Images/C4Diagrams/data_diagram.png" alt="Diseño del diagrama de componentes del bounded context de Gestión de datos biométricos."> <br>
++ **Incident & Escalation Management** <br> 
 
-El diagrama de componentes de Gestión de datos biométricos muestra cómo se registran, actualizan, validan y almacenan los datos provenientes de los dispositivos médicos.
+<img src="Resources/Images/C4-Diagrams/Frontend/incident_components.png" alt="Diseño del diagrama de componentes del módulo de Incident & Escalation Management"/> <br>
 
-### Identity and Access Management
+Este diagrama representa el módulo de incidentes y escalamiento. Permite visualizar incidentes abiertos, alertas pendientes y casos escalados, apoyando la respuesta del supervisor clínico o director médico ante riesgos detectados.
 
-<img src="Resources/Images/C4Diagrams/identity_diagram.png" alt="Diseño del diagrama de componentes del bounded context de Gestión de identidad y acceso."> <br>
++ **Shift Coordination**  <br>
 
-El diagrama de componentes de Gestión de identidad y acceso muestra cómo se gestionan la autenticación, verificación, roles y control de acceso dentro del sistema.
+<img src="Resources/Images/C4-Diagrams/Frontend/coordination_components.png" alt="Diseño del diagrama de componentes del módulo de Shift Coordination"/> <br>
 
-### Medical Staff Management
+Este diagrama muestra el módulo de coordinación de turnos. Sus componentes permiten revisar turnos críticos, bloqueos preventivos, sugerencias de reemplazo y redistribución de carga médica.
 
-<img src="Resources/Images/C4Diagrams/staff_diagram.png" alt="Diseño del diagrama de componentes del bounded context de Gestión de personal médico."> <br>
++ **Staff Recovery**  <br>
 
-El diagrama de componentes de Gestión de personal médico muestra cómo se administra la información del personal médico, incluyendo su registro, consulta y búsqueda.
+<img src="Resources/Images/C4-Diagrams/Frontend/staff_recovery_components.png" alt="Diseño del diagrama de componentes del módulo de Staff Recovery"/> <br>
 
-### Medical Device Management
+Este diagrama representa el módulo de recuperación del personal médico. Permite visualizar recomendaciones de descanso, planes de recuperación y el estado de aceptación o rechazo por parte del personal médico.
 
-<img src="Resources/Images/C4Diagrams/device_diagram.png" alt="Diseño del diagrama de componentes del bounded context de Gestión de dispositivos médicos."> <br>
++ **Audit & Compliance**  <br>
 
-El diagrama de componentes de Gestión de dispositivos médicos muestra cómo se realiza la vinculación, sincronización y configuración de umbrales de los dispositivos utilizados por el sistema.
+<img src="Resources/Images/C4-Diagrams/Frontend/audit_components.png" alt="Diseño del diagrama de componentes del módulo de Audit & Compliance"/> <br>
 
-### Subscription and Payment Management
+Este diagrama muestra el módulo de auditoría y cumplimiento. Permite consultar registros de auditoría, decisiones críticas y reportes de cumplimiento generados a partir de eventos importantes del sistema.
 
-<img src="Resources/Images/C4Diagrams/subscription_diagram.png" alt="Diseño del diagrama de componentes del bounded context de Suscripciones y gestión de pagos."> <br>
++ **Shared Module**  <br>
 
-El diagrama de componentes de Suscripciones y gestión de pagos muestra cómo se gestionan los planes, pagos, suscripciones y el acceso a funcionalidades de la plataforma.
+<img src="Resources/Images/C4-Diagrams/Frontend/shared_module_components.png" alt="Diseño del diagrama de componentes del módulo compartido del frontend"/> <br>
 
-### Medical Shift Management
+Este diagrama representa el módulo compartido del frontend. Centraliza elementos reutilizables como layout, navegación, componentes visuales, servicios comunes, tipos compartidos e infraestructura HTTP utilizada por los demás módulos de VitalWatch.
 
-<img src="Resources/Images/C4Diagrams/shift_diagram.png" alt="Diseño del diagrama de componentes del bounded context de Gestión de turnos médicos."> <br>
+### 4.6.4.2. Backend Components Diagram
 
-El diagrama de componentes de Gestión de turnos médicos muestra cómo se administran los turnos del personal médico, incluyendo asignación, validación y reprogramación.
++ **REST API Component Diagram** <br>
+
+<img src="Resources/Images/C4-Diagrams/Backend/container_restapi_diagram.png" alt="Diseño del diagrama de componentes del backend de VitalWatch"/> <br>
+
+Este diagrama muestra la organización general del backend de VitalWatch. La REST API recibe las solicitudes desde la SPA y las distribuye hacia los bounded contexts del sistema, los cuales gestionan la lógica de negocio, acceso a base de datos e integraciones externas.
+
++ **Identity & Access Management**  <br>
+
+<img src="Resources/Images/C4-Diagrams/Backend/iam_components.png" alt="Diseño del diagrama de componentes del módulo de Identity & Access Management del backend"/> <br>
+
+Este diagrama representa el contexto encargado de usuarios, invitaciones, roles y permisos. Sus componentes procesan solicitudes de autenticación y acceso, validan reglas del dominio y se integran con Firebase Authentication y Resend Email API.
+
++ **Subscription & Plan Management**  <br>
+
+<img src="Resources/Images/C4-Diagrams/Backend/subscription_components.png" alt="Diseño del diagrama de componentes del módulo de Subscription & Plan Management del backend"/> <br>
+
+Este diagrama muestra el contexto responsable de planes, pagos y suscripciones. Sus componentes gestionan la activación del plan, el acceso a funcionalidades y la integración con Stripe Sandbox para validar pagos.
+
++ **Clinical Risk Assessment**  <br>
+
+<img src="Resources/Images/C4-Diagrams/Backend/clinical_risk_components.png" alt="Diseño del diagrama de componentes del módulo de Clinical Risk Assessment del backend"/> <br>
+
+Este diagrama representa el contexto encargado de procesar datos biométricos, calcular el puntaje de fatiga y determinar niveles de riesgo clínico. También registra información relacionada con evaluaciones de riesgo en la base de datos.
+
++ **Incident & Escalation Management**  <br>
+
+<img src="Resources/Images/C4-Diagrams/Backend/incident_components.png" alt="Diseño del diagrama de componentes del módulo de Incident & Escalation Management del backend"/> <br>
+
+Este diagrama muestra el contexto que gestiona incidentes de riesgo, alertas al supervisor, escalamiento al director médico y cierre de incidentes. Además, utiliza Resend Email API para enviar notificaciones importantes.
+
++ **Shift Coordination**  <br>
+
+<img src="Resources/Images/C4-Diagrams/Backend/coordination_components.png" alt="Diseño del diagrama de componentes del módulo de Shift Coordination del backend"/> <br>
+
+Este diagrama representa el contexto encargado de turnos críticos, bloqueos preventivos, sugerencias de reemplazo y redistribución de carga médica. Sus componentes permiten proteger la continuidad operacional del hospital.
+
++ **Staff Recovery**  <br>
+
+<img src="Resources/Images/C4-Diagrams/Backend/staff_components.png" alt="Diseño del diagrama de componentes del módulo de Staff Recovery del backend"/> <br>
+
+Este diagrama muestra el contexto responsable de recomendaciones de descanso y planes de recuperación. Gestiona aceptación, rechazo o confirmación del plan, y puede enviar notificaciones mediante Resend Email API.
+
++ **Audit & Compliance**  <br>
+
+<img src="Resources/Images/C4-Diagrams/Backend/audit_components.png" alt="Diseño del diagrama de componentes del módulo de Audit & Compliance del backend"/> <br>
+
+Este diagrama representa el contexto encargado de registrar decisiones críticas, acciones relevantes y reportes de cumplimiento. Su objetivo es mantener trazabilidad institucional sobre los eventos importantes del sistema.
+
++ **Shared Kernel**  <br>
+
+<img src="Resources/Images/C4-Diagrams/Backend/shared_kernel_components.png" alt="Diseño del diagrama de componentes del módulo compartido del backend"/> <br>
+
+Este diagrama muestra los elementos compartidos del backend, como tipos base, value objects, eventos de dominio, excepciones y contratos comunes. Estos elementos son reutilizados por los bounded contexts sin centralizar su lógica de negocio.
 
 ## 4.7. Software Object-Oriented Design.
 ### 4.7.1. Class Diagrams.
