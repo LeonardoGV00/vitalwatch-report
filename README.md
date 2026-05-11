@@ -1830,7 +1830,9 @@ El Context Diagram muestra a VitalWatch como el sistema principal de la solució
 
 ### 4.6.3. Software Architecture Container Diagrams.
 
+<img src="Resources/Images/C4-Diagrams/container_diagram.png" alt="Diseño del diagrama de contenedores de VitalWatch"/> <br>
 
+El Container Diagram detalla la estructura principal de VitalWatch a nivel de contenedores. La plataforma se compone de una Landing Page informativa, una Web App que entrega la aplicación Angular, una Single Page Application utilizada por los usuarios, una REST API desarrollada en Java/Spring Boot que concentra la lógica de negocio, y una base de datos MySQL para almacenar información del sistema. También se visualizan las integraciones externas con Firebase Authentication, Stripe Sandbox y Resend Email API, las cuales son gestionadas desde el backend para mantener centralizada la lógica de autenticación, suscripciones y notificaciones.
 
 ### 4.6.4. Software Architecture Components Diagrams.
 
