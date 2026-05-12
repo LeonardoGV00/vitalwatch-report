@@ -2184,8 +2184,11 @@ Las convenciones de estilo que serán aplicadas en cada uno de los lenguajes y t
 
 ## 5.2. Landing Page, Services & Applications Implementation.
 ### 5.2.1. Sprint 1
+
 El primer sprint fue una  de las etapas importantes durante el desarrollo de VitalWatch, producto de la startup VitaSync. Durante este periodo, el equipo se organizó, distribuyó tareas y trabajó en la construcción de una primera versión funcional de la landing page, siguiendo el enfoque de la metodología ágil Scrum.
+
 #### 5.2.1.1. Sprint Planning 1.
+
 | Sprint # | Sprint 1 |
 |---|---|
 | **Sprint Planning Background**   |
@@ -2198,7 +2201,9 @@ El primer sprint fue una  de las etapas importantes durante el desarrollo de Vit
 | Sprint 1 Goal | Contar con la primera versión funcional y desplegada de la landing page de VitalWatch, que nos permita presentar de forma clara la propuesta del producto, sus beneficios y la información principal dirigida hacia los segmentos objetivos. |
 | Sprint 1 Velocity | 25 |
 | Sum of Story Points | 25 |
+
 #### 5.2.1.2. Aspect Leaders and Collaborators.
+
 En esta sección se determinan los aspectos más destacados que enmarcan el alcance del Sprint 1, con la finalidad de especificar quién de los integrantes asumió el rol de liderazgo en cada uno de los aspectos cuáles se integraron en calidad de colaboradores. Por lo que respecta a este sprint, los aspectos priorizados tuvieron que ver con la planificación y documentación de este instante de tiempo de trabajo, las guías de estilos, la información arquitectónica, el diseño de la landing page así como la base de análisis del dominio del problema para VitalWatch.
 
 | Team Member (Last Name, First Name) | GitHub Username | Sprint Planning and Documentation Leader (L) / Collaborator (C) | Style Guidelines Leader (L) / Collaborator (C) | Information Architecture Leader (L) / Collaborator (C) | Landing Page UI Design Leader (L) / Collaborator (C) | Landing Page Implementation Support Leader (L) / Collaborator (C) |
@@ -2208,7 +2213,9 @@ En esta sección se determinan los aspectos más destacados que enmarcan el alca
 | León Morales, Johan Yonel | TheCap213 | C | L | C | C | C |
 | Garcia Villanueva, Leonardo Rafael | LeonardoGV00 | C | C | C | L | C |
 | Lozano Leon, Richard Enrique | AikoLz | L | C | C | C | C |
+
 #### 5.2.1.3. Sprint Backlog 1.
+
 El Sprint Backlog 1 condensa las user stories que han sido previamente priorizadas y se utilizarán para el desarrollo de la primera versión en modo funcional de la landing page de la aplicación VitalWatch, donde en este Sprint todas las historias recogidas van orientadas a la presentación del producto, la navegación por secciones, la explicación de los beneficios de su uso, los planes de suscripción, el formulario de contacto, los términos de servicio, la adaptabilidad a los dispositivos móviles de la landing page y el acceso a las redes sociales ya que debe resultar, al margen de contenido, una versión inicial fácil de entender, accesible, útil y orientada a los segmentos objetivo.
 
 | Sprint # | Sprint 1 |  |  |  |  |  |  |
@@ -2239,6 +2246,7 @@ Aquí se presenta el tablero utilizado para organizar y dar seguimiento a las ta
 https://trello.com/invite/b/69e27f8031ad60d5c5a41c17/ATTI59aefbac89f27b3ab14f825507386b3bEBDA493E/vitalwatch-sprint-1
 
 #### 5.2.1.4. Development Evidence for Sprint Review.
+
 Durante este esprint, nuestro grupo decidió hacer un foco en la creación de la primera version del landing page de VitalWatch, por lo tanto, los resultados de esta iteración pasaron a estar relacionados con la creación de la primera estructura inicial del producto, la creación de recursos visuales, la definición de las User Stories del landing page y la creación de wireframes y mockups y sus versiones desktop y mobile. Este sprint no contempló Web Applications y Web Services porque este sprint fue de la landing page.
 
 | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
@@ -2255,6 +2263,7 @@ Durante este esprint, nuestro grupo decidió hacer un foco en la creación de la
 
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review.
+
 En este sprint no se llevó a cabo ni se documentó ningún Web Service. El Sprint 1 se centró exclusivamente en la construcción de la primera versión funcional de la landing page de VitalWatch, por lo que no se generaron endpoints ni documentación asociada.
 
 Por ello, la especificación de endpoints, verbos HTTP, parámetros, respuestas, capturas de interacción y commits relacionados con Web Services no aplica en este sprint y será desarrollada en iteraciones posteriores del proyecto.
@@ -2289,24 +2298,58 @@ Para documentar los avances de este Sprint, utilizamos GitHub como medio princip
   <i>Contribuciones individuales de los integrantes durante el Sprint 1 en GitHub.</i>
 </p>
 
-
 ### 5.2.2. Sprint 2
 
-
+En el Sprint 2, el equipo desarrolló el trabajo orientado a mejorar la landing page de VitalWatch y dar inicio al desarrollo de la Front End Application. En esa iteración de trabajo, se realizaron modificaciones sobre elementos de la landing page, en cuanto a aspectos como navegación, presentación de planes, formulario de contacto, términos de servicio y adaptación responsive, y se efectuó el trabajo de construir vistas iniciales de la aplicación orientadas a la visualización del riesgo clínico, alertas preventivas e historial de evaluaciones de fatiga.
 
 #### 5.2.2.1. Sprint Planning 2.
 
-
+| Sprint # | Sprint 2 |
+|---|---|
+| **Sprint Planning Background** |  |
+| Date | 2026-05-06 |
+| Time | 09:00 PM |
+| Location | Reunión virtual realizada a través de Discord |
+| Prepared By | León Morales, Johan Yonel |
+| Attendees (to planning meeting) | Montes Zamora, Edgar Alexander Mauricio<br>Güere Calero, Fernando Julio<br>León Morales, Johan Yonel<br>Garcia Villanueva, Leonardo Rafael<br>Lozano Leon, Richard Enrique |
+| **Sprint Goal & User Stories** |  |
+| Sprint 1 Review Summary | Durante el Sprint 1 se logró desarrollar y desplegar la primera versión funcional de la landing page de VitalWatch. Se avanzó en la presentación del producto, beneficios, planes de suscripción, formulario de contacto, términos de servicio, diseño adaptable para móviles y redes sociales, logrando una base inicial visible del proyecto. |
+| Sprint 1 Retrospective Summary | Como parte de la retrospectiva del Sprint 1, el equipo identificó como acierto la distribución de tareas y el uso de herramientas como GitHub y Trello para organizar el trabajo. Como oportunidad de mejora, se reconoció la necesidad de reforzar la coordinación entre diseño, documentación e implementación, así como mantener un seguimiento más constante del avance del sprint. |
+| Sprint 2 Goal | Mejorar la landing page de VitalWatch y avanzar en una primera base funcional de la Web Application, incorporando vistas iniciales para la visualización del riesgo clínico, alertas preventivas y evaluaciones de fatiga, junto con technical stories de soporte para su funcionamiento. |
+| Sprint 2 Velocity | 31 |
+| Sum of Story Points | 31 |
 
 #### 5.2.2.2. Aspect Leaders and Collaborators.
 
+En esta sección se enmarcan los aspectos prioritarios que determinan a modo de conclusión lo que es el alcance del Sprint 2, y se especifica quién era el integrante que ocupó esta función de liderazgo para estas prioridades y quién complementó como colaborador; en este sprint los aspectos priorizados son la planificación y la documentación del sprint, el mejoramiento de la landing page, el desarrollo de las primeras vistas de la Web Application, el ajuste visual de la interfaz y el soporte técnico necesario para llevar adelante el avance de la plataforma VitalWatch.
 
 
-#### 5.2.2.3. Sprint Backlog 1.
+| Team Member (Last Name, First Name) | GitHub Username | Sprint Planning and Documentation Leader (L) / Collaborator (C) | Landing Page Improvement Leader (L) / Collaborator (C) | Web Application Views Leader (L) / Collaborator (C) | UI Refinement Leader (L) / Collaborator (C) | Technical Support for Web Application Leader (L) / Collaborator (C) |
+|---|---|---|---|---|---|---|
+| Montes Zamora, Edgar Alexander Mauricio | Zenkit0 | C | C | C | C | L |
+| Güere Calero, Fernando Julio | FerG17 | C | L | C | C | C |
+| León Morales, Johan Yonel | TheCap213 | C | C | C | L | C |
+| Garcia Villanueva, Leonardo Rafael | LeonardoGV00 | C | C | L | C | C |
+| Lozano Leon, Richard Enrique | AikoLz | L | C | C | C | C |
 
 
+#### 5.2.2.3. Sprint Backlog 2.
 
-**Board del Sprint 1 en Trello:**  
+La segunda versión del Sprint Backlog, es decir la iteración que aquí describimos, concreta esas historias que fueron priorizando para el mejoramiento de la landing page de VitalWatch y los primeros avances de la Web Application. El equipo esta vez se enfocó en mejorar los componentes principales de la landing page como el formulario de contacto, la adaptación responsive y el desarrollo inicial de las vistas de la Web Application vinculadas a la visualización de nuevo riesgo clínico, alertas a emplear en la prevención que consideran las evaluaciones adicionales de las fatigas, así como en las technical stories de soporte de la misma Web Application.
+
+| Sprint # | Sprint 2 |  |  |  |  |  |  |
+|---|---|---|---|---|---|---|---|
+| **User Story** |  | **Work-Item / Task** |  |  |  |  |  |
+| Id | Title | Id | Title | Description | Estimation (Hours) | Assigned To | Status (To-do / In-Process / To-Review / Done) |
+| US-07 | Formulario de contacto | T2-01 | Mejora del formulario de contacto | Ajustar la estructura y validación del formulario de contacto del landing page para mejorar la interacción del usuario. | 4 | Güere Calero, Fernando Julio | Done |
+| US-09 | Diseño adaptable para móviles | T2-02 | Ajustes responsive del landing page | Mejorar la adaptación de la landing page a dispositivos móviles y optimizar la navegación en pantallas pequeñas. | 4 | León Morales, Johan Yonel | Done |
+| US-11 | Identificación de personal con riesgo clínico crítico | T2-03 | Vista de personal en riesgo crítico | Desarrollar una vista inicial que permita identificar rápidamente al personal con fatiga crítica. | 5 | Garcia Villanueva, Leonardo Rafael | Done |
+| US-12 | Consulta del nivel de riesgo clínico | T2-04 | Vista de consulta de nivel de riesgo | Implementar una vista para que el personal clínico pueda consultar su nivel actual de riesgo. | 4 | Garcia Villanueva, Leonardo Rafael | Done |
+| US-13 | Alertas preventivas de fatiga crítica | T2-05 | Vista de alertas preventivas | Desarrollar una sección inicial para la visualización de alertas preventivas de fatiga crítica. | 4 | Garcia Villanueva, Leonardo Rafael | Done |
+| TS-01 | Internacionalización | T2-06 | Configuración inicial de cambio de idioma | Implementar la base para alternar entre español e inglés en la interfaz. | 3 | Montes Zamora, Edgar Alexander Mauricio | Done |
+| TS-03 | Integración de evaluaciones de fatiga mediante REST API | T2-07 | Estructura de integración para evaluaciones | Preparar la lógica inicial de integración para la consulta de evaluaciones de fatiga en la Web Application. | 4 | Lozano Leon, Richard Enrique | Done |
+
+**Board del Sprint 2 en Trello:**  
 
 
 
