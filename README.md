@@ -2258,9 +2258,55 @@ Durante este esprint, nuestro grupo decidió hacer un foco en la creación de la
 | upc-pre-202610-1asi0729-17952-VitaSync/vitalwatch-report | main | fa01d61 | docs: add landing page desktop and mobile mock ups | - | 16/04/2026 |
 | upc-pre-202610-1asi0729-17952-VitaSync/vitalwatch-report | main | 1e2f71d | docs: fixed landing page UI images | - | 16/04/2026 |
 | upc-pre-202610-1asi0729-17952-VitaSync/vitalwatch-report | main | 0a772ca | docs: fix mobile landing page login button | - | 20/04/2026 |
-#### 5.2.1.5. Execution Evidence for Sprint Review.
 
+#### 5.2.1.5. Execution Evidence for Sprint Review
 
+Durante el Sprint 1 se logró desarrollar una primera versión funcional de la landing page de VitalWatch. En esta iteración se implementaron las principales secciones orientadas a presentar el producto, sus beneficios, planes de suscripción, formulario de contacto, términos de servicio, diseño adaptable para móviles y redes sociales, permitiendo una navegación inicial clara y coherente para los segmentos objetivo.
+
+<p align="center">
+  <img src="Resources/Images/Execution Evidence for Sprint Review/execution-evidence-sprint1-1.jpeg" alt="Execution Evidence for Sprint Review del Sprint 1" width="900"/>
+  <br>
+  <i>Sección de inicio de la landing page de VitalWatch.</i>
+</p>
+
+<p align="center">
+  <img src="Resources/Images/Execution Evidence for Sprint Review/execution-evidence-sprint1-2.jpeg" alt="Execution Evidence for Sprint Review del Sprint 1" width="900"/>
+  <br>
+  <i>Sección de funciones de la landing page.</i>
+</p>
+
+<p align="center">
+  <img src="Resources/Images/Execution Evidence for Sprint Review/execution-evidence-sprint1-3.jpeg" alt="Execution Evidence for Sprint Review del Sprint 1" width="900"/>
+  <br>
+  <i>Sección de planes de suscripción de VitalWatch.</i>
+</p>
+
+<p align="center">
+  <img src="Resources/Images/Execution Evidence for Sprint Review/execution-evidence-sprint1-4.jpeg" alt="Execution Evidence for Sprint Review del Sprint 1" width="900"/>
+  <br>
+  <i>Sección de términos de la landing page.</i>
+</p>
+
+<p align="center">
+  <img src="Resources/Images/Execution Evidence for Sprint Review/execution-evidence-sprint1-5.jpeg" alt="Execution Evidence for Sprint Review del Sprint 1" width="900"/>
+  <br>
+  <i>Sección de contáctanos con formulario implementado.</i>
+</p>
+
+<p align="center">
+  <img src="Resources/Images/Execution Evidence for Sprint Review/execution-evidence-sprint1-6.jpeg" alt="Execution Evidence for Sprint Review del Sprint 1" width="900"/>
+  <br>
+  <i>Footer de la landing page con términos y condiciones y medios de contacto.</i>
+</p>
+
+<p align="center">
+  <img src="Resources/Images/Execution Evidence for Sprint Review/execution-evidence-sprint1-7.jpg" alt="Execution Evidence for Sprint Review del Sprint 1" width="900"/>
+  <br>
+  <i>Recorrido general y navegación de la landing page durante la ejecución del Sprint 1.</i>
+</p>
+
+**Enlace del video de ejecución:**  
+[https://youtu.be/7LNSVNWukaA]
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review.
 
