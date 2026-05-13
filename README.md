@@ -2419,6 +2419,9 @@ https://trello.com/invite/b/6a00b9d179bdb6064d662339/ATTI4fc75e1cda72c884cfbf255
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review.
 
+En el Sprint en cuestión no se han generado Web Services ni se han implementado integraciones completas con servicios externos ya que el focus fue exclusivamente en poder desarrollar y validar la Front-End Application. En cambio sí se ha dejado lista la estructura base del proyecto para que, en los siguientes sprints, se conecten servicios y fuentes de datos de una manera más sencilla.
+La documentación de servicios en esta etapa está basada en la definición de mdulos funcionales, la separación póor capas dentro de arquitectura del sistema y la identificación de los contextos que en las próximas etapas requerirán comunicación con servicios en concreto, como: autenticación, monitorización clínica, alertas, turnos, recuperación y trazabilidad.
+Es decir, aunque aún no existe una implementación final de servicios, el Sprint del que hablamos ha permitido generar una base técnica de documentación e integración progresiva mientras el producto va avanzando.
 
 
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review.
