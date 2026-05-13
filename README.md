@@ -1091,6 +1091,7 @@ Se muestra a continuación el glosario de términos utilizados dentro del domi
 | **US-27** | Bloqueo preventivo de asignaciones médicas críticas | Como supervisor hospitalario, quiero que se impida asignar trabajadores con fatiga extrema a procedimientos o jornadas médicas críticas, para prevenir riesgos durante la atención clínica. |**Escenario 1: Detección de trabajador con fatiga extrema**<br><br> Dado que un trabajador presenta niveles extremos de fatiga<br><br> Cuando el supervisor revisa las asignaciones médicas del turno<br><br> Entonces el sistema debe impedir que el trabajador sea asignado a procedimientos o jornadas críticas<br><br> **Escenario 2: Registro de bloqueo preventivo**<br><br> Dado que se bloquea una asignación médica<br><br> Cuando el sistema registra el bloqueo preventivo<br><br> Entonces debe almacenar trabajador, fecha y motivo asociado<br><br>| **EP-04** |
 | **US-28** | Sugerencia de reemplazos operacionales | Como supervisor hospitalario, quiero recibir sugerencias de reemplazo para trabajadores con turnos bloqueados, para evitar sobrecarga del resto del personal médico. |**Escenario 1: Generación de reemplazo sugerido**<br><br> Dado que existe un turno bloqueado<br><br> Cuando el sistema evalúa al personal disponible<br><br> Entonces debe sugerir trabajadores aptos para reemplazo<br><br> **Escenario 2: Consulta de reemplazos sugeridos**<br><br> Dado que existen reemplazos sugeridos<br><br> Cuando el supervisor consulta un trabajador con turno bloqueado por fatiga crítica<br><br> Entonces debe visualizar trabajadores disponibles para reemplazar dicho turno<br><br>| **EP-04** |
 | **US-29** | Consulta de trazabilidad operacional | Como administrador hospitalario, quiero consultar las acciones preventivas registradas frente a alertas críticas de fatiga, para revisar las decisiones tomadas por supervisión hospitalaria. |**Escenario 1: Registro de decisión crítica**<br><br> Dado que un supervisor realiza una acción preventiva<br><br> Cuando la acción queda registrada<br><br> Entonces se debe guardar información del responsable, fecha y la descripción de la decisión tomada<br><br> **Escenario 2: Consulta de trazabilidad institucional**<br><br> Dado que existen acciones preventivas registradas<br><br> Cuando el administrador consulta el historial de acciones<br><br> Entonces debe visualizar las decisiones tomadas frente a alertas críticas de fatiga<br><br>| **EP-04** |
+| **US-30** | Registro e inicio de sesión de usuarios hospitalarios | Como usuario hospitalario, quiero registrarme mediante una invitación institucional e iniciar sesión en VitalWatch, para acceder a las funcionalidades correspondientes según mi rol asignado. | **Escenario 1: Registro mediante invitación válida**<br><br> Dado que el usuario recibió una invitación institucional válida<br><br> Cuando acepta la invitación y completa sus datos de registro<br><br> Entonces el sistema debe crear su cuenta y vincularla a la cuenta hospitalaria correspondiente<br><br> **Escenario 2: Inicio de sesión con credenciales válidas**<br><br> Dado que el usuario posee una cuenta registrada<br><br> Cuando ingresa sus credenciales correctamente<br><br> Entonces el sistema debe permitir el acceso a VitalWatch según el rol institucional asignado<br><br> **Escenario 3: Intento de acceso inválido**<br><br> Dado que el usuario ingresa credenciales incorrectas o no pertenece a una cuenta hospitalaria<br><br> Cuando intenta iniciar sesión<br><br> Entonces el sistema debe denegar el acceso y mostrar un mensaje de error correspondiente<br><br> | **EP-02** |
 | **TS-01** | Internacionalización | Como developer, quiero implementar el cambio de idioma en la landing page y en la web application, para permitir que la plataforma pueda visualizarse en español e inglés. |**Escenario 1: Cambio de idioma de la aplicación**<br><br> Dado que el usuario se encuentra utilizando la plataforma<br><br> Cuando selecciona un idioma distinto<br><br> Entonces la aplicación debe actualizar los textos al idioma seleccionado<br><br> **Escenario 2: Persistencia de idioma seleccionado**<br><br> Dado que el usuario seleccionó un idioma previamente<br><br> Cuando vuelve a cargar la aplicación<br><br> Entonces el sistema debe conservar el idioma configurado anteriormente<br><br>| **EP-06** |
 | **TS-02** | Autenticación de usuarios mediante REST API | Como developer, quiero implementar autenticación de usuarios mediante una RESTful API, para permitir acceso seguro a las funcionalidades según el rol institucional asignado. |**Escenario 1: Inicio de sesión válido**<br><br> Dado que el usuario posee credenciales registradas<br><br> Cuando la aplicación realiza una petición POST /auth/login<br><br> Entonces la API debe responder con código 200 OK<br><br> Y debe retornar la información del usuario autenticado junto con su rol institucional<br><br> **Escenario 2: Inicio de sesión inválido**<br><br> Dado que el usuario ingresa credenciales incorrectas<br><br> Cuando la aplicación realiza una petición POST /auth/login<br><br> Entonces la API debe responder con código 401 Unauthorized<br><br> Y debe indicar que las credenciales no son válidas<br><br>| **EP-06** |
 | **TS-03** | Integración de evaluaciones de fatiga mediante REST API | Como developer, quiero integrar la consulta de evaluaciones de fatiga desde una RESTful API, para visualizar información del personal clínico en la vista médica y administrativa. |**Escenario 1: Obtención de evaluaciones de fatiga**<br><br> Dado que existen evaluaciones registradas en /fatigue-assessments<br><br> Cuando la aplicación realiza una petición GET /fatigue-assessments<br><br> Entonces la API debe responder con código 200 OK<br><br> Y debe retornar las evaluaciones de fatiga registradas<br><br> **Escenario 2: Consulta de evaluación individual**<br><br> Dado que existe una evaluación asociada a un trabajador<br><br> Cuando la aplicación realiza una petición GET /fatigue-assessments/{id}<br><br> Entonces la API debe responder con código 200 OK<br><br> Y debe retornar la evaluación correspondiente al identificador solicitado<br><br>| **EP-06** |
@@ -1111,16 +1112,45 @@ Se muestra a continuación el glosario de términos utilizados dentro del domi
 ## 3.3. Product Backlog
 | # Orden | User Story Id | Título | Descripción | Story Points (1 / 2 / 3 / 5 / 8) |
 |---|---|---|---|---|
-| 1 | US-01 | Primera impresión sobre el producto | **Como** visitante del segmento administrativo de una clínica,<br><br>**Quiero** entender rápidamente qué es VitalWatch y qué problema resuelve,<br><br>**Para** saber si puede ayudar a mejorar mi clínica. | 2 |
-| 2 | US-02 | Navegación por secciones | **Como** visitante del segmento administrativo de una clínica,<br><br>**Quiero** navegar fácilmente entre las secciones informativas sobre VitalWatch,<br><br>**Para** encontrar rápidamente la información que necesito. | 3 |
-| 3 | US-03 | Explicación detallada del producto | **Como** visitante del segmento administrativo de una clínica,<br><br>**Quiero** conocer qué ofrece VitalWatch,<br><br>**Para** evaluar si lo que ofrece es útil para las necesidades de mi institución. | 2 |
-| 4 | US-04 | Sección de beneficios de gestión | **Como** visitante del segmento administrativo de una clínica,<br><br>**Quiero** ver los beneficios de gestión que ofrece VitalWatch,<br><br>**Para** entender cómo puede ayudarme en la supervisión del personal. | 2 |
-| 5 | US-05 | Sección de beneficios para el personal clínico | **Como** visitante del segmento personal clínico de una clínica,<br><br>**Quiero** conocer cómo VitalWatch puede ayudarme en mi trabajo diario,<br><br>**Para** identificar los beneficios que me podría brindar. | 2 |
-| 6 | US-06 | Sección de planes de suscripción | **Como** visitante del segmento administrativo de una clínica,<br><br>**Quiero** revisar los planes de suscripción disponibles,<br><br>**Para** identificar la opción más adecuada para mi institución. | 3 |
-| 7 | US-07 | Formulario de contacto | **Como** visitante del segmento administrativo de una clínica,<br><br>**Quiero** encontrar un formulario de contacto en la página,<br><br>**Para** solicitar información o una demostración. | 5 |
-| 8 | US-08 | Sección de términos de servicio | **Como** visitante del segmento administrativo de una clínica,<br><br>**Quiero** ver información sobre el manejo de la privacidad y el uso responsable de los datos,<br><br>**Para** saber si el servicio es confiable. | 2 |
-| 9 | US-09 | Diseño adaptable para móviles | **Como** visitante del segmento administrativo de una clínica que accede desde un dispositivo móvil,<br><br>**Quiero** que la página se adapte correctamente a mi pantalla,<br><br>**Para** poder navegar cómodamente desde mi dispositivo. | 3 |
-| 10 | US-10 | Sección de redes sociales | **Como** visitante del segmento general de una clínica,<br><br>**Quiero** acceder a las redes sociales y medios de contacto de la empresa,<br><br>**Para** conocer más sobre VitaSync y VitalWatch. | 1 |
+| 1 | US-01 | Primera impresión sobre el producto | **Como** visitante del segmento administrativo de una clínica,<br><br>**Deseo** entender rápidamente qué es VitalWatch y qué problema resuelve,<br><br>**Para** saber si puede ayudar a mejorar mi clínica. | 2 |
+| 2 | US-02 | Navegación por secciones | **Como** visitante del segmento administrativo de una clínica,<br><br>**Deseo** navegar fácilmente entre las secciones informativas sobre VitalWatch,<br><br>**Para** encontrar rápidamente la información que necesito. | 3 |
+| 3 | US-03 | Explicación detallada del producto | **Como** visitante del segmento administrativo de una clínica,<br><br>**Deseo** conocer qué ofrece VitalWatch,<br><br>**Para** evaluar si lo que ofrece es útil para las necesidades de seguridad de mi institución. | 2 |
+| 4 | US-04 | Sección de beneficios de gestión | **Como** visitante del segmento administrativo de una clínica,<br><br>**Deseo** ver los beneficios de gestión que ofrece VitalWatch,<br><br>**Para** entender cómo puede ayudarme en la supervisión del personal. | 2 |
+| 5 | US-05 | Sección de beneficios para el personal clínico | **Como** visitante del segmento personal clínico de una clínica,<br><br>**Deseo** conocer cómo VitalWatch puede ayudarme en mi trabajo diario,<br><br>**Para** identificar los beneficios que me podría brindar. | 2 |
+| 6 | US-06 | Sección de planes de suscripción | **Como** visitante del segmento administrativo de una clínica,<br><br>**Deseo** revisar los planes de suscripción disponibles,<br><br>**Para** identificar la opción más adecuada para mi institución. | 3 |
+| 7 | US-07 | Formulario de contacto | **Como** visitante del segmento administrativo de una clínica,<br><br>**Deseo** encontrar un formulario de contacto en la página,<br><br>**Para** solicitar información o una demostración. | 5 |
+| 8 | US-08 | Sección de términos de servicio | **Como** visitante del segmento administrativo de una clínica,<br><br>**Deseo** ver información sobre el manejo de la privacidad y el uso responsable de los datos,<br><br>**Para** saber si el servicio es confiable. | 2 |
+| 9 | US-09 | Diseño adaptable para móviles | **Como** visitante del segmento administrativo de una clínica que accede desde un dispositivo móvil,<br><br>**Deseo** que la página se adapte correctamente a mi pantalla,<br><br>**Para** poder navegar cómodamente desde mi dispositivo. | 3 |
+| 10 | US-10 | Sección de redes sociales | **Como** visitante del segmento general de una clínica,<br><br>**Deseo** acceder a las redes sociales y medios de contacto de la empresa,<br><br>**Para** conocer más sobre VitaSync y VitalWatch. | 1 |
+| 11 | US-11 | Identificación de personal con riesgo clínico crítico | **Como** supervisor hospitalario,<br><br>**Deseo** identificar rápidamente al personal clínico con fatiga crítica durante mi turno,<br><br>**Para** intervenir antes de comprometer la seguridad del paciente. | 5 |
+| 12 | US-12 | Consulta del nivel de riesgo clínico | **Como** miembro del personal clínico,<br><br>**Deseo** conocer mi nivel actual de riesgo y mis evaluaciones recientes de fatiga durante mi turno,<br><br>**Para** decidir oportunamente si necesito solicitar relevo preventivo. | 5 |
+| 13 | US-13 | Alertas preventivas de fatiga crítica | **Como** supervisor hospitalario,<br><br>**Deseo** recibir alertas preventivas cuando un trabajador supere niveles críticos de fatiga,<br><br>**Para** activar acciones preventivas antes de un incidente. | 5 |
+| 14 | US-14 | Comparación de sobrecarga clínica entre unidades hospitalarias | **Como** director médico,<br><br>**Deseo** comparar niveles de riesgo clínico entre distintas unidades hospitalarias,<br><br>**Para** identificar áreas con sobrecarga laboral recurrente. | 8 |
+| 15 | US-15 | Registro de intervenciones clínicas preventivas | **Como** supervisor hospitalario,<br><br>**Deseo** registrar las acciones preventivas tomadas frente a alertas de fatiga,<br><br>**Para** mantener trazabilidad institucional de estas decisiones. | 5 |
+| 16 | US-16 | Detección de patrones de agotamiento recurrente | **Como** director médico,<br><br>**Deseo** detectar patrones recurrentes de fatiga en el personal clínico,<br><br>**Para** evaluar posibles problemas de sobrecarga laboral prolongada. | 8 |
+| 17 | US-17 | Redistribución laboral por fatiga crítica | **Como** supervisor hospitalario,<br><br>**Deseo** identificar rápidamente qué trabajadores requieren redistribución de tareas o relevo,<br><br>**Para** evitar sobrecarga laboral dentro de la unidad médica. | 8 |
+| 18 | US-18 | Supervisión de alertas críticas de fatiga | **Como** supervisor hospitalario,<br><br>**Deseo** supervisar alertas críticas de fatiga y su estado de atención,<br><br>**Para** coordinar acciones preventivas frente a trabajadores en riesgo. | 5 |
+| 19 | US-19 | Escalamiento de incidentes críticos no atendidos | **Como** director médico,<br><br>**Deseo** revisar incidentes críticos no atendidos oportunamente,<br><br>**Para** intervenir cuando exista riesgo de sobrecarga médica dentro de la unidad hospitalaria. | 8 |
+| 20 | US-20 | Auditoría de anomalías biométricas críticas | **Como** supervisor hospitalario,<br><br>**Deseo** revisar anomalías biométricas críticas no relacionadas directamente con fatiga,<br><br>**Para** identificar posibles riesgos fisiológicos recurrentes en el personal médico. | 5 |
+| 21 | US-21 | Solicitud de relevo preventivo | **Como** personal médico,<br><br>**Deseo** solicitar relevo preventivo cuando mi nivel de fatiga sea elevado,<br><br>**Para** evitar afectar mi desempeño clínico durante la guardia. | 5 |
+| 22 | US-22 | Recomendaciones de recuperación clínica | **Como** personal médico,<br><br>**Deseo** recibir recomendaciones de descanso según mi nivel de fatiga,<br><br>**Para** disminuir el riesgo de agotamiento durante jornadas extensas. | 3 |
+| 23 | US-23 | Detección de fatiga recurrente en personal clínico | **Como** director médico,<br><br>**Deseo** detectar trabajadores con evaluaciones recurrentes de fatiga crítica,<br><br>**Para** evaluar ajustes preventivos en la distribución de turnos y prevenir agotamiento prolongado. | 8 |
+| 24 | US-24 | Consulta del historial de evaluaciones de fatiga | **Como** personal médico,<br><br>**Deseo** consultar mi historial de evaluaciones de fatiga mediante gráficos y registros anteriores,<br><br>**Para** comprender cómo evoluciona mi estado físico a lo largo del tiempo. | 5 |
+| 25 | US-25 | Invitación de usuarios hospitalarios | **Como** administrador hospitalario,<br><br>**Deseo** enviar invitaciones a usuarios clínicos y supervisores,<br><br>**Para** incorporarlos a la cuenta institucional del hospital. | 3 |
+| 26 | US-26 | Asignación de roles hospitalarios | **Como** administrador hospitalario,<br><br>**Deseo** asignar roles institucionales a los usuarios registrados,<br><br>**Para** controlar el acceso según responsabilidades hospitalarias. | 3 |
+| 27 | US-27 | Bloqueo preventivo de asignaciones médicas críticas | **Como** supervisor hospitalario,<br><br>**Deseo** que se impida asignar trabajadores con fatiga extrema a procedimientos o jornadas médicas críticas,<br><br>**Para** prevenir riesgos durante la atención clínica. | 8 |
+| 28 | US-28 | Sugerencia de reemplazos operacionales | **Como** supervisor hospitalario,<br><br>**Deseo** recibir sugerencias de reemplazo para trabajadores con turnos bloqueados,<br><br>**Para** evitar sobrecarga del resto del personal médico. | 8 |
+| 29 | US-29 | Consulta de trazabilidad operacional | **Como** administrador hospitalario,<br><br>**Deseo** consultar las acciones preventivas registradas frente a alertas críticas de fatiga,<br><br>**Para** revisar las decisiones tomadas por supervisión hospitalaria. | 5 |
+| 30 | TS-01 | Internacionalización | **Como** developer,<br><br>**Deseo** implementar el cambio de idioma en la landing page y en la web application,<br><br>**Para** permitir que la plataforma pueda visualizarse en español e inglés. | 3 |
+| 31 | TS-02 | Autenticación de usuarios mediante REST API | **Como** developer,<br><br>**Deseo** implementar autenticación de usuarios mediante una RESTful API,<br><br>**Para** permitir acceso seguro a las funcionalidades según el rol institucional asignado. | 8 |
+| 32 | TS-03 | Integración de evaluaciones de fatiga mediante REST API | **Como** developer,<br><br>**Deseo** integrar la consulta de evaluaciones de fatiga desde una RESTful API,<br><br>**Para** visualizar información del personal clínico en la vista médica y administrativa. | 5 |
+| 33 | TS-04 | Registro de solicitudes de relevo mediante REST API | **Como** developer,<br><br>**Deseo** registrar solicitudes preventivas de relevo mediante una RESTful API,<br><br>**Para** permitir que el personal clínico reporte situaciones de fatiga crítica. | 5 |
+| 34 | TS-05 | Registro de alertas críticas de fatiga mediante REST API | **Como** developer,<br><br>**Deseo** registrar y consultar alertas críticas de fatiga mediante una RESTful API,<br><br>**Para** mantener seguimiento operacional de trabajadores con niveles críticos de agotamiento. | 5 |
+| 35 | TS-06 | Integración de niveles de riesgo mediante REST API | **Como** developer,<br><br>**Deseo** integrar la consulta de niveles de riesgo desde una RESTful API,<br><br>**Para** visualizar el estado de riesgo del personal clínico durante el monitoreo hospitalario. | 5 |
+| 36 | TS-07 | Registro de acciones preventivas mediante REST API | **Como** developer,<br><br>**Deseo** registrar acciones preventivas mediante una RESTful API,<br><br>**Para** mantener trazabilidad de las decisiones tomadas frente a alertas críticas de fatiga. | 5 |
+| 37 | TS-08 | Gestión de invitaciones institucionales mediante REST API | **Como** developer,<br><br>**Deseo** registrar y consultar invitaciones institucionales mediante una RESTful API,<br><br>**Para** permitir incorporación controlada de usuarios hospitalarios. | 5 |
+| 38 | TS-09 | Gestión de roles hospitalarios mediante REST API | **Como** developer,<br><br>**Deseo** actualizar roles institucionales mediante una RESTful API,<br><br>**Para** controlar permisos según responsabilidades hospitalarias. | 5 |
+| 39 | TS-10 | Integración de reemplazos laborales mediante REST API | **Como** developer,<br><br>**Deseo** integrar la consulta de sugerencias de reemplazo desde una RESTful API,<br><br>**Para** mostrar alternativas de redistribución laboral frente a trabajadores con fatiga crítica. | 5 |
 ---
 # Capítulo IV: Product Design
 
@@ -1734,9 +1764,6 @@ Permite gestionar el registro, inicio de sesión y cierre de sesión de los usua
 + **Resend Email API:**  
 Se utiliza para enviar correos relacionados con invitaciones, alertas y notificaciones importantes. Participa en procesos como `UserInvited`, `SupervisorAlerted`, `MedicalDirectorNotified` y `MedicalStaffNotified`.
 
-+ **Mock Biometric API:**  
-Representa una API simulada basada en datos JSON, desplegada para la entrega del proyecto. Esta API permite obtener información biométrica y operacional del personal médico, sirviendo como fuente de datos para eventos como `BiometricDataReceived`.
-
 #### 4.6.1.10. Domain Aggregates and Responsibility Boundaries
 
 <img src="Resources/Images/EventStorming/domain_aggregates.jpg" alt="Diseño del diagrama de aggregates y límites de responsabilidad."> <br>
@@ -1798,77 +1825,129 @@ Registra decisiones críticas, acciones relevantes y eventos auditables para man
 
 ### 4.6.2. Software Architecture Context Diagram.
 
-<img src="Resources/Images/C4Diagrams/context_diagram.png" alt="Diseño del diagrama de contexto."> <br>
+<img src="Resources/Images/C4-Diagrams/context_diagram.png" alt="Diseño del diagrama de contexto de VitalWatch"/> <br>
 
-El diagrama de contexto muestra a VitalWatch como el sistema central y permite observar, de forma general, con qué usuarios y servicios externos interactúa. En este caso, se representa la relación con el personal administrativo y el personal médico, así como con servicios externos como Auth0, FCM API, SendGrid API, Google Calendar API y Stripe.
+El Context Diagram muestra a VitalWatch como el sistema principal de la solución, interactuando con dos grupos de usuarios: Personal Administrativo y Personal Médico. El Personal Administrativo representa a los responsables de gestionar usuarios, turnos, suscripciones, incidentes, auditoría y reportes, mientras que el Personal Médico consulta su estado de fatiga, alertas, recomendaciones de descanso y turnos asignados. Además, se muestran los sistemas externos que apoyan funciones específicas, como autenticación, pagos y envío de correos.
 
 ### 4.6.3. Software Architecture Container Diagrams.
 
-<img src="Resources/Images/C4Diagrams/container_diagram.png" alt="Diseño del diagrama de contenedores."> <br>
+<img src="Resources/Images/C4-Diagrams/container_diagram.png" alt="Diseño del diagrama de contenedores de VitalWatch"/> <br>
 
-El diagrama de contenedores muestra la organización general del frontend de VitalWatch. Se observa que el sistema cuenta con una Web App, encargada de servir el contenido estático y la landing page, y una Single Page Application, que representa la aplicación interactiva utilizada por el personal administrativo y médico. Además, se muestran las integraciones externas utilizadas por la aplicación para autenticación, notificaciones, programación y pagos.
+El Container Diagram detalla la estructura principal de VitalWatch a nivel de contenedores. La plataforma se compone de una Landing Page informativa, una Web App que entrega la aplicación Angular, una Single Page Application utilizada por los usuarios, una REST API desarrollada en Java/Spring Boot que concentra la lógica de negocio, y una base de datos MySQL para almacenar información del sistema. También se visualizan las integraciones externas con Firebase Authentication, Stripe Sandbox y Resend Email API, las cuales son gestionadas desde el backend para mantener centralizada la lógica de autenticación, suscripciones y notificaciones.
 
 ### 4.6.4. Software Architecture Components Diagrams.
 
-### VitalWatch Single Page Application
+### 4.6.4.1. Frontend Components Diagram
 
-<img src="Resources/Images/C4Diagrams/spa_diagram.png" alt="Diseño del diagrama de componentes de VitalWatch Single Page Application."> <br>
++ **SPA Component Diagram** <br>
 
-El diagrama muestra la relación entre la VitalWatch Single Page Application, la API Application y la base de datos. Dentro de la API Application se representan los bounded contexts identificados en el event storming, los cuales organizan la lógica principal del backend y se relacionan con la base de datos para persistir la información del sistema.
+<img src="Resources/Images/C4-Diagrams/Frontend/container_spa_diagram.png" alt="Diseño del diagrama de componentes del frontend de VitalWatch"/> <br>
 
-### State Analysis
+Este diagrama muestra la organización interna del frontend de VitalWatch. La Web App carga la aplicación Angular, que se apoya en un Shared Module para navegación, servicios comunes y componentes reutilizables. Cada bounded context del frontend representa un módulo funcional independiente que consume endpoints de la REST API.
 
-<img src="Resources/Images/C4Diagrams/state_diagram.png" alt="Diseño del diagrama de componentes del bounded context de Análisis de estado."> <br>
++ **Identity and Access Management** <br>
 
-El diagrama de componentes de Análisis de estado muestra cómo se estructura este bounded context para procesar los datos biométricos y determinar el nivel de fatiga del personal médico. Además, presenta sus capas internas y su relación con la base de datos.
+<img src="Resources/Images/C4-Diagrams/Frontend/iam_components.png" alt="Diseño del diagrama de componentes del módulo de Identity and Access Management"/> <br>
 
-### Medical Rest Management
+Este diagrama muestra el módulo de Identity & Access Management en el frontend. Se encarga de las vistas de login, registro, invitaciones, roles y control de acceso, organizando su lógica en capas de presentación, aplicación, dominio e infraestructura.
 
-<img src="Resources/Images/C4Diagrams/rest_diagram.png" alt="Diseño del diagrama de componentes del bounded context de Gestión del descanso médico."> <br>
++ **Subscription & Plan Management** <br>
 
-El diagrama de componentes de Gestión del descanso médico muestra cómo se administran los descansos del personal médico, incluyendo su programación, modificación, validación y recomendaciones asociadas al nivel de fatiga.
+<img src="Resources/Images/C4-Diagrams/Frontend/subscription_components.png" alt="Diseño del diagrama de componentes del módulo de Subscription & Plan Management"/> <br>
 
-### Alerting and Notification Management
+Este diagrama representa el módulo de planes y suscripciones. Permite visualizar planes, estado de suscripción y funcionalidades habilitadas, comunicándose con la REST API para gestionar la información comercial del hospital.
 
-<img src="Resources/Images/C4Diagrams/alerting_diagram.png" alt="Diseño del diagrama de componentes del bounded context de Gestión de alertas y notificaciones."> <br>
++ **Clinical Risk Assessment** <br>
 
-El diagrama de componentes de Gestión de alertas y notificaciones muestra cómo el sistema genera alertas y envía notificaciones a partir de los eventos detectados en otros bounded contexts.
+<img src="Resources/Images/C4-Diagrams/Frontend/clinical_risk_components.png" alt="Diseño del diagrama de componentes del módulo de Clinical Risk Assessment"/> <br>
 
-### Biometric Data Management
+Este diagrama muestra el módulo encargado de visualizar datos biométricos, puntaje de fatiga y nivel de riesgo clínico. Sus componentes permiten consultar el estado personal del médico y los indicadores de riesgo para supervisión.
 
-<img src="Resources/Images/C4Diagrams/data_diagram.png" alt="Diseño del diagrama de componentes del bounded context de Gestión de datos biométricos."> <br>
++ **Incident & Escalation Management** <br> 
 
-El diagrama de componentes de Gestión de datos biométricos muestra cómo se registran, actualizan, validan y almacenan los datos provenientes de los dispositivos médicos.
+<img src="Resources/Images/C4-Diagrams/Frontend/incident_components.png" alt="Diseño del diagrama de componentes del módulo de Incident & Escalation Management"/> <br>
 
-### Identity and Access Management
+Este diagrama representa el módulo de incidentes y escalamiento. Permite visualizar incidentes abiertos, alertas pendientes y casos escalados, apoyando la respuesta del supervisor clínico o director médico ante riesgos detectados.
 
-<img src="Resources/Images/C4Diagrams/identity_diagram.png" alt="Diseño del diagrama de componentes del bounded context de Gestión de identidad y acceso."> <br>
++ **Shift Coordination**  <br>
 
-El diagrama de componentes de Gestión de identidad y acceso muestra cómo se gestionan la autenticación, verificación, roles y control de acceso dentro del sistema.
+<img src="Resources/Images/C4-Diagrams/Frontend/coordination_components.png" alt="Diseño del diagrama de componentes del módulo de Shift Coordination"/> <br>
 
-### Medical Staff Management
+Este diagrama muestra el módulo de coordinación de turnos. Sus componentes permiten revisar turnos críticos, bloqueos preventivos, sugerencias de reemplazo y redistribución de carga médica.
 
-<img src="Resources/Images/C4Diagrams/staff_diagram.png" alt="Diseño del diagrama de componentes del bounded context de Gestión de personal médico."> <br>
++ **Staff Recovery**  <br>
 
-El diagrama de componentes de Gestión de personal médico muestra cómo se administra la información del personal médico, incluyendo su registro, consulta y búsqueda.
+<img src="Resources/Images/C4-Diagrams/Frontend/staff_recovery_components.png" alt="Diseño del diagrama de componentes del módulo de Staff Recovery"/> <br>
 
-### Medical Device Management
+Este diagrama representa el módulo de recuperación del personal médico. Permite visualizar recomendaciones de descanso, planes de recuperación y el estado de aceptación o rechazo por parte del personal médico.
 
-<img src="Resources/Images/C4Diagrams/device_diagram.png" alt="Diseño del diagrama de componentes del bounded context de Gestión de dispositivos médicos."> <br>
++ **Audit & Compliance**  <br>
 
-El diagrama de componentes de Gestión de dispositivos médicos muestra cómo se realiza la vinculación, sincronización y configuración de umbrales de los dispositivos utilizados por el sistema.
+<img src="Resources/Images/C4-Diagrams/Frontend/audit_components.png" alt="Diseño del diagrama de componentes del módulo de Audit & Compliance"/> <br>
 
-### Subscription and Payment Management
+Este diagrama muestra el módulo de auditoría y cumplimiento. Permite consultar registros de auditoría, decisiones críticas y reportes de cumplimiento generados a partir de eventos importantes del sistema.
 
-<img src="Resources/Images/C4Diagrams/subscription_diagram.png" alt="Diseño del diagrama de componentes del bounded context de Suscripciones y gestión de pagos."> <br>
++ **Shared Module**  <br>
 
-El diagrama de componentes de Suscripciones y gestión de pagos muestra cómo se gestionan los planes, pagos, suscripciones y el acceso a funcionalidades de la plataforma.
+<img src="Resources/Images/C4-Diagrams/Frontend/shared_module_components.png" alt="Diseño del diagrama de componentes del módulo compartido del frontend"/> <br>
 
-### Medical Shift Management
+Este diagrama representa el módulo compartido del frontend. Centraliza elementos reutilizables como layout, navegación, componentes visuales, servicios comunes, tipos compartidos e infraestructura HTTP utilizada por los demás módulos de VitalWatch.
 
-<img src="Resources/Images/C4Diagrams/shift_diagram.png" alt="Diseño del diagrama de componentes del bounded context de Gestión de turnos médicos."> <br>
+### 4.6.4.2. Backend Components Diagram
 
-El diagrama de componentes de Gestión de turnos médicos muestra cómo se administran los turnos del personal médico, incluyendo asignación, validación y reprogramación.
++ **REST API Component Diagram** <br>
+
+<img src="Resources/Images/C4-Diagrams/Backend/container_restapi_diagram.png" alt="Diseño del diagrama de componentes del backend de VitalWatch"/> <br>
+
+Este diagrama muestra la organización general del backend de VitalWatch. La REST API recibe las solicitudes desde la SPA y las distribuye hacia los bounded contexts del sistema, los cuales gestionan la lógica de negocio, acceso a base de datos e integraciones externas.
+
++ **Identity & Access Management**  <br>
+
+<img src="Resources/Images/C4-Diagrams/Backend/iam_components.png" alt="Diseño del diagrama de componentes del módulo de Identity & Access Management del backend"/> <br>
+
+Este diagrama representa el contexto encargado de usuarios, invitaciones, roles y permisos. Sus componentes procesan solicitudes de autenticación y acceso, validan reglas del dominio y se integran con Firebase Authentication y Resend Email API.
+
++ **Subscription & Plan Management**  <br>
+
+<img src="Resources/Images/C4-Diagrams/Backend/subscription_components.png" alt="Diseño del diagrama de componentes del módulo de Subscription & Plan Management del backend"/> <br>
+
+Este diagrama muestra el contexto responsable de planes, pagos y suscripciones. Sus componentes gestionan la activación del plan, el acceso a funcionalidades y la integración con Stripe Sandbox para validar pagos.
+
++ **Clinical Risk Assessment**  <br>
+
+<img src="Resources/Images/C4-Diagrams/Backend/clinical_risk_components.png" alt="Diseño del diagrama de componentes del módulo de Clinical Risk Assessment del backend"/> <br>
+
+Este diagrama representa el contexto encargado de procesar datos biométricos, calcular el puntaje de fatiga y determinar niveles de riesgo clínico. También registra información relacionada con evaluaciones de riesgo en la base de datos.
+
++ **Incident & Escalation Management**  <br>
+
+<img src="Resources/Images/C4-Diagrams/Backend/incident_components.png" alt="Diseño del diagrama de componentes del módulo de Incident & Escalation Management del backend"/> <br>
+
+Este diagrama muestra el contexto que gestiona incidentes de riesgo, alertas al supervisor, escalamiento al director médico y cierre de incidentes. Además, utiliza Resend Email API para enviar notificaciones importantes.
+
++ **Shift Coordination**  <br>
+
+<img src="Resources/Images/C4-Diagrams/Backend/coordination_components.png" alt="Diseño del diagrama de componentes del módulo de Shift Coordination del backend"/> <br>
+
+Este diagrama representa el contexto encargado de turnos críticos, bloqueos preventivos, sugerencias de reemplazo y redistribución de carga médica. Sus componentes permiten proteger la continuidad operacional del hospital.
+
++ **Staff Recovery**  <br>
+
+<img src="Resources/Images/C4-Diagrams/Backend/staff_components.png" alt="Diseño del diagrama de componentes del módulo de Staff Recovery del backend"/> <br>
+
+Este diagrama muestra el contexto responsable de recomendaciones de descanso y planes de recuperación. Gestiona aceptación, rechazo o confirmación del plan, y puede enviar notificaciones mediante Resend Email API.
+
++ **Audit & Compliance**  <br>
+
+<img src="Resources/Images/C4-Diagrams/Backend/audit_components.png" alt="Diseño del diagrama de componentes del módulo de Audit & Compliance del backend"/> <br>
+
+Este diagrama representa el contexto encargado de registrar decisiones críticas, acciones relevantes y reportes de cumplimiento. Su objetivo es mantener trazabilidad institucional sobre los eventos importantes del sistema.
+
++ **Shared Kernel**  <br>
+
+<img src="Resources/Images/C4-Diagrams/Backend/shared_kernel_components.png" alt="Diseño del diagrama de componentes del módulo compartido del backend"/> <br>
+
+Este diagrama muestra los elementos compartidos del backend, como tipos base, value objects, eventos de dominio, excepciones y contratos comunes. Estos elementos son reutilizados por los bounded contexts sin centralizar su lógica de negocio.
 
 ## 4.7. Software Object-Oriented Design.
 ### 4.7.1. Class Diagrams.
@@ -2105,8 +2184,11 @@ Las convenciones de estilo que serán aplicadas en cada uno de los lenguajes y t
 
 ## 5.2. Landing Page, Services & Applications Implementation.
 ### 5.2.1. Sprint 1
+
 El primer sprint fue una  de las etapas importantes durante el desarrollo de VitalWatch, producto de la startup VitaSync. Durante este periodo, el equipo se organizó, distribuyó tareas y trabajó en la construcción de una primera versión funcional de la landing page, siguiendo el enfoque de la metodología ágil Scrum.
+
 #### 5.2.1.1. Sprint Planning 1.
+
 | Sprint # | Sprint 1 |
 |---|---|
 | **Sprint Planning Background**   |
@@ -2119,7 +2201,9 @@ El primer sprint fue una  de las etapas importantes durante el desarrollo de Vit
 | Sprint 1 Goal | Contar con la primera versión funcional y desplegada de la landing page de VitalWatch, que nos permita presentar de forma clara la propuesta del producto, sus beneficios y la información principal dirigida hacia los segmentos objetivos. |
 | Sprint 1 Velocity | 25 |
 | Sum of Story Points | 25 |
+
 #### 5.2.1.2. Aspect Leaders and Collaborators.
+
 En esta sección se determinan los aspectos más destacados que enmarcan el alcance del Sprint 1, con la finalidad de especificar quién de los integrantes asumió el rol de liderazgo en cada uno de los aspectos cuáles se integraron en calidad de colaboradores. Por lo que respecta a este sprint, los aspectos priorizados tuvieron que ver con la planificación y documentación de este instante de tiempo de trabajo, las guías de estilos, la información arquitectónica, el diseño de la landing page así como la base de análisis del dominio del problema para VitalWatch.
 
 | Team Member (Last Name, First Name) | GitHub Username | Sprint Planning and Documentation Leader (L) / Collaborator (C) | Style Guidelines Leader (L) / Collaborator (C) | Information Architecture Leader (L) / Collaborator (C) | Landing Page UI Design Leader (L) / Collaborator (C) | Landing Page Implementation Support Leader (L) / Collaborator (C) |
@@ -2129,7 +2213,9 @@ En esta sección se determinan los aspectos más destacados que enmarcan el alca
 | León Morales, Johan Yonel | TheCap213 | C | L | C | C | C |
 | Garcia Villanueva, Leonardo Rafael | LeonardoGV00 | C | C | C | L | C |
 | Lozano Leon, Richard Enrique | AikoLz | L | C | C | C | C |
+
 #### 5.2.1.3. Sprint Backlog 1.
+
 El Sprint Backlog 1 condensa las user stories que han sido previamente priorizadas y se utilizarán para el desarrollo de la primera versión en modo funcional de la landing page de la aplicación VitalWatch, donde en este Sprint todas las historias recogidas van orientadas a la presentación del producto, la navegación por secciones, la explicación de los beneficios de su uso, los planes de suscripción, el formulario de contacto, los términos de servicio, la adaptabilidad a los dispositivos móviles de la landing page y el acceso a las redes sociales ya que debe resultar, al margen de contenido, una versión inicial fácil de entender, accesible, útil y orientada a los segmentos objetivo.
 
 | Sprint # | Sprint 1 |  |  |  |  |  |  |
@@ -2160,6 +2246,7 @@ Aquí se presenta el tablero utilizado para organizar y dar seguimiento a las ta
 https://trello.com/invite/b/69e27f8031ad60d5c5a41c17/ATTI59aefbac89f27b3ab14f825507386b3bEBDA493E/vitalwatch-sprint-1
 
 #### 5.2.1.4. Development Evidence for Sprint Review.
+
 Durante este esprint, nuestro grupo decidió hacer un foco en la creación de la primera version del landing page de VitalWatch, por lo tanto, los resultados de esta iteración pasaron a estar relacionados con la creación de la primera estructura inicial del producto, la creación de recursos visuales, la definición de las User Stories del landing page y la creación de wireframes y mockups y sus versiones desktop y mobile. Este sprint no contempló Web Applications y Web Services porque este sprint fue de la landing page.
 
 | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
@@ -2171,11 +2258,58 @@ Durante este esprint, nuestro grupo decidió hacer un foco en la creación de la
 | upc-pre-202610-1asi0729-17952-VitaSync/vitalwatch-report | main | fa01d61 | docs: add landing page desktop and mobile mock ups | - | 16/04/2026 |
 | upc-pre-202610-1asi0729-17952-VitaSync/vitalwatch-report | main | 1e2f71d | docs: fixed landing page UI images | - | 16/04/2026 |
 | upc-pre-202610-1asi0729-17952-VitaSync/vitalwatch-report | main | 0a772ca | docs: fix mobile landing page login button | - | 20/04/2026 |
-#### 5.2.1.5. Execution Evidence for Sprint Review.
 
+#### 5.2.1.5. Execution Evidence for Sprint Review
 
+Durante el Sprint 1 se logró desarrollar una primera versión funcional de la landing page de VitalWatch. En esta iteración se implementaron las principales secciones orientadas a presentar el producto, sus beneficios, planes de suscripción, formulario de contacto, términos de servicio, diseño adaptable para móviles y redes sociales, permitiendo una navegación inicial clara y coherente para los segmentos objetivo.
+
+<p align="center">
+  <img src="Resources/Images/Execution Evidence for Sprint Review/execution-evidence-sprint1-1.jpeg" alt="Execution Evidence for Sprint Review del Sprint 1" width="900"/>
+  <br>
+  <i>Sección de inicio de la landing page de VitalWatch.</i>
+</p>
+
+<p align="center">
+  <img src="Resources/Images/Execution Evidence for Sprint Review/execution-evidence-sprint1-2.jpeg" alt="Execution Evidence for Sprint Review del Sprint 1" width="900"/>
+  <br>
+  <i>Sección de funciones de la landing page.</i>
+</p>
+
+<p align="center">
+  <img src="Resources/Images/Execution Evidence for Sprint Review/execution-evidence-sprint1-3.jpeg" alt="Execution Evidence for Sprint Review del Sprint 1" width="900"/>
+  <br>
+  <i>Sección de planes de suscripción de VitalWatch.</i>
+</p>
+
+<p align="center">
+  <img src="Resources/Images/Execution Evidence for Sprint Review/execution-evidence-sprint1-4.jpeg" alt="Execution Evidence for Sprint Review del Sprint 1" width="900"/>
+  <br>
+  <i>Sección de términos de la landing page.</i>
+</p>
+
+<p align="center">
+  <img src="Resources/Images/Execution Evidence for Sprint Review/execution-evidence-sprint1-5.jpeg" alt="Execution Evidence for Sprint Review del Sprint 1" width="900"/>
+  <br>
+  <i>Sección de contáctanos con formulario implementado.</i>
+</p>
+
+<p align="center">
+  <img src="Resources/Images/Execution Evidence for Sprint Review/execution-evidence-sprint1-6.jpeg" alt="Execution Evidence for Sprint Review del Sprint 1" width="900"/>
+  <br>
+  <i>Footer de la landing page con términos y condiciones y medios de contacto.</i>
+</p>
+
+<p align="center">
+  <img src="Resources/Images/Execution Evidence for Sprint Review/execution-evidence-sprint1-7.jpg" alt="Execution Evidence for Sprint Review del Sprint 1" width="900"/>
+  <br>
+  <i>Recorrido general y navegación de la landing page durante la ejecución del Sprint 1.</i>
+</p>
+
+**Enlace del video de ejecución:**  
+[https://youtu.be/7LNSVNWukaA]
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review.
+
 En este sprint no se llevó a cabo ni se documentó ningún Web Service. El Sprint 1 se centró exclusivamente en la construcción de la primera versión funcional de la landing page de VitalWatch, por lo que no se generaron endpoints ni documentación asociada.
 
 Por ello, la especificación de endpoints, verbos HTTP, parámetros, respuestas, capturas de interacción y commits relacionados con Web Services no aplica en este sprint y será desarrollada en iteraciones posteriores del proyecto.
@@ -2210,29 +2344,68 @@ Para documentar los avances de este Sprint, utilizamos GitHub como medio princip
   <i>Contribuciones individuales de los integrantes durante el Sprint 1 en GitHub.</i>
 </p>
 
-
 ### 5.2.2. Sprint 2
 
-
+En el Sprint 2, el equipo desarrolló el trabajo orientado a mejorar la landing page de VitalWatch y dar inicio al desarrollo de la Front End Application. En esa iteración de trabajo, se realizaron modificaciones sobre elementos de la landing page, en cuanto a aspectos como navegación, presentación de planes, formulario de contacto, términos de servicio y adaptación responsive, y se efectuó el trabajo de construir vistas iniciales de la aplicación orientadas a la visualización del riesgo clínico, alertas preventivas e historial de evaluaciones de fatiga.
 
 #### 5.2.2.1. Sprint Planning 2.
 
-
+| Sprint # | Sprint 2 |
+|---|---|
+| **Sprint Planning Background** |  |
+| Date | 2026-05-06 |
+| Time | 09:00 PM |
+| Location | Reunión virtual realizada a través de Discord |
+| Prepared By | León Morales, Johan Yonel |
+| Attendees (to planning meeting) | Montes Zamora, Edgar Alexander Mauricio<br>Güere Calero, Fernando Julio<br>León Morales, Johan Yonel<br>Garcia Villanueva, Leonardo Rafael<br>Lozano Leon, Richard Enrique |
+| **Sprint Goal & User Stories** |  |
+| Sprint 1 Review Summary | Durante el Sprint 1 se logró desarrollar y desplegar la primera versión funcional de la landing page de VitalWatch. Se avanzó en la presentación del producto, beneficios, planes de suscripción, formulario de contacto, términos de servicio, diseño adaptable para móviles y redes sociales, logrando una base inicial visible del proyecto. |
+| Sprint 1 Retrospective Summary | Como parte de la retrospectiva del Sprint 1, el equipo identificó como acierto la distribución de tareas y el uso de herramientas como GitHub y Trello para organizar el trabajo. Como oportunidad de mejora, se reconoció la necesidad de reforzar la coordinación entre diseño, documentación e implementación, así como mantener un seguimiento más constante del avance del sprint. |
+| Sprint 2 Goal | Mejorar la landing page de VitalWatch y avanzar en una primera base funcional de la Web Application, incorporando vistas iniciales para la visualización del riesgo clínico, alertas preventivas y evaluaciones de fatiga, junto con technical stories de soporte para su funcionamiento. |
+| Sprint 2 Velocity | 31 |
+| Sum of Story Points | 31 |
 
 #### 5.2.2.2. Aspect Leaders and Collaborators.
 
+En esta sección se enmarcan los aspectos prioritarios que determinan a modo de conclusión lo que es el alcance del Sprint 2, y se especifica quién era el integrante que ocupó esta función de liderazgo para estas prioridades y quién complementó como colaborador; en este sprint los aspectos priorizados son la planificación y la documentación del sprint, el mejoramiento de la landing page, el desarrollo de las primeras vistas de la Web Application, el ajuste visual de la interfaz y el soporte técnico necesario para llevar adelante el avance de la plataforma VitalWatch.
 
 
-#### 5.2.2.3. Sprint Backlog 1.
+| Team Member (Last Name, First Name) | GitHub Username | Sprint Planning and Documentation Leader (L) / Collaborator (C) | Landing Page Improvement Leader (L) / Collaborator (C) | Web Application Views Leader (L) / Collaborator (C) | UI Refinement Leader (L) / Collaborator (C) | Technical Support for Web Application Leader (L) / Collaborator (C) |
+|---|---|---|---|---|---|---|
+| Montes Zamora, Edgar Alexander Mauricio | Zenkit0 | C | C | C | C | L |
+| Güere Calero, Fernando Julio | FerG17 | C | L | C | C | C |
+| León Morales, Johan Yonel | TheCap213 | C | C | C | L | C |
+| Garcia Villanueva, Leonardo Rafael | LeonardoGV00 | C | C | L | C | C |
+| Lozano Leon, Richard Enrique | AikoLz | L | C | C | C | C |
 
 
+#### 5.2.2.3. Sprint Backlog 2.
 
-**Board del Sprint 1 en Trello:**  
+La segunda versión del Sprint Backlog, es decir la iteración que aquí describimos, concreta esas historias que fueron priorizando para el mejoramiento de la landing page de VitalWatch y los primeros avances de la Web Application. El equipo esta vez se enfocó en mejorar los componentes principales de la landing page como el formulario de contacto, la adaptación responsive y el desarrollo inicial de las vistas de la Web Application vinculadas a la visualización de nuevo riesgo clínico, alertas a emplear en la prevención que consideran las evaluaciones adicionales de las fatigas, así como en las technical stories de soporte de la misma Web Application.
 
+| Sprint # | Sprint 2 |  |  |  |  |  |  |
+|---|---|---|---|---|---|---|---|
+| **User Story** |  | **Work-Item / Task** |  |  |  |  |  |
+| Id | Title | Id | Title | Description | Estimation (Hours) | Assigned To | Status (To-do / In-Process / To-Review / Done) |
+| US-07 | Formulario de contacto | T2-01 | Mejora del formulario de contacto | Ajustar la estructura y validación del formulario de contacto del landing page para mejorar la interacción del usuario. | 4 | Güere Calero, Fernando Julio | Done |
+| US-09 | Diseño adaptable para móviles | T2-02 | Ajustes responsive del landing page | Mejorar la adaptación de la landing page a dispositivos móviles y optimizar la navegación en pantallas pequeñas. | 4 | León Morales, Johan Yonel | Done |
+| US-11 | Identificación de personal con riesgo clínico crítico | T2-03 | Vista de personal en riesgo crítico | Desarrollar una vista inicial que permita identificar rápidamente al personal con fatiga crítica. | 5 | Garcia Villanueva, Leonardo Rafael | Done |
+| US-12 | Consulta del nivel de riesgo clínico | T2-04 | Vista de consulta de nivel de riesgo | Implementar una vista para que el personal clínico pueda consultar su nivel actual de riesgo. | 4 | Garcia Villanueva, Leonardo Rafael | Done |
+| US-13 | Alertas preventivas de fatiga crítica | T2-05 | Vista de alertas preventivas | Desarrollar una sección inicial para la visualización de alertas preventivas de fatiga crítica. | 4 | Garcia Villanueva, Leonardo Rafael | Done |
+| TS-01 | Internacionalización | T2-06 | Configuración inicial de cambio de idioma | Implementar la base para alternar entre español e inglés en la interfaz. | 3 | Montes Zamora, Edgar Alexander Mauricio | Done |
+| TS-03 | Integración de evaluaciones de fatiga mediante REST API | T2-07 | Estructura de integración para evaluaciones | Preparar la lógica inicial de integración para la consulta de evaluaciones de fatiga en la Web Application. | 4 | Lozano Leon, Richard Enrique | Done |
 
+**Board del Sprint 2 en Trello:**  
+Aquí se presenta el tablero utilizado para organizar y dar seguimiento a las tareas correspondientes al Sprint 2.
 
+<p align="center">
+  <img src="Resources/Images/StyleGuidelines/Trello 2.png" alt="Board del Sprint 1 en Trello" width="900"/>
+  <br>
+  <i>Figura del Board del Sprint 2 de VitalWatch en Trello.</i>
+</p>
 
 **URL del board:**  
+https://trello.com/invite/b/6a00b9d179bdb6064d662339/ATTI4fc75e1cda72c884cfbf255d6b31a9886DC3D8F3/vitalwatch-sprint-2
 
 
 #### 5.2.2.4. Development Evidence for Sprint Review.
@@ -2246,6 +2419,9 @@ Para documentar los avances de este Sprint, utilizamos GitHub como medio princip
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review.
 
+En el Sprint en cuestión no se han generado Web Services ni se han implementado integraciones completas con servicios externos ya que el focus fue exclusivamente en poder desarrollar y validar la Front-End Application. En cambio sí se ha dejado lista la estructura base del proyecto para que, en los siguientes sprints, se conecten servicios y fuentes de datos de una manera más sencilla.
+La documentación de servicios en esta etapa está basada en la definición de mdulos funcionales, la separación póor capas dentro de arquitectura del sistema y la identificación de los contextos que en las próximas etapas requerirán comunicación con servicios en concreto, como: autenticación, monitorización clínica, alertas, turnos, recuperación y trazabilidad.
+Es decir, aunque aún no existe una implementación final de servicios, el Sprint del que hablamos ha permitido generar una base técnica de documentación e integración progresiva mientras el producto va avanzando.
 
 
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review.
