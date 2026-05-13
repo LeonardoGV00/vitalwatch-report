@@ -187,7 +187,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <b>TB2</b><p></p>-->
       <h3>Güere Calero, Fernando Julio</h3>
         <b>AV1</b><p>A lo largo del desarrollo de este avance, participé en diversas sesiones de coordinación grupal, tanto de manera presencial en la universidad como a través de plataformas virtuales como Meet y Discord. En estos encuentros, gestionamos el seguimiento del progreso semanal, la organización de tareas y la distribución equitativa de las actividades del equipo.</p>
-        <b>TB1</b><p></p>
+        <b>TB1</b><p>Durante la elaboración de este entregable, me involucré en múltiples reuniones de alineación con el equipo, alternando entre encuentros físicos en el campus y sesiones remotas vía Meet y Discord. En estos espacios, supervisamos el avance semanal, estructuramos el plan de trabajo y garantizamos un reparto justo de las responsabilidades.
+</p>
         <!--<b>AV2</b><p></p>
         <b>TB2</b><p></p>-->
       <h3>León Morales, Johan Yonel</h3>
@@ -224,7 +225,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <b>TB2</b><p></p>-->
       <h3>Güere Calero, Fernando Julio</h3>
         <b>AV1</b><p>Durante el desarrollo de este avance, se empleó WhatsApp como canal principal de comunicación instantánea para la planificación virtual de actividades y la coordinación de reuniones. Asimismo, esta herramienta facilitó la resolución de dudas y permitió validar la idoneidad de las tareas asignadas, agilizando la retroalimentación y la aplicación de modificaciones en tiempo real.</p>
-        <b>TB1</b><p></p>
+        <b>TB1</b><p>En el transcurso de este entregable, WhatsApp se consolidó como el eje central para la comunicación inmediata, permitiéndonos planificar actividades y programar reuniones de forma remota. El uso de esta plataforma fue fundamental para despejar dudas y verificar la pertinencia de las labores delegadas, lo que optimizó los tiempos de respuesta y la ejecución de ajustes sobre la marcha.</p>
         <!--<b>AV2</b><p></p>
         <b>TB2</b><p></p>-->
       <h3>León Morales, Johan Yonel</h3>
