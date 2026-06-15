@@ -1708,14 +1708,6 @@ Rol: Administrador
 
 User flow: Iniciar sesión y acceder al panel correspondiente
 
-### 4.4.4. Web Applications User Flow Diagrams.
-
-User persona: Administradores y Directores Médicos
-
-Rol: Administrador
-
-User flow: Iniciar sesión y acceder al panel correspondiente
-
 **Description:** Permite autenticarse y ser redirigido al panel según el rol.
 
 <img src="Resources/Images/Mockups/roladmin/userflow_admin_1.png"/>
@@ -1736,10 +1728,6 @@ User flow: Consultar resumen general del centro
 <br>
 <img src="Resources/Images/Wireframes/roladmin/admin1.png"/>
 <br>
-<img src="Resources/Images/Wireframes/roladmin/admin1.png"/>
-<br>
-
-**Happy path:** El administrador entra al panel, revisa tarjetas de indicadores, observa personal en riesgo y equipos activos, y detecta si hay un caso prioritario.
 
 **Happy path:** El administrador entra al panel, revisa tarjetas de indicadores, observa personal en riesgo y equipos activos, y detecta si hay un caso prioritario.
 
@@ -1770,7 +1758,7 @@ User flow: Gestionar equipos clínicos
 <br>
 
 **Happy path:** El administrador ve los equipos existentes, crea uno nuevo, asigna miembros o supervisor y guarda los cambios.
-  
+
 **Unhappy paths:** Falta información obligatoria o falla el registro.
 <br>
 
