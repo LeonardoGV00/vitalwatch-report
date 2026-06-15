@@ -1707,6 +1707,221 @@ Rol: Administrador
 
 User flow: Iniciar sesión y acceder al panel correspondiente
 
+**Description:** Permite autenticarse y ser redirigido al panel según el rol.
+
+**Imagen del user flow:**
+
+<img src="Resources/Images/Mockups/roladmin/userflow_admin_1.png"/>
+<br>
+
+**Imagen del diagrama de flujo:**
+
+<img src="Resources/Images/Mockups/login.png"/>
+<br>
+
+**Happy path:** El usuario ingresa correo y contraseña, el sistema valida las credenciales y redirige al panel correspondiente.
+
+**Unhappy paths:** Credenciales inválidas, campos vacíos o ausencia de sesión válida.
+<br>
+
+User flow: Consultar resumen general del centro
+
+**Description:** Permite revisar indicadores generales y detectar prioridades.
+
+**Imagen del user flow:**
+
+<img src="Resources/Images/Mockups/roladmin/userflow_admin_2.png"/>
+<br>
+
+**Imagen del diagrama de flujo:**
+
+<img src="Resources/Images/Wireframes/roladmin/admin1.png"/>
+<br>
+
+**Happy path:** El administrador entra al panel, revisa tarjetas de indicadores, observa personal en riesgo y equipos activos, y detecta si hay un caso prioritario.
+
+**Unhappy paths:** No cargan datos o la vista aparece vacía.
+<br>
+
+User flow: Gestionar personal clínico
+
+**Description:** Permite consultar y revisar la información visible del personal.
+
+**Imagen del user flow:**
+
+<img src="Resources/Images/Mockups/roladmin/userflow_admin_3.png"/>
+<br>
+
+**Imagen del diagrama de flujo:**
+
+<img src="Resources/Images/Wireframes/roladmin/admin2.png"/>
+<br>
+
+**Happy path:** El administrador visualiza el listado, busca o filtra un usuario y revisa sus datos.
+
+**Unhappy paths:** No hay coincidencias o falla la carga del listado.
+<br>
+
+User flow: Gestionar equipos clínicos
+
+**Description:** Permite crear y revisar equipos de trabajo.
+
+**Imagen del user flow:**
+
+<img src="Resources/Images/Mockups/roladmin/userflow_admin_4.png"/>
+<br>
+
+**Imagen del diagrama de flujo:**
+
+<img src="Resources/Images/Wireframes/roladmin/admin3.png"/>
+<br>
+
+**Happy path:** El administrador ve los equipos existentes, crea uno nuevo, asigna miembros o supervisor y guarda los cambios.
+
+**Unhappy paths:** Falta información obligatoria o falla el registro.
+<br>
+
+User flow: Enviar invitaciones de usuarios
+
+**Description:** Permite registrar invitaciones para nuevos usuarios.
+
+**Imagen del user flow:**
+
+<img src="Resources/Images/Mockups/roladmin/userflow_admin_5.png"/>
+<br>
+
+**Imagen del diagrama de flujo:**
+
+<img src="Resources/Images/Wireframes/roladmin/admin4.png"/>
+<br>
+
+**Happy path:** El administrador ingresa un correo, selecciona un rol, envía la invitación y revisa su estado.
+
+**Unhappy paths:** Correo inválido o error al registrar la invitación.
+<br>
+
+User flow: Consultar suscripción y pagos
+
+**Description:** Permite revisar plan activo, estado y pagos.
+
+**Imagen del user flow:**
+
+<img src="Resources/Images/Mockups/roladmin/userflow_admin_6.png"/>
+<br>
+
+**Imagen del diagrama de flujo:**
+
+<img src="Resources/Images/Wireframes/roladmin/admin5.png"/>
+<br>
+
+**Happy path:** El administrador revisa el plan actual, el estado y el historial de pagos.
+
+**Unhappy paths:** No hay suscripción activa o la información no carga.
+<br>
+
+User flow: Revisar reportes globales
+
+**Description:** Permite visualizar indicadores y resúmenes del centro.
+
+**Imagen del user flow:**
+
+<img src="Resources/Images/Mockups/roladmin/userflow_admin_7.png"/>
+<br>
+
+**Imagen del diagrama de flujo:**
+
+<img src="Resources/Images/Wireframes/roladmin/admin6.png"/>
+<br>
+
+**Happy path:** El administrador revisa indicadores generales, consulta resúmenes por personal y por equipos, y analiza resultados.
+
+**Unhappy paths:** Reporte vacío o fallo de consulta.
+<br>
+
+User flow: Revisar auditoría del sistema
+
+**Description:** Permite revisar eventos registrados en la plataforma.
+
+**Imagen del user flow:**
+
+<img src="Resources/Images/Mockups/roladmin/userflow_admin_8.png"/>
+<br>
+
+**Imagen del diagrama de flujo:**
+
+<img src="Resources/Images/Wireframes/roladmin/admin7.png"/>
+<br>
+
+**Happy path:** El administrador revisa eventos, aplica filtros y ve el detalle de un evento.
+
+**Unhappy paths:** No hay eventos o el filtro no aplica.
+<br>
+
+User flow: Actualizar configuración de cuenta
+
+**Description:** Permite revisar y actualizar los datos de la cuenta.
+
+**Imagen del user flow:**
+
+<img src="Resources/Images/Mockups/roladmin/userflow_admin_9.png"/>
+<br>
+
+**Imagen del diagrama de flujo:**
+
+<img src="Resources/Images/Wireframes/roladmin/admin8.png"/>
+<br>
+
+**Happy path:** El administrador revisa sus datos, edita la información y guarda los cambios.
+
+**Unhappy paths:** Errores de validación o fallo al guardar.
+<br>
+
+Rol: Supervisor médico / director médico
+
+User flow: Iniciar sesión y acceder al panel correspondiente
+
+**Description:** Permite autenticarse y ser redirigido al panel según el rol.
+
+**Imagen del user flow:**
+
+<img src="Resources/Images/Mockups/rolsupervisor/userflow_supervisor_1.png"/>
+<br>
+
+**Imagen del diagrama de flujo:**
+
+<img src="Resources/Images/Mockups/login.png"/>
+<br>
+
+**Happy path:** El usuario ingresa correo y contraseña, el sistema valida las credenciales y redirige al panel correspondiente.
+
+**Unhappy paths:** Credenciales inválidas, campos vacíos o ausencia de sesión válida.
+<br>
+
+User flow: Consultar resumen del turno
+
+**Description:** Permite observar el estado general del equipo asignado.
+
+**Imagen del user flow:**
+
+<img src="Resources/Images/Mockups/rolsupervisor/userflow_supervisor_2.png"/>
+<br>
+
+**Imagen del diagrama de flujo:**
+
+<img src="Resources/Images/Mockups/rolsupervisor/supervisor1.png"/>
+<br>
+
+**Happy path:** El supervisor revisa los indicadores del turno, la fatiga del equipo y las alertas activas, y detecta si hay algo prioritario.
+
+**Unhappy paths:** El panel no carga o no hay información disponible.
+<br>
+
+User persona: Administradores y Directores Médicos
+
+Rol: Administrador
+
+User flow: Iniciar sesión y acceder al panel correspondiente
+
 **Descripcion:** Permite autenticarse y ser redirigido al panel según el rol.
 
 <img src="Resources/Images/Mockups/roladmin/userflow_admin_1.png"/>
