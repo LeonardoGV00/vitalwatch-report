@@ -2036,6 +2036,11 @@ User flow: Actualizar configuración de cuenta
 
 ## 4.5. Web Applications Prototyping.
 
+<img src="Resources/Images/Prototype/prototype.png"/>
+<br>
+
+Enlace: [Ver grabación aquí](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231h059_upc_edu_pe/IQDOXlFUDPz4QKDlWXgwE6OJAa0uzwG5VmKPsqr5UxXTHjQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=w6R5S9)
+
 ## 4.6. Domain-Driven Software Architecture.
 ### 4.6.1. Design-Level Event Storming.
 #### 4.6.1.1. Event Storming Notation Guide.
