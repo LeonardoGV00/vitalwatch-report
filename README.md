@@ -3010,18 +3010,28 @@ El Sprint Backlog 3 consolida las technical stories y user stories priorizadas p
 |---|---|---|---|---|---|---|---|
 | **User Story** |  | **Work-Item / Task** |  |  |  |  |  |
 | Id | Title | Id | Title | Descripcion | Estimation (Hours) | Assigned To | Status (To-do / In-Process / To-Review / Done) |
-| TS-04 | Endpoint de registro e inicio de sesión (IAM) | T3-01 | Implementación del endpoint POST /api/v1/auth/register | Desarrollar el endpoint de registro de usuario en el bounded context de IAM, incluyendo validación de datos de entrada y persistencia del nuevo usuario en la base de datos. | 5 | Montes Zamora, Edgar Alexander Mauricio | Done |
-| TS-04 | Endpoint de registro e inicio de sesión (IAM) | T3-02 | Implementación del endpoint POST /api/v1/auth/login y generación de token JWT | Desarrollar el endpoint de inicio de sesión con validación de credenciales y generación de token JWT para su uso en los endpoints protegidos del Web Service. | 4 | Montes Zamora, Edgar Alexander Mauricio | Done |
-| TS-05 | Endpoint de gestión de perfil del personal clínico | T3-03 | Implementación de endpoints CRUD de perfil del personal | Desarrollar los endpoints GET, PUT y DELETE /api/v1/staff/{id} para la gestión del perfil del personal clínico registrado en el sistema, con validación de permisos por rol. | 5 | Montes Zamora, Edgar Alexander Mauricio | Done |
-| TS-06 | Endpoint de registro y consulta de datos biométricos | T3-04 | Implementación del endpoint POST /api/v1/biometric-records | Implementar el endpoint para el registro de nuevas mediciones biométricas del personal clínico (frecuencia cardiaca, horas de sueño, actividad física), con validación de campos y asociación al perfil del personal. | 5 | Garcia Villanueva, Leonardo Rafael | Done |
-| TS-06 | Endpoint de registro y consulta de datos biométricos | T3-05 | Implementación del endpoint GET /api/v1/biometric-records/{staffId} | Implementar el endpoint de consulta del historial de mediciones biométricas registradas para un miembro del personal clínico identificado por su ID. | 3 | Garcia Villanueva, Leonardo Rafael | Done |
-| TS-07 | Endpoint de cálculo y consulta del Fatigue Score | T3-06 | Implementación del algoritmo de cálculo del Fatigue Score | Desarrollar la lógica de cálculo del Fatigue Score a partir de los datos biométricos y de turnos registrados, determinando el nivel de fatiga acumulada del personal clínico. | 5 | Garcia Villanueva, Leonardo Rafael | Done |
-| TS-07 | Endpoint de cálculo y consulta del Fatigue Score | T3-07 | Implementación del endpoint GET /api/v1/fatigue-score/{staffId} | Exponer el resultado del cálculo del Fatigue Score mediante el endpoint REST, habilitando su consumo desde el frontend para la visualización del nivel de fatiga por perfil. | 3 | Garcia Villanueva, Leonardo Rafael | Done |
-| TS-08 | Endpoint de gestión de alertas preventivas | T3-08 | Implementación de endpoints GET y POST /api/v1/alerts | Desarrollar los endpoints para la consulta y generación de alertas preventivas vinculadas al nivel de fatiga detectado en el personal clínico, con filtrado por tipo de alerta y estado. | 5 | Garcia Villanueva, Leonardo Rafael | Done |
-| TS-09 | Endpoint de historial de evaluaciones de fatiga | T3-09 | Implementación del endpoint GET /api/v1/evaluations/history/{staffId} | Implementar el endpoint para que supervisores y personal médico puedan consultar el registro histórico de evaluaciones de fatiga asociadas a un miembro del personal. | 3 | Lozano Leon, Richard Enrique | Done |
-| TS-10 | Documentación de API con Swagger/OpenAPI | T3-10 | Configuración de Swagger UI en el proyecto Spring Boot | Integrar la dependencia springdoc-openapi en el proyecto Spring Boot para generar automáticamente la documentación interactiva de los endpoints y permitir su prueba desde la interfaz de Swagger UI. | 3 | Lozano Leon, Richard Enrique | Done |
-| TS-11 | Despliegue del Web Service en la nube | T3-11 | Configuración y despliegue del backend en proveedor cloud | Configurar el proyecto Spring Boot para su despliegue en un proveedor en la nube (Railway / Render), incluyendo variables de entorno, base de datos en la nube y exposición pública de los endpoints REST. | 5 | León Morales, Johan Yonel | Done |
-| US-14 | Integración del frontend con el Web Service | T3-12 | Integración de servicios Angular con la API REST de VitalWatch | Actualizar los servicios HTTP en el frontend Angular para consumir los endpoints del Web Service desplegado, reflejando datos reales del backend en las vistas de supervisor y personal médico. | 5 | Güere Calero, Fernando Julio | Done |
+| TS-04 | Endpoint de registro e inicio de sesión (IAM) | T3-01 | Implementación de endpoints de autenticación con JWT | Desarrollar los endpoints POST /api/v1/auth/register y POST /api/v1/auth/login en el bounded context de IAM, incluyendo validación de datos, persistencia del usuario y generación de token JWT. | 5 | Montes Zamora, Edgar Alexander Mauricio | Done |
+| TS-05 | Endpoint de gestión de perfil del personal clínico | T3-02 | Implementación de endpoints CRUD de perfil del personal | Desarrollar los endpoints GET, PUT y DELETE /api/v1/staff/{id} para la gestión del perfil del personal clínico registrado, con validación de permisos por rol. | 4 | Montes Zamora, Edgar Alexander Mauricio | Done |
+| TS-06 | Endpoint de registro y consulta de datos biométricos | T3-03 | Implementación de endpoints POST y GET /api/v1/biometric-records | Implementar el endpoint de registro de mediciones biométricas (frecuencia cardiaca, horas de sueño, actividad física) y el de consulta histórica por ID de personal clínico. | 4 | Garcia Villanueva, Leonardo Rafael | Done |
+| TS-07 | Endpoint de cálculo y consulta del Fatigue Score | T3-04 | Implementación del algoritmo de Fatigue Score y su endpoint | Desarrollar la lógica de cálculo del Fatigue Score a partir de los datos biométricos y de turnos, y exponerlo mediante GET /api/v1/fatigue-score/{staffId} para su consumo desde el frontend. | 4 | Garcia Villanueva, Leonardo Rafael | Done |
+| TS-08 | Endpoint de gestión de alertas preventivas | T3-05 | Implementación de endpoints GET y POST /api/v1/alerts | Desarrollar los endpoints para la consulta y generación de alertas preventivas vinculadas al nivel de fatiga del personal clínico, con filtrado por tipo de alerta y estado. | 4 | Garcia Villanueva, Leonardo Rafael | Done |
+| TS-09 | Endpoint de historial de evaluaciones de fatiga | T3-06 | Implementación del endpoint GET /api/v1/evaluations/history/{staffId} | Implementar el endpoint para la consulta del historial de evaluaciones de fatiga asociadas a un miembro del personal, accesible para supervisores y personal médico. | 3 | Montes Zamora, Edgar Alexander Mauricio | Done |
+| TS-10 | Documentación de API con Swagger/OpenAPI | T3-07 | Configuración de Swagger UI y documentación de endpoints | Integrar la dependencia springdoc-openapi en el proyecto Spring Boot, configurar la interfaz de Swagger UI y documentar los endpoints principales del Web Service para facilitar su revisión y prueba. | 3 | Güere Calero, Fernando Julio | Done |
+| TS-11 | Despliegue del Web Service en la nube | T3-08 | Configuración y despliegue del backend en proveedor cloud | Configurar el proyecto Spring Boot para su despliegue en Railway/Render, gestionando variables de entorno, conexión con la base de datos en la nube y exposición pública de los endpoints REST. | 4 | Lozano Leon, Richard Enrique | Done |
+| US-14 | Integración del frontend con el Web Service | T3-09 | Integración de servicios Angular con la API REST de VitalWatch | Actualizar los servicios HTTP en el frontend Angular para consumir los endpoints del Web Service desplegado, reflejando datos reales del backend en las vistas de supervisor y personal médico. | 4 | León Morales, Johan Yonel | Done |
+
+**Board del Sprint 3 en Trello:**  
+Aquí se presenta el tablero utilizado para organizar y dar seguimiento a las tareas correspondientes al Sprint 2.
+
+<p align="center">
+  <img src="Resources/Images/StyleGuidelines/Spring_3.png" alt="Board del Sprint 3 en Trello" width="900"/>
+  <br>
+  <i>Figura del Board del Sprint 3 de VitalWatch en Trello.</i>
+</p>
+
+**URL del board:**  
+[Enlace del Trello para el Spring 3](https://trello.com/invite/b/6a3477e47266b2a1ab91694b/ATTI145bc31fe6087748eb7097d95ea705ee9552EA33/vitalwatch-sprint-3)
+
 
 ## 5.3. Validation Interviews.
 
@@ -3297,7 +3307,7 @@ Las claves técnicas no permiten que el usuario comprenda fácilmente el propós
 
 <p align="center">
   <img src="Resources/Images/Mockups/ProblemaTraduccion.png" alt="Heuristicas" width="500"/>
-  <br/><i>Evidencia de heuristica** </i>
+  <br/><i>Evidencia de heuristica </i>
 </p>
 
 **Recomendación:**  
