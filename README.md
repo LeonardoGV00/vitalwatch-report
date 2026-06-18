@@ -2969,7 +2969,59 @@ Es decir, aunque aún no existe una implementación final de servicios, el Sprin
 
 #### 5.2.2.8. Team Collaboration Insights during Sprint.
 
+### 5.2.3. Sprint 3
 
+El Sprint 3 marcó el inicio del desarrollo del Web Service de VitalWatch, la capa de backend de la solución. Durante esta iteración el equipo se concentró en la construcción de la RESTful API con Spring Boot, implementando los principales bounded contexts del sistema: Gestión de Identidad y Acceso (IAM), Monitoreo de Fatiga y Alertas Preventivas. Paralelamente se actualizó la Web Application para integrarla con los endpoints desarrollados y se realizó el despliegue conjunto de los tres componentes de la solución: Landing Page, Web Application y Web Service; con el objetivo de contar con una primera versión operativa del producto completo accesible en entorno de producción.
+
+#### 5.2.3.1. Sprint Planning 3.
+
+| Sprint # | Sprint 3 |
+|---|---|
+| **Sprint Planning Background** |  |
+| Date | 2026-06-16 |
+| Time | 09:00 PM |
+| Location | Reunión virtual realizada a través de Discord |
+| Prepared By | Güere Calero, Fernando Julio |
+| Attendees (to planning meeting) | Montes Zamora, Edgar Alexander Mauricio<br>Güere Calero, Fernando Julio<br>León Morales, Johan Yonel<br>Garcia Villanueva, Leonardo Rafael<br>Lozano Leon, Richard Enrique |
+| **Sprint Goal & User Stories** |  |
+| Sprint 2 Review Summary | Durante el Sprint 2 se logró desarrollar la primera versión funcional de la Web Application de VitalWatch con Angular, implementando vistas iniciales para los roles de supervisor y personal médico, junto con mejoras en la landing page relacionadas con el formulario de contacto y la adaptación responsive. El equipo avanzó en la configuración del entorno frontend, integración de Angular Material, habilitación de la internacionalización y la estructura inicial de autenticación en el cliente. |
+| Sprint 2 Retrospective Summary | Como parte de la retrospectiva del Sprint 2, el equipo reconoció como acierto la arquitectura modular adoptada en Angular, que facilita la integración futura con el backend. Como área de mejora se identificó la necesidad de definir los contratos de la API con mayor anticipación antes de iniciar el desarrollo del cliente, con el fin de evitar refactorizaciones en el frontend durante el siguiente sprint. |
+| Sprint 3 Goal | Nuestro enfoque está en desarrollar y desplegar la primera versión del Web Service de VitalWatch como RESTful API con Spring Boot, implementando los bounded contexts de Gestión de Identidad, Monitoreo de Fatiga y Alertas Preventivas. Creemos que esto brindará a supervisores y personal clínico una solución operativa completa con backend funcional, accesible desde la Web Application ya existente. Esto se confirmará cuando el Web Service esté correctamente desplegado en la nube, los principales endpoints respondan exitosamente y la Web Application consuma la API mostrando datos reales del sistema. |
+| Sprint 3 Velocity | 35 |
+| Sum of Story Points | 35 |
+
+#### 5.2.3.2. Aspect Leaders and Collaborators.
+
+En esta sección se determinan los aspectos prioritarios que enmarcan el alcance del Sprint 3, especificando el integrante del equipo que asumió el rol de liderazgo en cada aspecto y quiénes actuaron como colaboradores. Para este sprint los aspectos priorizados son: la planificación y documentación del sprint, el desarrollo del bounded context de Gestión de Identidad y Acceso (IAM) en el backend, el desarrollo del bounded context de Monitoreo de Fatiga y Alertas Preventivas en el backend, la integración del frontend Angular con el Web Service desplegado, y la configuración del despliegue en la nube para los tres productos digitales de VitalWatch.
+
+| Team Member (Last Name, First Name) | GitHub Username | Sprint Planning and Documentation Leader (L) / Collaborator (C) | IAM Backend Development Leader (L) / Collaborator (C) | Fatigue Monitoring & Alerts Backend Leader (L) / Collaborator (C) | Frontend-Backend Integration Leader (L) / Collaborator (C) | Cloud Deployment Configuration Leader (L) / Collaborator (C) |
+|---|---|---|---|---|---|---|
+| Montes Zamora, Edgar Alexander Mauricio | Zenkit0 | C | L | C | C | C |
+| Güere Calero, Fernando Julio | FerG17 | L | C | C | C | C |
+| León Morales, Johan Yonel | TheCap213 | C | C | C | L | C |
+| Garcia Villanueva, Leonardo Rafael | LeonardoGV00 | C | C | L | C | C |
+| Lozano Leon, Richard Enrique | AikoLz | C | C | C | C | L |
+
+#### 5.2.3.3. Sprint Backlog 3.
+
+El Sprint Backlog 3 consolida las technical stories y user stories priorizadas para el desarrollo del Web Service de VitalWatch y su integración con los componentes ya existentes. En esta iteración el equipo se enfocó en implementar los endpoints RESTful correspondientes a los bounded contexts de Gestión de Identidad y Acceso, Monitoreo de Fatiga y Alertas Preventivas, empleando Spring Boot y Java como tecnologías base. Se contempló además la integración del frontend Angular con la API desarrollada, la documentación de los endpoints con Swagger/OpenAPI y la configuración del despliegue del Web Service en un proveedor en la nube. Al cierre del sprint, los tres componentes de la solución (Landing Page, Web Application y Web Service) deben quedar desplegados y operativos.
+
+| Sprint # | Sprint 3 |  |  |  |  |  |  |
+|---|---|---|---|---|---|---|---|
+| **User Story** |  | **Work-Item / Task** |  |  |  |  |  |
+| Id | Title | Id | Title | Descripcion | Estimation (Hours) | Assigned To | Status (To-do / In-Process / To-Review / Done) |
+| TS-04 | Endpoint de registro e inicio de sesión (IAM) | T3-01 | Implementación del endpoint POST /api/v1/auth/register | Desarrollar el endpoint de registro de usuario en el bounded context de IAM, incluyendo validación de datos de entrada y persistencia del nuevo usuario en la base de datos. | 5 | Montes Zamora, Edgar Alexander Mauricio | Done |
+| TS-04 | Endpoint de registro e inicio de sesión (IAM) | T3-02 | Implementación del endpoint POST /api/v1/auth/login y generación de token JWT | Desarrollar el endpoint de inicio de sesión con validación de credenciales y generación de token JWT para su uso en los endpoints protegidos del Web Service. | 4 | Montes Zamora, Edgar Alexander Mauricio | Done |
+| TS-05 | Endpoint de gestión de perfil del personal clínico | T3-03 | Implementación de endpoints CRUD de perfil del personal | Desarrollar los endpoints GET, PUT y DELETE /api/v1/staff/{id} para la gestión del perfil del personal clínico registrado en el sistema, con validación de permisos por rol. | 5 | Montes Zamora, Edgar Alexander Mauricio | Done |
+| TS-06 | Endpoint de registro y consulta de datos biométricos | T3-04 | Implementación del endpoint POST /api/v1/biometric-records | Implementar el endpoint para el registro de nuevas mediciones biométricas del personal clínico (frecuencia cardiaca, horas de sueño, actividad física), con validación de campos y asociación al perfil del personal. | 5 | Garcia Villanueva, Leonardo Rafael | Done |
+| TS-06 | Endpoint de registro y consulta de datos biométricos | T3-05 | Implementación del endpoint GET /api/v1/biometric-records/{staffId} | Implementar el endpoint de consulta del historial de mediciones biométricas registradas para un miembro del personal clínico identificado por su ID. | 3 | Garcia Villanueva, Leonardo Rafael | Done |
+| TS-07 | Endpoint de cálculo y consulta del Fatigue Score | T3-06 | Implementación del algoritmo de cálculo del Fatigue Score | Desarrollar la lógica de cálculo del Fatigue Score a partir de los datos biométricos y de turnos registrados, determinando el nivel de fatiga acumulada del personal clínico. | 5 | Garcia Villanueva, Leonardo Rafael | Done |
+| TS-07 | Endpoint de cálculo y consulta del Fatigue Score | T3-07 | Implementación del endpoint GET /api/v1/fatigue-score/{staffId} | Exponer el resultado del cálculo del Fatigue Score mediante el endpoint REST, habilitando su consumo desde el frontend para la visualización del nivel de fatiga por perfil. | 3 | Garcia Villanueva, Leonardo Rafael | Done |
+| TS-08 | Endpoint de gestión de alertas preventivas | T3-08 | Implementación de endpoints GET y POST /api/v1/alerts | Desarrollar los endpoints para la consulta y generación de alertas preventivas vinculadas al nivel de fatiga detectado en el personal clínico, con filtrado por tipo de alerta y estado. | 5 | Garcia Villanueva, Leonardo Rafael | Done |
+| TS-09 | Endpoint de historial de evaluaciones de fatiga | T3-09 | Implementación del endpoint GET /api/v1/evaluations/history/{staffId} | Implementar el endpoint para que supervisores y personal médico puedan consultar el registro histórico de evaluaciones de fatiga asociadas a un miembro del personal. | 3 | Lozano Leon, Richard Enrique | Done |
+| TS-10 | Documentación de API con Swagger/OpenAPI | T3-10 | Configuración de Swagger UI en el proyecto Spring Boot | Integrar la dependencia springdoc-openapi en el proyecto Spring Boot para generar automáticamente la documentación interactiva de los endpoints y permitir su prueba desde la interfaz de Swagger UI. | 3 | Lozano Leon, Richard Enrique | Done |
+| TS-11 | Despliegue del Web Service en la nube | T3-11 | Configuración y despliegue del backend en proveedor cloud | Configurar el proyecto Spring Boot para su despliegue en un proveedor en la nube (Railway / Render), incluyendo variables de entorno, base de datos en la nube y exposición pública de los endpoints REST. | 5 | León Morales, Johan Yonel | Done |
+| US-14 | Integración del frontend con el Web Service | T3-12 | Integración de servicios Angular con la API REST de VitalWatch | Actualizar los servicios HTTP en el frontend Angular para consumir los endpoints del Web Service desplegado, reflejando datos reales del backend en las vistas de supervisor y personal médico. | 5 | Güere Calero, Fernando Julio | Done |
 
 ## 5.3. Validation Interviews.
 
