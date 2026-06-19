@@ -34,14 +34,15 @@
 
 <div align="justify">
 
-|**Versión**|**Fecha**|**Autor**|**Descripción de modificación**|
+| **Versión** | **Fecha** | **Autor** | **Descripción de modificación** |
 | - | - | - | - |
-|1\.0|10/04/2026|Johan Yonel León Morales|Se agregó la estructura inicial del proyecto|
-|1\.1\.1|10/04/2026|Johan Yonel León Morales|Se agregaron los perfiles de los integrantes del equipo|
-|1\.2\.0|20/04/2026|Edgar Alexander Mauricio Montes Zamora<br>Fernando Julio Güere Calero<br>Johan Yonel León Morales<br>Leonardo Rafael Garcia Villanueva<br>Richard Enrique Lozano Leon|Se agregaron los capítulos I, II, III, IV, un avance del capítulo V hasta el punto 5.2.1.8|
-|1\.3\.0|23/04/2026|Edgar Alexander Mauricio Montes Zamora<br>Fernando Julio Güere Calero<br>Johan Yonel León Morales<br>Leonardo Rafael Garcia Villanueva<br>Richard Enrique Lozano Leon|Se culminó con los capítulos I, II, III, IV y el avance del capítulo V, correspondientes al AV1|
-|1\.4\.0|12/05/2026|Edgar Alexander Mauricio Montes Zamora<br>Fernando Julio Güere Calero<br>Johan Yonel León Morales<br>Leonardo Rafael Garcia Villanueva<br>Richard Enrique Lozano Leon|Se corrigieron las observaciones realizadas a los capítulos I, II, III, IV y se añadió el Sprint 2 en el capítulo V|
-|2\.0\.0|12/05/2026|Edgar Alexander Mauricio Montes Zamora<br>Fernando Julio Güere Calero<br>Johan Yonel León Morales<br>Leonardo Rafael Garcia Villanueva<br>Richard Enrique Lozano Leon|Se modificó la landing page, frontend y se añadió el Sprint 3 en el capítulo V|
+| 1\.0 | 10/04/2026 | Johan Yonel León Morales | Se agregó la estructura inicial del proyecto |
+| 1\.1\.1 | 10/04/2026 | Johan Yonel León Morales | Se agregaron los perfiles de los integrantes del equipo |
+| 1\.2\.0 | 20/04/2026 | Edgar Alexander Mauricio Montes Zamora<br>Fernando Julio Güere Calero<br>Johan Yonel León Morales<br>Leonardo Rafael Garcia Villanueva<br>Richard Enrique Lozano Leon | Se agregaron los capítulos I, II, III, IV, un avance del capítulo V hasta el punto 5.2.1.8 |
+| 1\.3\.0 | 23/04/2026 | Edgar Alexander Mauricio Montes Zamora<br>Fernando Julio Güere Calero<br>Johan Yonel León Morales<br>Leonardo Rafael Garcia Villanueva<br>Richard Enrique Lozano Leon | Se culminó con los capítulos I, II, III, IV y el avance del capítulo V, correspondientes al AV1 |
+| 1\.4\.0 | 12/05/2026 | Edgar Alexander Mauricio Montes Zamora<br>Fernando Julio Güere Calero<br>Johan Yonel León Morales<br>Leonardo Rafael Garcia Villanueva<br>Richard Enrique Lozano Leon | Se corrigieron las observaciones realizadas a los capítulos I, II, III, IV y se añadió el Sprint 2 en el capítulo V |
+| 2\.0\.0 | 12/05/2026 | Edgar Alexander Mauricio Montes Zamora<br>Fernando Julio Güere Calero<br>Johan Yonel León Morales<br>Leonardo Rafael Garcia Villanueva<br>Richard Enrique Lozano Leon | Se modificó la landing page, frontend y se añadió el Sprint 3 en el capítulo V |
+| 3\.0\.0 | 18/06/2026 | Edgar Alexander Mauricio Montes Zamora<br>Fernando Julio Güere Calero<br>Johan Yonel León Morales<br>Leonardo Rafael Garcia Villanueva<br>Richard Enrique Lozano Leon | Se desarrolló e integró el Web Service de VitalWatch con Spring Boot, se desplegaron los tres componentes de la solución (Landing Page, Web Application y Web Service) y se documentó el Sprint 3 en el capítulo V |
 </div><br><br>
 
 
@@ -49,12 +50,16 @@
 
 # Project Report Collaboration Insights
 
-URL de Organización de GITHUB del equipo VitaSync:
-https://github.com/upc-pre-202610-1asi0729-17952-VitaSync
+URL de Organización de GITHUB del equipo VitaSync: https://github.com/upc-pre-202610-1asi0729-17952-VitaSync
 
 URL de Repositorio del Project Report: https://github.com/upc-pre-202610-1asi0729-17952-VitaSync/vitalwatch-report
 
-URL de la Landing Page: https://upc-pre-202610-1asi0729-17952-vitasync.github.io/vitalwatch-website/
+URL de la Landing Page: https://vitalwatch.space/
+
+URL de la Aplicacion Web: https://app.vitalwatch.space/sign-in
+
+URL del Backend: https://vitalwatch-platform.onrender.com/swagger-ui/index.html
+
 
 <strong>*Entrega AV1:*</strong> Para este avance el equipo se organizó tanto presencialmente como mediante un grupo de WhatsApp y llamadas por Google Meet y Discord, se envió un documento de asignación de actividades y tareas a realizar por cada integrante del equipo, así como también las que se tenian que realizar en grupo, se acordó que cada avance significativo y completo o corrección tenga que agregarse al repositorio de GitHub, todos participaron equitativamente.
 A continuación los gráficos de analíticos de colaboración en GitHub, considerando únicamente hasta el 20 de abril.
@@ -3006,6 +3011,10 @@ Durante el Sprint 2 se logró desarrollar una primera versión funcional de la W
 	<i>Aplicación Web desplegada de VitalWatch.</i>
 </p>
 
+Link de la landing paeg: https://vitalwatch.space/
+<br>
+Link de la Aplicación Web: https://app.vitalwatch.space/sign-in
+
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review.
 
 En el Sprint en cuestión no se han generado Web Services ni se han implementado integraciones completas con servicios externos ya que el focus fue exclusivamente en poder desarrollar y validar la Front-End Application. En cambio sí se ha dejado lista la estructura base del proyecto para que, en los siguientes sprints, se conecten servicios y fuentes de datos de una manera más sencilla.
@@ -3199,8 +3208,14 @@ La siguiente tabla presenta los commits más relevantes registrados en el reposi
 Estos commits demuestran que durante el Sprint 3 se construyó la primera versión funcional del Web Service de VitalWatch. El trabajo comenzó con la configuración del proyecto base y la implementación progresiva de los bounded contexts del sistema aplicando arquitectura por capas (dominio, aplicación, infraestructura e interfaces REST). En la etapa final del sprint se habilitó la integración con el frontend mediante la exposición de endpoints compatibles con los contratos del cliente Angular, la configuración de CORS y la preparación del entorno de despliegue con Docker y perfil de producción, dejando el Web Service listo para ser consumido desde la Web Application.
 
 #### 5.2.3.5. Execution Evidence for Sprint Review.
+Durante el Sprint 3 se logró desarrollar e integrar la primera versión funcional del Web Service de VitalWatch. En esta iteración se implementaron los principales bounded contexts del sistema —Gestión de Identidad y Acceso, Perfiles, Riesgo Clínico, Turnos, Recuperación del Personal y Auditoría— exponiendo sus endpoints REST mediante una API documentada con Swagger UI, y dejando el backend desplegado y operativo para su consumo desde la Web Application.
 
-
+<p align="center">
+  <img src="Resources/Images/Execution Evidence for Sprint Review/evidence_sprint_3.jpeg" alt="Execution Evidence for Sprint Review del Sprint 3" width="900"/>
+  <br>
+	<i>Backend desplegada de VitalWatch.</i>
+</p>
+Link del backend desplegada: https://vitalwatch-platform.onrender.com/swagger-ui/index.html
 
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review.
 
@@ -3244,6 +3259,16 @@ A continuación se presentan los principales endpoints implementados, organizado
 La documentación completa de cada endpoint (incluyendo esquemas de request/response, validaciones y códigos de error) se encuentra disponible en la interfaz de Swagger UI del Web Service desplegado.
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review.
+
+<p align="center">
+  <img src="Resources/Images/Deploy/deploy_sprint_3.jpeg" alt="Deployment Evidence for Sprint Review del Sprint 3" width="900"/>
+  <br>
+</p>
+<p align="center">
+  <img src="Resources/Images/Deploy/deploy_sprint_3_1.jpeg" alt="Execution Evidence for Sprint Review del Sprint 3" width="900"/>
+  <br>
+	<i>Backend desplegada de VitalWatch.</i>
+</p>
 
 
 
@@ -3465,17 +3490,6 @@ Resumen de la entrevista
 
 ***Enlace del video:*** [Ver grabación aquí]()
 
-
-
-
-
-
-
-
-
-
-
-
 ### 5.3.3. Evaluaciones según heurísticas.
 
 ### UX Heuristics & Principles Evaluation
@@ -3573,6 +3587,11 @@ Aplicar validaciones tanto en el frontend como en el backend. Se recomienda incl
 
 
 ## 5.4. Video About-the-Product.
+<p align="center">
+  <img src="Resources/Images/Execution Evidence for Sprint Review/landing_evidence.png" alt="Execution Evidence for Sprint Review del Sprint 2" width="900"/>
+  <br>
+	<i>Video About the Product </i>
+</p>
 
 ---
 # Conclusiones
@@ -3582,6 +3601,13 @@ En la elaboración del proyecto VitalWatch, se abordó la problemática de la fa
 Además, se realizaron diferentes actividades como entrevistas a usuarios, análisis competitivo, definición de user stories y el uso de Domain Driven Design, lo que permitió identificar los bounded contexts y estructurar el sistema de manera clara mediante diagramas C4.
 
 Con esto se pudo validar que la solución propuesta responde a una necesidad real, mostrando que el monitoreo de fatiga y la generación de alertas pueden contribuir a una mejor gestión del personal y a la prevención de riesgos en el sector de salud.
+
+A lo largo del ciclo de desarrollo del proyecto, el equipo logró consolidar una solución de tres capas completamente funcional y desplegada: una Landing Page que comunica la propuesta de valor de VitalWatch a los segmentos objetivo, una Web Application desarrollada en Angular que permite a supervisores y personal médico interactuar con el sistema, y un Web Service construido con Spring Boot que centraliza la lógica de negocio y expone los datos a través de una RESTful API documentada con Swagger UI. Este resultado evidencia la capacidad del equipo para llevar un producto desde su concepción hasta un estado operativo en producción.
+
+La adopción de Domain Driven Design como base arquitectónica resultó clave para estructurar el backend de manera escalable y coherente. La separación en bounded contexts —Gestión de Identidad y Acceso, Perfiles, Riesgo Clínico, Turnos, Recuperación del Personal, Auditoría y Suscripciones— permitió que cada área de la solución evolucionara de forma independiente, facilitó la distribución del trabajo entre los integrantes del equipo y sentó las bases para futuras ampliaciones del sistema sin comprometer la integridad del modelo de dominio.
+
+Finalmente, el proceso de integración entre el frontend Angular y el Web Service de Spring Boot evidenció la importancia de definir los contratos de la API con anticipación y de mantener una comunicación técnica constante entre los miembros del equipo. La configuración de CORS, la gestión de variables de entorno, el uso de Docker para el despliegue y la validación de respuestas mediante Swagger UI fueron aspectos que reforzaron las competencias técnicas del equipo en el desarrollo de software orientado a entornos reales. VitalWatch se presenta, al cierre de esta etapa, como una solución viable, documentada y desplegada, con potencial de escalar hacia una plataforma de monitoreo clínico de mayor alcance.
+
 
 # Bibliografía
 Castro Arévalo, N., & Saavedra Leveau, C. A. (2025). Burnout en profesionales de la salud en Tacna. *Newman Business Review, 11*(2), 29–44. 
