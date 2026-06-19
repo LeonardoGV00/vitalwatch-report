@@ -204,8 +204,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
       <h3>León Morales, Johan Yonel</h3>
         <b>AV1</b><p>Durante el desarrollo de este avance, gestione la participacion grupal en la elaboración de las secciones como Style Guidelines y como Domain-Driven Software Architecture, contribuyendo tanto en el diseño visual como en la estructuración lógica del sistema.</p>
         <b>TB1</b><p>Durante este entregable, participé en reuniones grupales donde expuse las correcciones realizadas en el Event Storming y en el diagrama C4, explicando los cambios efectuados en la arquitectura y estructura del sistema. Asimismo, colaboré en el desarrollo de la web application, manteniendo una comunicación constante con el equipo para coordinar tareas, resolver dudas y asegurar una adecuada integración de los avances realizados.</p>
-        <!--<b>AV2</b><p></p>
-        <b>TB2</b><p></p>-->
+        <b>AV2</b><p>Durante este avance, coordiné y expliqué al equipo el proceso de despliegue de la Landing Page y la Web Application en Azure, así como la configuración de dominios personalizados y el uso de Resend para el envío de invitaciones. Además, comuniqué los avances realizados en algunos bounded contexts del backend, aclarando su relación con la arquitectura e integración del sistema.</p>
+         <!--<b>TB2</b><p></p>-->
       <h3>Garcia Villanueva, Leonardo Rafael</h3>
         <b>AV1</b><p>Durante el desarrollo del avance tuve una participación constante en reuniones grupales presenciales en la universidad con el equipo y en reuniones virtuales mediante Google Meet y Discord. En estas reuniones comparti ideas para el proyecto, consulte si mis avances podian mejorarse y ayude en la coordinación de las actividades para el proyecto.</p>
         <b>TB1</b><p>En el desarrollo de este avance continué participando de forma activa en reuniones grupales presenciales en la universidad y en reuniones virtuales vía Google Meet, donde compartí mis análisis y propuestas para corregir las observaciones realizadas al avance anterior, así como también, compartí mis avances para recibir sugerencias y ayudé a coordinar y determinar las tareas necesarias para la elaboración de esta entrega.</p>
@@ -240,10 +240,9 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <b>TB2</b><p></p>-->
       <h3>León Morales, Johan Yonel</h3>
         <b>AV1</b><p>Durante el desarrollo de este avance, empleé WhatsApp para generalmente poder coordinar las actividades y coordinación de las reuniones. Esta herramienta hizo que se facilite el levantamiento de dudas y atender consultas de los demás miembros del equipo.</p>
-        <h3>León Morales, Johan Yonel</h3>
 <b>TB1</b><p>Durante la elaboración de este entregable, utilicé herramientas de comunicación escrita como WhatsApp y Discord para coordinar las correcciones del Event Storming y del diagrama C4, así como para compartir avances relacionados con el desarrollo de la web application. Además, atendí consultas y brindé sugerencias al equipo de manera clara y organizada para facilitar el cumplimiento de las actividades propuestas.</p>
-        <!--<b>AV2</b><p></p>
-        <b>TB2</b><p></p>-->
+        <b>AV2</b><p>Durante este entregable, empleé WhatsApp, Discord y GitHub para comunicar avances, compartir configuraciones y coordinar tareas relacionadas con el despliegue de la Landing Page, la Web Application y el backend. También registré indicaciones sobre dominios, variables de entorno y servicios externos, permitiendo que el equipo comprenda los cambios realizados y continúe el desarrollo de manera organizada.</p>
+        <!--<b>TB2</b><p></p>-->
       <h3>Garcia Villanueva, Leonardo Rafael</h3>
         <b>AV1</b><p>En el desarrollo de este entregable, utilicé WhatsApp para coordinar actividades, realizar preguntas y responder dudas de mis compañeros. Además contribuí con la gestión de las tareas y la continuidad del trabajo.</p>
         <b>TB1</b><p>Durante el desarrollo de este avance continué utilizando WhatsApp para mantener una comunicación constante por escrito con los miembros del equipo, donde compartí mis avances para recibir sugerencias y ayudé a coordinar las actividades relacionadas con las correcciones del avance anterior y la elaboración de este avance, así como también comuniqué mis sugerencias y respondí algunas dudas de forma clara y directa.</p>
