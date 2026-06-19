@@ -1,4 +1,5 @@
-	<div align="center">
+<div align="center">
+
 <img src="Resources/UPC_logo.png"></img><br>
 
 
