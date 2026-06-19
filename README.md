@@ -2963,7 +2963,43 @@ Estos commits demuestran que el sprint permitió construir una primera versión 
 
 #### 5.2.2.5. Execution Evidence for Sprint Review.
 
+Durante el Sprint 2 se logró desarrollar una primera versión funcional de la Web Application de VitalWatch. En esta iteración se implementaron las principales vistas orientadas a los roles de supervisor y personal médico, incluyendo el dashboard de supervisión, monitoreo de personal en riesgo, gestión de alertas, registro de acciones preventivas, historial clínico y configuración de cuenta, sentando las bases del frontend para su futura integración con el backend.
 
+<p align="center">
+  <img src="Resources/Images/Execution Evidence for Sprint Review/landing_evidence.png" alt="Execution Evidence for Sprint Review del Sprint 2" width="900"/>
+  <br>
+</p>
+<p align="center">
+  <img src="Resources/Images/Execution Evidence for Sprint Review/landing_evidence_2.png" alt="Execution Evidence for Sprint Review del Sprint 2" width="900"/>
+  <br>
+</p>
+<p align="center">
+  <img src="Resources/Images/Execution Evidence for Sprint Review/landing_evidence_3.png" alt="Execution Evidence for Sprint Review del Sprint 2" width="900"/>
+  <br>
+</p>
+<p align="center">
+  <img src="Resources/Images/Execution Evidence for Sprint Review/landing_evidence_4.png" alt="Execution Evidence for Sprint Review del Sprint 2" width="900"/>
+  <br>
+	<i>Landing page desplegada de VitalWatch.</i>
+</p>
+
+<p align="center">
+  <img src="Resources/Images/Execution Evidence for Sprint Review/app_web_evidence.png" alt="Execution Evidence for Sprint Review del Sprint 2" width="900"/>
+  <br>
+</p>
+<p align="center">
+  <img src="Resources/Images/Execution Evidence for Sprint Review/app_web_evidence_2.png" alt="Execution Evidence for Sprint Review del Sprint 2" width="900"/>
+  <br>
+</p>
+<p align="center">
+  <img src="Resources/Images/Execution Evidence for Sprint Review/app_web_evidence_3.png" alt="Execution Evidence for Sprint Review del Sprint 2" width="900"/>
+  <br>
+</p>
+<p align="center">
+  <img src="Resources/Images/Execution Evidence for Sprint Review/app_web_evidence_4.png" alt="Execution Evidence for Sprint Review del Sprint 2" width="900"/>
+  <br>
+	<i>Aplicación Web desplegada de VitalWatch.</i>
+</p>
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review.
 
@@ -2974,6 +3010,78 @@ Es decir, aunque aún no existe una implementación final de servicios, el Sprin
 
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review.
 
+<p align="center">
+  <img src="Resources/Images/Deploy/sprint-2-1.jpeg" alt="Deployment Evidence for Sprint Review del Sprint 2" width="900"/>
+  <br>
+</p>
+<p align="center">
+  <img src="Resources/Images/Deploy/sprint-2-2.jpeg" alt="Deployment Evidence for Sprint Review del Sprint 2" width="900"/>
+  <br>
+</p>
+<p align="center">
+  <img src="Resources/Images/Deploy/sprint-2-3.jpeg" alt="Deployment Evidence for Sprint Review del Sprint 2" width="900"/>
+  <br>
+</p>
+<p align="center">
+  <img src="Resources/Images/Deploy/sprint-2-4.jpeg" alt="Deployment Evidence for Sprint Review del Sprint 2" width="900"/>
+  <br>
+</p>
+<p align="center">
+  <img src="Resources/Images/Deploy/sprint-2-5.jpeg" alt="Deployment Evidence for Sprint Review del Sprint 2" width="900"/>
+  <br>
+</p>
+<p align="center">
+  <img src="Resources/Images/Deploy/sprint-2-6.jpeg" alt="Deployment Evidence for Sprint Review del Sprint 2" width="900"/>
+  <br>
+</p>
+<p align="center">
+  <img src="Resources/Images/Deploy/sprint-2-7.jpeg" alt="Deployment Evidence for Sprint Review del Sprint 2" width="900"/>
+  <br>
+</p>
+<p align="center">
+  <img src="Resources/Images/Deploy/sprint-2-8.jpeg" alt="Deployment Evidence for Sprint Review del Sprint 2" width="900"/>
+  <br>
+</p>
+<p align="center">
+  <img src="Resources/Images/Deploy/sprint-2-9.jpeg" alt="Deployment Evidence for Sprint Review del Sprint 2" width="900"/>
+  <br>
+</p>
+<p align="center">
+  <img src="Resources/Images/Deploy/sprint-2-10.jpeg" alt="Deployment Evidence for Sprint Review del Sprint 2" width="900"/>
+  <br>
+</p>
+<p align="center">
+  <img src="Resources/Images/Deploy/sprint-2-11.jpeg" alt="Deployment Evidence for Sprint Review del Sprint 2" width="900"/>
+  <br>
+</p>
+<p align="center">
+  <img src="Resources/Images/Deploy/sprint-2-12.jpeg" alt="Deployment Evidence for Sprint Review del Sprint 2" width="900"/>
+  <br>
+</p>
+<p align="center">
+  <img src="Resources/Images/Deploy/sprint-2-13.jpeg" alt="Deployment Evidence for Sprint Review del Sprint 2" width="900"/>
+  <br>
+</p>
+<p align="center">
+  <img src="Resources/Images/Deploy/sprint-2-14.jpeg" alt="Deployment Evidence for Sprint Review del Sprint 2" width="900"/>
+  <br>
+</p>
+<p align="center">
+  <img src="Resources/Images/Deploy/sprint-2-15.jpeg" alt="Deployment Evidence for Sprint Review del Sprint 2" width="900"/>
+  <br>
+</p>
+<p align="center">
+  <img src="Resources/Images/Deploy/sprint-2-16.jpeg" alt="Deployment Evidence for Sprint Review del Sprint 2" width="900"/>
+  <br>
+</p>
+<p align="center">
+  <img src="Resources/Images/Deploy/sprint-2-17.jpeg" alt="Deployment Evidence for Sprint Review del Sprint 2" width="900"/>
+  <br>
+</p>
+<p align="center">
+  <img src="Resources/Images/Deploy/sprint-2-18.jpeg" alt="Deployment Evidence for Sprint Review del Sprint 2" width="900"/>
+  <br>
+</p>
 
 
 #### 5.2.2.8. Team Collaboration Insights during Sprint.
