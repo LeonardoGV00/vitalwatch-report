@@ -1,4 +1,4 @@
-<div align="center">
+	<div align="center">
 <img src="Resources/UPC_logo.png"></img><br>
 
 
@@ -214,8 +214,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
       <h3>Garcia Villanueva, Leonardo Rafael</h3>
         <b>AV1</b><p>Durante el desarrollo del avance tuve una participación constante en reuniones grupales presenciales en la universidad con el equipo y en reuniones virtuales mediante Google Meet y Discord. En estas reuniones comparti ideas para el proyecto, consulte si mis avances podian mejorarse y ayude en la coordinación de las actividades para el proyecto.</p>
         <b>TB1</b><p>En el desarrollo de este avance continué participando de forma activa en reuniones grupales presenciales en la universidad y en reuniones virtuales vía Google Meet, donde compartí mis análisis y propuestas para corregir las observaciones realizadas al avance anterior, así como también, compartí mis avances para recibir sugerencias y ayudé a coordinar y determinar las tareas necesarias para la elaboración de esta entrega.</p>
-        <!--<b>AV2</b><p></p>
-        <b>TB2</b><p></p>-->
+        <b>AV2</b><p>Durante el desarrollo de este avance mantuve una participación activa en las coordinaciones del grupo, explicando de forma clara los cambios realizados en la interfaz de la web application, así como las mejoras aplicadas en los user flows. Además, comuniqué al equipo el proceso seguido para el despliegue del backend en la nube mediante Render, resolviendo dudas y explicando los ajustes necesarios para que el proyecto pudiera funcionar correctamente. Esta comunicación permitió que mis compañeros comprendieran mejor los avances técnicos realizados y que el grupo pudiera coordinar de manera más efectiva las actividades pendientes.</p>
+        <!--<b>TB2</b><p></p>-->
       <h3>Lozano Leon, Richard Enrique</h3>
         <b>AV1</b><p>Mientras avanzaba el proyecto, participé en reuniones de coordinación con el equipo, tanto de forma presencial como virtual, donde pude comentar el progreso de mi parte, plantear observaciones y coordinar actividades con los demás integrantes. También intervine en el desarrollo de entrevistas vinculadas al proyecto, explicando el propósito de la propuesta y recogiendo información útil para el análisis del problema.</p>
         <b>TB1</b><p>Durante el desarrollo de este entregable, participé en reuniones de coordinación grupal donde expliqué las modificaciones realizadas en la documentación del Sprint 2 y la redefinición del Product Backlog. Asimismo, compartí observaciones relacionadas con la corrección de mockups en Figma y colaboré en la toma de decisiones del equipo mediante una comunicación clara y organizada durante las reuniones presenciales y virtuales.</p>
@@ -251,8 +251,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
       <h3>Garcia Villanueva, Leonardo Rafael</h3>
         <b>AV1</b><p>En el desarrollo de este entregable, utilicé WhatsApp para coordinar actividades, realizar preguntas y responder dudas de mis compañeros. Además contribuí con la gestión de las tareas y la continuidad del trabajo.</p>
         <b>TB1</b><p>Durante el desarrollo de este avance continué utilizando WhatsApp para mantener una comunicación constante por escrito con los miembros del equipo, donde compartí mis avances para recibir sugerencias y ayudé a coordinar las actividades relacionadas con las correcciones del avance anterior y la elaboración de este avance, así como también comuniqué mis sugerencias y respondí algunas dudas de forma clara y directa.</p>
-        <!--<b>AV2</b><p></p>
-        <b>TB2</b><p></p>-->
+        <b>AV2</b><p>Durante este avance utilicé principalmente WhatsApp como medio de comunicación escrita para coordinar constantemente con los integrantes del equipo. A través de este medio compartí información sobre las correcciones realizadas en la interfaz de la web application, los ajustes en los user flows y el despliegue del backend en Render. También comuniqué avances, respondí dudas, envié indicaciones y ayudé a organizar las tareas necesarias para completar la entrega. La comunicación escrita fue clara y directa, lo que facilitó que el equipo pudiera dar seguimiento al trabajo realizado y tomar decisiones de manera ordenada.</p>
+        <!--<b>TB2</b><p></p>-->
       <h3>Lozano Leon, Richard Enrique</h3>
         <b>AV1</b><p>Durante el desarrollo de este avance, colaboré en la redacción de secciones del informe relacionadas con los segmentos objetivo, el diseño de entrevistas y apartados del Sprint 1. De igual manera, mantuve comunicación escrita con mis compañeros para coordinar tareas, resolver dudas y dar seguimiento a los avances del trabajo.</p>
         <b>TB1</b><p>Durante este entregable, mantuve comunicación escrita constante con el equipo mediante WhatsApp para coordinar la documentación del Sprint 2, la redefinición del Product Backlog y las correcciones realizadas en algunos mockups de Figma. Asimismo, compartí avances, resolví dudas y propuse mejoras relacionadas con la organización y desarrollo del proyecto, contribuyendo a una coordinación eficiente entre los integrantes.</p>
