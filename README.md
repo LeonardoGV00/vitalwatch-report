@@ -24,7 +24,7 @@
 
 </div>
 
-<br><div align="center"><h3>Mayo, 2026</h3></div><br>
+<br><div align="center"><h3>Junio, 2026</h3></div><br>
 <div style="text-align: justify;">
 
 <br><br>
@@ -62,6 +62,11 @@ A continuación los gráficos de analíticos de colaboración en GitHub, conside
 <strong>*Entrega TB1:*</strong> Para este avance el equipo continuó coordinandose por los mismos medios, y se envió otro documento de asignación de actividades y correcciones a realizar por cada miembro del equipo, en este caso las secciones trabajadas por los integrantes en la anterior entrega y que tuvieron observaciones fueron corregidos por los mismos, y en este caso para la elaboración del Sprint 2 todos participaron equitativamente.
 A continuación los gráficos de analíticos de colaboración en GitHub, considerando desde el 27 de abril hasta el 11 de mayo.
 <img src="Resources/Images/TeamInsights/contributors.png" alt="Gráfico de contribuidores del segundo avance"/>
+
+<strong>*Entrega AV2:*</strong> Para este avance el equipo continuó coordinándose por los mismos medios, distribuyendo las actividades del Sprint 3 mediante un documento de asignación que contempló tanto el desarrollo del Web Service como las actualizaciones del frontend y la landing page. Las observaciones del avance anterior fueron corregidas por los mismos integrantes responsables, y para la elaboración del Sprint 3 todos participaron de manera equitativa en las tareas de implementación del backend, integración y despliegue. A continuación los gráficos de analíticos de colaboración en GitHub, considerando desde el 12 de mayo hasta el 18 de junio.
+  <img src="Resources/Images/StyleGuidelines/Insight_sprint_2.png" alt="Gráfico de contribuidores del tercer avance"/>
+
+
 
 # Contenido
 
@@ -199,8 +204,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
         <b>AV1</b><p>A lo largo del desarrollo de este avance, participé en diversas sesiones de coordinación grupal, tanto de manera presencial en la universidad como a través de plataformas virtuales como Meet y Discord. En estos encuentros, gestionamos el seguimiento del progreso semanal, la organización de tareas y la distribución equitativa de las actividades del equipo.</p>
         <b>TB1</b><p>Durante la elaboración de este entregable, me involucré en múltiples reuniones de alineación con el equipo, alternando entre encuentros físicos en el campus y sesiones remotas vía Meet y Discord. En estos espacios, supervisamos el avance semanal, estructuramos el plan de trabajo y garantizamos un reparto justo de las responsabilidades.
 </p>
-        <!--<b>AV2</b><p></p>
-        <b>TB2</b><p></p>-->
+        <b>AV2</b><p>Durante el AV2, el equipo llevó a cabo reuniones virtuales a través de Discord en las que se planificó el Sprint 3, se coordinó el desarrollo del Web Service y se comunicaron los avances técnicos relacionados con la implementación del backend, la integración con el frontend y el proceso de despliegue. La comunicación oral permitió alinear criterios entre los integrantes, resolver los retos encontrados durante la implementación y garantizar que todos los miembros comprendieran el estado real del proyecto para tomar decisiones ordenadas.</p>
+       <!--<b>TB2</b><p></p>-->
       <h3>León Morales, Johan Yonel</h3>
         <b>AV1</b><p>Durante el desarrollo de este avance, gestione la participacion grupal en la elaboración de las secciones como Style Guidelines y como Domain-Driven Software Architecture, contribuyendo tanto en el diseño visual como en la estructuración lógica del sistema.</p>
         <b>TB1</b><p>Durante este entregable, participé en reuniones grupales donde expuse las correcciones realizadas en el Event Storming y en el diagrama C4, explicando los cambios efectuados en la arquitectura y estructura del sistema. Asimismo, colaboré en el desarrollo de la web application, manteniendo una comunicación constante con el equipo para coordinar tareas, resolver dudas y asegurar una adecuada integración de los avances realizados.</p>
@@ -221,8 +226,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
       <td colspan="3">
         <b>AV1</b><p>El grupo llevó a cabo reuniones presenciales y virtuales en las que se comunicaron diferentes ideas, se resolvieron dudas y se tomaron decisiones de manera conjunta con una comunicación oral clara y efectiva, permitiendo la comprensión entre los integrantes y contribuyendo al cumplimiento de los objetivos del proyecto.</p>
         <b>TB1</b><p>En este avance, el equipo continuó realizando reuniones presenciales y llamadas grupales mediante Google Meet, donde se analizaron y se propusieron las correcciones para las observaciones realizadas al avance anterior. Además, durante estas reuniones, el equipo propuso ideas, sugerencias y coordinaron actividades relacionadas con el nuevo avance del proyecto.</p>
-        <!--<b>AV2</b><p></p>
-        <b>TB2</b><p></p>-->
+        <b>AV2</b><p>Durante el AV2, el equipo llevó a cabo reuniones virtuales a través de Discord en las que se planificó el Sprint 3, se coordinó el desarrollo del Web Service y se comunicaron los avances técnicos relacionados con la implementación del backend, la integración con el frontend y el proceso de despliegue. La comunicación oral permitió alinear criterios entre los integrantes, resolver los retos encontrados durante la implementación y garantizar que todos los miembros comprendieran el estado real del proyecto para tomar decisiones ordenadas.</p>
+        <!--<b>TB2</b><p></p>-->
       </td>
     </tr>
     <tr>
@@ -236,8 +241,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
       <h3>Güere Calero, Fernando Julio</h3>
         <b>AV1</b><p>Durante el desarrollo de este avance, se empleó WhatsApp como canal principal de comunicación instantánea para la planificación virtual de actividades y la coordinación de reuniones. Asimismo, esta herramienta facilitó la resolución de dudas y permitió validar la idoneidad de las tareas asignadas, agilizando la retroalimentación y la aplicación de modificaciones en tiempo real.</p>
         <b>TB1</b><p>En el transcurso de este entregable, WhatsApp se consolidó como el eje central para la comunicación inmediata, permitiéndonos planificar actividades y programar reuniones de forma remota. El uso de esta plataforma fue fundamental para despejar dudas y verificar la pertinencia de las labores delegadas, lo que optimizó los tiempos de respuesta y la ejecución de ajustes sobre la marcha.</p>
-        <!--<b>AV2</b><p></p>
-        <b>TB2</b><p></p>-->
+        <b>AV2</b><p>Durante este avance, utilicé WhatsApp y Discord para gestionar la planificación del Sprint 3, compartir el sprint backlog actualizado y coordinar la revisión de las tareas asignadas a cada integrante. Además, contribuí a la documentación escrita del Web Service mediante la configuración de Swagger UI, redactando las descripciones de los endpoints, sus parámetros y esquemas de respuesta para que el equipo de frontend pudiese comprender y consumir la API sin ambigüedades.</p>
+        <!--<b>TB2</b><p></p>-->
       <h3>León Morales, Johan Yonel</h3>
         <b>AV1</b><p>Durante el desarrollo de este avance, empleé WhatsApp para generalmente poder coordinar las actividades y coordinación de las reuniones. Esta herramienta hizo que se facilite el levantamiento de dudas y atender consultas de los demás miembros del equipo.</p>
 <b>TB1</b><p>Durante la elaboración de este entregable, utilicé herramientas de comunicación escrita como WhatsApp y Discord para coordinar las correcciones del Event Storming y del diagrama C4, así como para compartir avances relacionados con el desarrollo de la web application. Además, atendí consultas y brindé sugerencias al equipo de manera clara y organizada para facilitar el cumplimiento de las actividades propuestas.</p>
@@ -258,8 +263,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
       <td colspan="3">
         <b>AV1</b><p>El grupo utilizó aplicaciones de mensajería como WhatsApp y Discord para coordinar actividades, resolver dudas y organizar el trabajo de manera eficiente. La comunicación fue clara y oportuna para todos los integrantes, lo que permitió una adecuada gestión de tareas y el cumplimiento del avance del proyecto.</p>
         <b>TB1</b><p>En este entregable, el equipo mantuvo una comunicación constante por escrito mediante WhatsApp, por donde se compartieron avances, sugerencias, se resolvieron dudas y se coordinaron actividades relacionadas con las correcciones del avance anterior y el desarrollo del nuevo avance. Además, se asignaron las tareas y los plazos para cada integrante del equipo.</p>
-        <!--<b>AV2</b><p></p>
-        <b>TB2</b><p></p>-->
+        <b>AV2</b><p>En este avance, el equipo mantuvo comunicación constante por escrito mediante WhatsApp, Discord y GitHub, compartiendo avances del backend, evidencias de pruebas con Swagger, configuraciones de despliegue y observaciones sobre la integración frontend-backend. Esta comunicación escrita facilitó la coordinación de tareas, la identificación oportuna de errores y el seguimiento del progreso de cada integrante a lo largo del Sprint 3.</p>
+        <!--<b>TB2</b><p></p>-->
       </td>
     </tr>
   </tbody>
