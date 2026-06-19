@@ -156,6 +156,10 @@ A continuación los gráficos de analíticos de colaboración en GitHub, conside
       - [5.2.3.2. Aspect Leaders and Collaborators.](#5232-aspect-leaders-and-collaborators)
       - [5.2.3.3. Sprint Backlog 3](#5233-sprint-backlog-3)
       - [5.2.3.4. Development Evidence for Sprint Review](#5234-development-evidence-for-sprint-review)
+      - [5.2.3.5. Execution Evidence for Sprint Review](#5235-execution-evidence-for-sprint-review)
+      - [5.2.3.6. Services Documentation Evidence for Sprint Review](#52336-services-documentation-evidence-for-sprint-review)
+      - [5.2.3.7. Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
+      - [5.2.3.8. Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
  - [5.3 Validation Interviews.](#53-validation-interviews)
     - [5.3.1 Diseño de entrevistas](#531-diseño-de-entrevistas)
     - [5.3.2 Registro de Entrevistas](#532-registro-de-entrevistas)
@@ -3068,6 +3072,56 @@ La siguiente tabla presenta los commits más relevantes registrados en el reposi
 
 Estos commits demuestran que durante el Sprint 3 se construyó la primera versión funcional del Web Service de VitalWatch. El trabajo comenzó con la configuración del proyecto base y la implementación progresiva de los bounded contexts del sistema aplicando arquitectura por capas (dominio, aplicación, infraestructura e interfaces REST). En la etapa final del sprint se habilitó la integración con el frontend mediante la exposición de endpoints compatibles con los contratos del cliente Angular, la configuración de CORS y la preparación del entorno de despliegue con Docker y perfil de producción, dejando el Web Service listo para ser consumido desde la Web Application.
 
+#### 5.2.3.5. Execution Evidence for Sprint Review.
+
+
+
+#### 5.2.3.6. Services Documentation Evidence for Sprint Review.
+
+A diferencia de los sprints anteriores, el Sprint 3 marcó el inicio real de la implementación y documentación de Web Services en el proyecto VitalWatch. Durante esta iteración se desarrolló la primera versión del backend como RESTful API con Spring Boot, estructurada bajo una arquitectura orientada al dominio (DDD). El sistema se organiza en siete bounded contexts, cada uno con sus propios controllers REST: **IAM** (gestión de identidad y acceso), **Profiles** (perfiles del personal), **Clinical Risk** (lecturas de signos vitales y evaluaciones de riesgo clínico), **Shifts** (turnos y asignaciones), **Staff Recovery** (planes y acciones de recuperación), **Audit** (trazabilidad de eventos) y **Subscriptions** (planes de suscripción). Todos los endpoints están documentados automáticamente con Springdoc OpenAPI y accesibles desde la interfaz de Swagger UI del servicio desplegado.
+
+A continuación se presentan los principales endpoints implementados, organizados por bounded context y derivados directamente de los controllers del repositorio `vitalwatch-platform`:
+
+| Bounded Context | Endpoint | HTTP Verb | Descripción | Response Status |
+|---|---|---|---|---|
+| IAM | `/api/v1/hospital-workspaces` | POST | Crea un workspace hospitalario y su cuenta de administrador. | 201 Created |
+| IAM | `/api/v1/hospital-workspaces/{hospitalWorkspaceId}` | GET | Retorna el workspace hospitalario identificado por su ID. | 200 OK / 404 Not Found |
+| IAM | `/api/v1/users` | GET | Retorna usuarios filtrados por workspace, organización o email. | 200 OK |
+| IAM | `/api/v1/users` | POST | Crea una cuenta de usuario compatible con el contrato del frontend Angular. | 201 Created / 409 Conflict |
+| IAM | `/api/v1/users/{userId}` | PATCH | Actualiza el rol o estado de activación de un usuario. | 200 OK / 400 Bad Request |
+| Profiles | `/api/v1/profiles` | POST | Crea un perfil de personal clínico con datos de contacto y dirección. | 201 Created / 409 Conflict |
+| Profiles | `/api/v1/profiles` | GET | Retorna el listado completo de perfiles del personal registrado. | 200 OK |
+| Profiles | `/api/v1/profiles/{profileId}` | GET | Retorna el detalle del perfil de un miembro del personal por su ID. | 200 OK / 404 Not Found |
+| Clinical Risk | `/api/v1/vital-sign-readings` | POST | Registra una lectura de signos vitales y carga de trabajo para el monitoreo de fatiga. | 201 Created |
+| Clinical Risk | `/api/v1/vital-sign-readings?userAccountId={id}` | GET | Retorna el historial de lecturas de signos vitales de un usuario. | 200 OK |
+| Clinical Risk | `/api/v1/clinical-risk-assessments` | POST | Crea una evaluación de riesgo clínico a partir de una lectura de signos vitales. | 201 Created |
+| Clinical Risk | `/api/v1/clinical-risk-assessments?hospitalWorkspaceId={id}` | GET | Retorna todas las evaluaciones de riesgo del workspace hospitalario. | 200 OK |
+| Clinical Risk | `/api/v1/clinical-risk-assessments/latest?userAccountId={id}` | GET | Retorna la evaluación de riesgo clínico más reciente del usuario. | 200 OK / 404 Not Found |
+| Clinical Risk | `/api/v1/clinical-risk-assessments/{id}/review` | PATCH | Marca una evaluación de riesgo clínico como revisada por el supervisor. | 200 OK |
+| Clinical Risk | `/api/v1/clinical-risk-assessments/{id}/escalate` | PATCH | Escala una evaluación de riesgo alto o crítico para intervención inmediata. | 200 OK |
+| Shifts | `/api/v1/work-shifts` | POST | Crea un turno de trabajo hospitalario. | 201 Created |
+| Shifts | `/api/v1/work-shifts?hospitalWorkspaceId={id}` | GET | Retorna los turnos de trabajo del workspace hospitalario. | 200 OK |
+| Shifts | `/api/v1/shift-assignments` | POST | Asigna un usuario a un turno de trabajo existente. | 201 Created |
+| Shifts | `/api/v1/shift-assignments/user?userAccountId={id}` | GET | Retorna las asignaciones de turno de un usuario específico. | 200 OK |
+| Shifts | `/api/v1/shift-assignments/{shiftAssignmentId}/confirm` | PATCH | Confirma la asignación de turno de un usuario. | 200 OK |
+| Staff Recovery | `/api/v1/recovery-plans` | POST | Crea un plan de recuperación preventiva tras la detección de fatiga o incidente. | 201 Created |
+| Staff Recovery | `/api/v1/recovery-plans?hospitalWorkspaceId={id}` | GET | Retorna los planes de recuperación activos del workspace hospitalario. | 200 OK |
+| Staff Recovery | `/api/v1/recovery-plans/user?userAccountId={id}` | GET | Retorna los planes de recuperación asociados a un usuario. | 200 OK |
+| Staff Recovery | `/api/v1/recovery-plans/{recoveryPlanId}/start` | PATCH | Inicia la ejecución de un plan de recuperación. | 200 OK |
+| Staff Recovery | `/api/v1/recovery-actions` | POST | Agrega una acción concreta (pausa, descanso, reducción de turno) a un plan de recuperación. | 201 Created |
+| Audit | `/api/v1/audit-logs` | POST | Registra un evento auditable del sistema (acción del usuario o evento crítico). | 201 Created |
+| Audit | `/api/v1/audit-logs?hospitalWorkspaceId={id}` | GET | Retorna la trazabilidad de eventos auditables del workspace hospitalario. | 200 OK |
+| Audit | `/api/v1/audit-logs/actor?actorUserAccountId={id}` | GET | Retorna los eventos registrados por un usuario específico. | 200 OK |
+| Subscriptions | `/api/v1/subscription-plans` | GET | Retorna los planes de suscripción disponibles en la plataforma VitalWatch. | 200 OK |
+| Subscriptions | `/api/v1/subscription-plans` | POST | Crea un nuevo plan de suscripción. | 201 Created |
+
+La documentación completa de cada endpoint (incluyendo esquemas de request/response, validaciones y códigos de error) se encuentra disponible en la interfaz de Swagger UI del Web Service desplegado.
+
+#### 5.2.3.7. Software Deployment Evidence for Sprint Review.
+
+
+
+#### 5.2.3.8. Team Collaboration Insights during Sprint.
 
 
 ## 5.3. Validation Interviews.
