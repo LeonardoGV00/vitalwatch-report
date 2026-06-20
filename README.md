@@ -1,4 +1,5 @@
 <div align="center">
+
 <img src="Resources/UPC_logo.png"></img><br>
 
 
@@ -24,7 +25,7 @@
 
 </div>
 
-<br><div align="center"><h3>Mayo, 2026</h3></div><br>
+<br><div align="center"><h3>Junio, 2026</h3></div><br>
 <div style="text-align: justify;">
 
 <br><br>
@@ -33,14 +34,15 @@
 
 <div align="justify">
 
-|**Versión**|**Fecha**|**Autor**|**Descripción de modificación**|
+| **Versión** | **Fecha** | **Autor** | **Descripción de modificación** |
 | - | - | - | - |
-|1\.0|10/04/2026|Johan Yonel León Morales|Se agregó la estructura inicial del proyecto|
-|1\.1\.1|10/04/2026|Johan Yonel León Morales|Se agregaron los perfiles de los integrantes del equipo|
-|1\.2\.0|20/04/2026|Edgar Alexander Mauricio Montes Zamora<br>Fernando Julio Güere Calero<br>Johan Yonel León Morales<br>Leonardo Rafael Garcia Villanueva<br>Richard Enrique Lozano Leon|Se agregaron los capítulos I, II, III, IV, un avance del capítulo V hasta el punto 5.2.1.8|
-|1\.3\.0|23/04/2026|Edgar Alexander Mauricio Montes Zamora<br>Fernando Julio Güere Calero<br>Johan Yonel León Morales<br>Leonardo Rafael Garcia Villanueva<br>Richard Enrique Lozano Leon|Se culminó con los capítulos I, II, III, IV y el avance del capítulo V, correspondientes al AV1|
-|1\.4\.0|12/05/2026|Edgar Alexander Mauricio Montes Zamora<br>Fernando Julio Güere Calero<br>Johan Yonel León Morales<br>Leonardo Rafael Garcia Villanueva<br>Richard Enrique Lozano Leon|Se corrigieron las observaciones realizadas a los capítulos I, II, III, IV y se añadió el Sprint 2 en el capítulo V|
-|2\.0\.0|12/05/2026|Edgar Alexander Mauricio Montes Zamora<br>Fernando Julio Güere Calero<br>Johan Yonel León Morales<br>Leonardo Rafael Garcia Villanueva<br>Richard Enrique Lozano Leon|Se modificó la landing page, frontend y se añadió el Sprint 3 en el capítulo V|
+| 1\.0 | 10/04/2026 | Johan Yonel León Morales | Se agregó la estructura inicial del proyecto |
+| 1\.1\.1 | 10/04/2026 | Johan Yonel León Morales | Se agregaron los perfiles de los integrantes del equipo |
+| 1\.2\.0 | 20/04/2026 | Edgar Alexander Mauricio Montes Zamora<br>Fernando Julio Güere Calero<br>Johan Yonel León Morales<br>Leonardo Rafael Garcia Villanueva<br>Richard Enrique Lozano Leon | Se agregaron los capítulos I, II, III, IV, un avance del capítulo V hasta el punto 5.2.1.8 |
+| 1\.3\.0 | 23/04/2026 | Edgar Alexander Mauricio Montes Zamora<br>Fernando Julio Güere Calero<br>Johan Yonel León Morales<br>Leonardo Rafael Garcia Villanueva<br>Richard Enrique Lozano Leon | Se culminó con los capítulos I, II, III, IV y el avance del capítulo V, correspondientes al AV1 |
+| 1\.4\.0 | 12/05/2026 | Edgar Alexander Mauricio Montes Zamora<br>Fernando Julio Güere Calero<br>Johan Yonel León Morales<br>Leonardo Rafael Garcia Villanueva<br>Richard Enrique Lozano Leon | Se corrigieron las observaciones realizadas a los capítulos I, II, III, IV y se añadió el Sprint 2 en el capítulo V |
+| 2\.0\.0 | 12/05/2026 | Edgar Alexander Mauricio Montes Zamora<br>Fernando Julio Güere Calero<br>Johan Yonel León Morales<br>Leonardo Rafael Garcia Villanueva<br>Richard Enrique Lozano Leon | Se modificó la landing page, frontend y se añadió el Sprint 3 en el capítulo V |
+| 3\.0\.0 | 18/06/2026 | Edgar Alexander Mauricio Montes Zamora<br>Fernando Julio Güere Calero<br>Johan Yonel León Morales<br>Leonardo Rafael Garcia Villanueva<br>Richard Enrique Lozano Leon | Se desarrolló e integró el Web Service de VitalWatch con Spring Boot, se desplegaron los tres componentes de la solución (Landing Page, Web Application y Web Service) y se documentó el Sprint 3 en el capítulo V |
 </div><br><br>
 
 
@@ -48,12 +50,16 @@
 
 # Project Report Collaboration Insights
 
-URL de Organización de GITHUB del equipo VitaSync:
-https://github.com/upc-pre-202610-1asi0729-17952-VitaSync
+URL de Organización de GITHUB del equipo VitaSync: https://github.com/upc-pre-202610-1asi0729-17952-VitaSync
 
 URL de Repositorio del Project Report: https://github.com/upc-pre-202610-1asi0729-17952-VitaSync/vitalwatch-report
 
-URL de la Landing Page: https://upc-pre-202610-1asi0729-17952-vitasync.github.io/vitalwatch-website/
+URL de la Landing Page: https://vitalwatch.space/
+
+URL de la Aplicacion Web: https://app.vitalwatch.space/sign-in
+
+URL del Backend: https://vitalwatch-platform.onrender.com/swagger-ui/index.html
+
 
 <strong>*Entrega AV1:*</strong> Para este avance el equipo se organizó tanto presencialmente como mediante un grupo de WhatsApp y llamadas por Google Meet y Discord, se envió un documento de asignación de actividades y tareas a realizar por cada integrante del equipo, así como también las que se tenian que realizar en grupo, se acordó que cada avance significativo y completo o corrección tenga que agregarse al repositorio de GitHub, todos participaron equitativamente.
 A continuación los gráficos de analíticos de colaboración en GitHub, considerando únicamente hasta el 20 de abril.
@@ -62,6 +68,11 @@ A continuación los gráficos de analíticos de colaboración en GitHub, conside
 <strong>*Entrega TB1:*</strong> Para este avance el equipo continuó coordinandose por los mismos medios, y se envió otro documento de asignación de actividades y correcciones a realizar por cada miembro del equipo, en este caso las secciones trabajadas por los integrantes en la anterior entrega y que tuvieron observaciones fueron corregidos por los mismos, y en este caso para la elaboración del Sprint 2 todos participaron equitativamente.
 A continuación los gráficos de analíticos de colaboración en GitHub, considerando desde el 27 de abril hasta el 11 de mayo.
 <img src="Resources/Images/TeamInsights/contributors.png" alt="Gráfico de contribuidores del segundo avance"/>
+
+<strong>*Entrega AV2:*</strong> Para este avance el equipo continuó coordinándose por los mismos medios, distribuyendo las actividades del Sprint 3 mediante un documento de asignación que contempló tanto el desarrollo del Web Service como las actualizaciones del frontend y la landing page. Las observaciones del avance anterior fueron corregidas por los mismos integrantes responsables, y para la elaboración del Sprint 3 todos participaron de manera equitativa en las tareas de implementación del backend, integración y despliegue. A continuación los gráficos de analíticos de colaboración en GitHub, considerando desde el 12 de mayo hasta el 18 de junio.
+  <img src="Resources/Images/StyleGuidelines/Insight_sprint_2.png" alt="Gráfico de contribuidores del tercer avance"/>
+
+
 
 # Contenido
 
@@ -142,7 +153,7 @@ A continuación los gráficos de analíticos de colaboración en GitHub, conside
       - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
       - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
       - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
-    - [5.2.2. Sprint 2](#522-sprint-1)
+    - [5.2.2. Sprint 2](#522-sprint-2)
       - [5.2.2.1. Sprint Planning 2](#5221-sprint-planning-2)
       - [5.2.2.2. Aspect Leaders and Collaborators.](#5222-aspect-leaders-and-collaborators)
       - [5.2.2.3. Sprint Backlog 2](#5223-sprint-backlog-2)
@@ -151,11 +162,20 @@ A continuación los gráficos de analíticos de colaboración en GitHub, conside
       - [5.2.2.6. Services Documentation Evidence for Sprint Review](#5226-services-documentation-evidence-for-sprint-review)
       - [5.2.2.7. Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)
       - [5.2.2.8. Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
- <!-- - [5.3 Validation Interviews.](#53-validation-interviews)
+    - [5.2.3. Sprint 3](#523-sprint-3)
+      - [5.2.3.1. Sprint Planning 3](#5231-sprint-planning-3)
+      - [5.2.3.2. Aspect Leaders and Collaborators.](#5232-aspect-leaders-and-collaborators)
+      - [5.2.3.3. Sprint Backlog 3](#5233-sprint-backlog-3)
+      - [5.2.3.4. Development Evidence for Sprint Review](#5234-development-evidence-for-sprint-review)
+      - [5.2.3.5. Execution Evidence for Sprint Review](#5235-execution-evidence-for-sprint-review)
+      - [5.2.3.6. Services Documentation Evidence for Sprint Review](#52336-services-documentation-evidence-for-sprint-review)
+      - [5.2.3.7. Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
+      - [5.2.3.8. Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
+ - [5.3 Validation Interviews.](#53-validation-interviews)
     - [5.3.1 Diseño de entrevistas](#531-diseño-de-entrevistas)
     - [5.3.2 Registro de Entrevistas](#532-registro-de-entrevistas)
     - [5.3.3 Evaluaciones Según Heurísticas](#533-evaluaciones-según-heurísticas)
-  - [5.4 Video About-the-Product](#54-video-about-the-product) -->
+  - [5.4 Video About-the-Product](#54-video-about-the-product)
 - [Conclusiones](#conclusiones)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
@@ -184,36 +204,36 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
       <h3>Montes Zamora, Edgar Alexander Mauricio</h3>
         <b>AV1</b><p>Durante el desarrollo de este avance, fui el encargado de analizar y realizar diagramas en base a las entrevistas realizadas, de los cuales se pudo obtener información importante de lo que querían nuestro segmentos objetivo, adicional a esto me encargué de realizar los diagramas tanto de clases como de base de datos, además, estuve coordinando con todo el grupo para tener una optima comunicación, solicitar feedback de mis avances y estar de acuerdo con el trabajo.</p>
         <b>TB1</b><p>Durante el desarrollo de este entregable, participé activamente en reuniones presenciales y virtuales con el equipo, donde expliqué las modificaciones realizadas en los diagramas de clases y base de datos a partir de los cambios en los bounded contexts. Además, colaboré en la coordinación de ideas relacionadas con el diseño en Figma y el desarrollo del website y web application, comunicando observaciones y propuestas de mejora de manera clara para facilitar la comprensión y organización del equipo.</p>
-        <!--<b>AV2</b><p></p>
-        <b>TB2</b><p></p>-->
+        <b>AV2</b><p>Durante el desarrollo de este avance, me encargué de implementar y explicar al equipo la integración de la aplicación con Stripe, permitiendo que el sistema pudiera gestionar el proceso de pagos de los planes de suscripción. En las reuniones grupales comuniqué el funcionamiento del flujo de pago, desde la selección del plan hasta la redirección al checkout y la validación del estado de la transacción. Asimismo, expliqué los problemas encontrados durante la configuración de Stripe y las soluciones aplicadas, procurando que la explicación fuera clara para que mis compañeros comprendieran cómo esta integración aportaba al funcionamiento comercial del sistema.</p>
+        <!--<b>TB2</b><p></p>-->
       <h3>Güere Calero, Fernando Julio</h3>
         <b>AV1</b><p>A lo largo del desarrollo de este avance, participé en diversas sesiones de coordinación grupal, tanto de manera presencial en la universidad como a través de plataformas virtuales como Meet y Discord. En estos encuentros, gestionamos el seguimiento del progreso semanal, la organización de tareas y la distribución equitativa de las actividades del equipo.</p>
         <b>TB1</b><p>Durante la elaboración de este entregable, me involucré en múltiples reuniones de alineación con el equipo, alternando entre encuentros físicos en el campus y sesiones remotas vía Meet y Discord. En estos espacios, supervisamos el avance semanal, estructuramos el plan de trabajo y garantizamos un reparto justo de las responsabilidades.
 </p>
-        <!--<b>AV2</b><p></p>
-        <b>TB2</b><p></p>-->
+        <b>AV2</b><p>Durante el AV2, el equipo llevó a cabo reuniones virtuales a través de Discord en las que se planificó el Sprint 3, se coordinó el desarrollo del Web Service y se comunicaron los avances técnicos relacionados con la implementación del backend, la integración con el frontend y el proceso de despliegue. La comunicación oral permitió alinear criterios entre los integrantes, resolver los retos encontrados durante la implementación y garantizar que todos los miembros comprendieran el estado real del proyecto para tomar decisiones ordenadas.</p>
+       <!--<b>TB2</b><p></p>-->
       <h3>León Morales, Johan Yonel</h3>
         <b>AV1</b><p>Durante el desarrollo de este avance, gestione la participacion grupal en la elaboración de las secciones como Style Guidelines y como Domain-Driven Software Architecture, contribuyendo tanto en el diseño visual como en la estructuración lógica del sistema.</p>
         <b>TB1</b><p>Durante este entregable, participé en reuniones grupales donde expuse las correcciones realizadas en el Event Storming y en el diagrama C4, explicando los cambios efectuados en la arquitectura y estructura del sistema. Asimismo, colaboré en el desarrollo de la web application, manteniendo una comunicación constante con el equipo para coordinar tareas, resolver dudas y asegurar una adecuada integración de los avances realizados.</p>
-        <!--<b>AV2</b><p></p>
-        <b>TB2</b><p></p>-->
+        <b>AV2</b><p>Durante este avance, coordiné y expliqué al equipo el proceso de despliegue de la Landing Page y la Web Application en Azure, así como la configuración de dominios personalizados y el uso de Resend para el envío de invitaciones. Además, comuniqué los avances realizados en algunos bounded contexts del backend, aclarando su relación con la arquitectura e integración del sistema.</p>
+         <!--<b>TB2</b><p></p>-->
       <h3>Garcia Villanueva, Leonardo Rafael</h3>
         <b>AV1</b><p>Durante el desarrollo del avance tuve una participación constante en reuniones grupales presenciales en la universidad con el equipo y en reuniones virtuales mediante Google Meet y Discord. En estas reuniones comparti ideas para el proyecto, consulte si mis avances podian mejorarse y ayude en la coordinación de las actividades para el proyecto.</p>
         <b>TB1</b><p>En el desarrollo de este avance continué participando de forma activa en reuniones grupales presenciales en la universidad y en reuniones virtuales vía Google Meet, donde compartí mis análisis y propuestas para corregir las observaciones realizadas al avance anterior, así como también, compartí mis avances para recibir sugerencias y ayudé a coordinar y determinar las tareas necesarias para la elaboración de esta entrega.</p>
-        <!--<b>AV2</b><p></p>
-        <b>TB2</b><p></p>-->
+        <b>AV2</b><p>Durante el desarrollo de este avance mantuve una participación activa en las coordinaciones del grupo, explicando de forma clara los cambios realizados en la interfaz de la web application, así como las mejoras aplicadas en los user flows. Además, comuniqué al equipo el proceso seguido para el despliegue del backend en la nube mediante Render, resolviendo dudas y explicando los ajustes necesarios para que el proyecto pudiera funcionar correctamente. Esta comunicación permitió que mis compañeros comprendieran mejor los avances técnicos realizados y que el grupo pudiera coordinar de manera más efectiva las actividades pendientes.</p>
+        <!--<b>TB2</b><p></p>-->
       <h3>Lozano Leon, Richard Enrique</h3>
         <b>AV1</b><p>Mientras avanzaba el proyecto, participé en reuniones de coordinación con el equipo, tanto de forma presencial como virtual, donde pude comentar el progreso de mi parte, plantear observaciones y coordinar actividades con los demás integrantes. También intervine en el desarrollo de entrevistas vinculadas al proyecto, explicando el propósito de la propuesta y recogiendo información útil para el análisis del problema.</p>
         <b>TB1</b><p>Durante el desarrollo de este entregable, participé en reuniones de coordinación grupal donde expliqué las modificaciones realizadas en la documentación del Sprint 2 y la redefinición del Product Backlog. Asimismo, compartí observaciones relacionadas con la corrección de mockups en Figma y colaboré en la toma de decisiones del equipo mediante una comunicación clara y organizada durante las reuniones presenciales y virtuales.</p>
-        <!--<b>AV2</b><p></p>
-        <b>TB2</b><p></p>-->
+        <b>AV2</b>Durante el desarrollo de este avance, participé en las coordinaciones del equipo explicando los cambios necesarios para alinear el backend con el frontend, especialmente en la compatibilidad de endpoints, pruebas con Swagger y validación de respuestas mediante códigos 200, 201 y 204. Asimismo, comuniqué de manera clara los problemas encontrados durante el proceso de integración y despliegue en Azure, como errores de configuración, conexión con la base de datos y restricciones de regiones, aportando propuestas de solución y facilitando que el equipo comprendiera el estado real del proyecto para tomar decisiones ordenadas.<p></p>
+        <!--<b>TB2</b><p></p>-->
           <br>
       </td>
       <td colspan="3">
         <b>AV1</b><p>El grupo llevó a cabo reuniones presenciales y virtuales en las que se comunicaron diferentes ideas, se resolvieron dudas y se tomaron decisiones de manera conjunta con una comunicación oral clara y efectiva, permitiendo la comprensión entre los integrantes y contribuyendo al cumplimiento de los objetivos del proyecto.</p>
         <b>TB1</b><p>En este avance, el equipo continuó realizando reuniones presenciales y llamadas grupales mediante Google Meet, donde se analizaron y se propusieron las correcciones para las observaciones realizadas al avance anterior. Además, durante estas reuniones, el equipo propuso ideas, sugerencias y coordinaron actividades relacionadas con el nuevo avance del proyecto.</p>
-        <!--<b>AV2</b><p></p>
-        <b>TB2</b><p></p>-->
+        <b>AV2</b><p>Durante el AV2, el equipo llevó a cabo reuniones virtuales a través de Discord en las que se planificó el Sprint 3, se coordinó el desarrollo del Web Service y se comunicaron los avances técnicos relacionados con la implementación del backend, la integración con el frontend y el proceso de despliegue. La comunicación oral permitió alinear criterios entre los integrantes, resolver los retos encontrados durante la implementación y garantizar que todos los miembros comprendieran el estado real del proyecto para tomar decisiones ordenadas.</p>
+        <!--<b>TB2</b><p></p>-->
       </td>
     </tr>
     <tr>
@@ -222,36 +242,35 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
       <h3>Montes Zamora, Edgar Alexander Mauricio</h3>
         <b>AV1</b><p>A lo largo de este avance utilizamos el aplicativo de Whatsapp, para coordinar y tener constancia de como iba avanzando el proyecto, adicional a esto en ciertos momentos se llegó a utilizar la aplicación de Discord, para poder mostrar en vivo y realizar partes en llamadas colaborativas. El uso de estas dos herramientas ayudó tanto a la información y comunicación como a la eficacia en la que se realizó el proyecto.</p>
        <b>TB1</b><p>Durante el desarrollo de este entregable, mantuve una comunicación constante mediante WhatsApp y Discord para coordinar las modificaciones realizadas en los diagramas de clases y base de datos según los cambios en los bounded contexts. Asimismo, compartí avances relacionados con el diseño en Figma y el desarrollo del website y web application, permitiendo recibir retroalimentación del equipo y asegurar una adecuada organización de las tareas.</p>
-        <!--<b>AV2</b><p></p>
-        <b>TB2</b><p></p>-->
+        <b>AV2</b><p>Durante este avance, me encargué de conectar la aplicación con Stripe para permitir que los usuarios pudieran realizar pagos de los planes de suscripción dentro del sistema. Para ello, coordiné con el equipo el funcionamiento del flujo de pago, explicando cómo se selecciona un plan, cómo se genera la sesión de pago y cómo se redirige al usuario según el resultado de la transacción. Esta participación permitió fortalecer la comunicación del equipo, ya que compartí mis avances, dudas y soluciones de forma clara durante las reuniones y coordinaciones grupales.</p>
+        <!--<b>TB2</b><p></p>-->
       <h3>Güere Calero, Fernando Julio</h3>
         <b>AV1</b><p>Durante el desarrollo de este avance, se empleó WhatsApp como canal principal de comunicación instantánea para la planificación virtual de actividades y la coordinación de reuniones. Asimismo, esta herramienta facilitó la resolución de dudas y permitió validar la idoneidad de las tareas asignadas, agilizando la retroalimentación y la aplicación de modificaciones en tiempo real.</p>
         <b>TB1</b><p>En el transcurso de este entregable, WhatsApp se consolidó como el eje central para la comunicación inmediata, permitiéndonos planificar actividades y programar reuniones de forma remota. El uso de esta plataforma fue fundamental para despejar dudas y verificar la pertinencia de las labores delegadas, lo que optimizó los tiempos de respuesta y la ejecución de ajustes sobre la marcha.</p>
-        <!--<b>AV2</b><p></p>
-        <b>TB2</b><p></p>-->
+        <b>AV2</b><p>Durante este avance, utilicé WhatsApp y Discord para gestionar la planificación del Sprint 3, compartir el sprint backlog actualizado y coordinar la revisión de las tareas asignadas a cada integrante. Además, contribuí a la documentación escrita del Web Service mediante la configuración de Swagger UI, redactando las descripciones de los endpoints, sus parámetros y esquemas de respuesta para que el equipo de frontend pudiese comprender y consumir la API sin ambigüedades.</p>
+        <!--<b>TB2</b><p></p>-->
       <h3>León Morales, Johan Yonel</h3>
         <b>AV1</b><p>Durante el desarrollo de este avance, empleé WhatsApp para generalmente poder coordinar las actividades y coordinación de las reuniones. Esta herramienta hizo que se facilite el levantamiento de dudas y atender consultas de los demás miembros del equipo.</p>
-        <h3>León Morales, Johan Yonel</h3>
 <b>TB1</b><p>Durante la elaboración de este entregable, utilicé herramientas de comunicación escrita como WhatsApp y Discord para coordinar las correcciones del Event Storming y del diagrama C4, así como para compartir avances relacionados con el desarrollo de la web application. Además, atendí consultas y brindé sugerencias al equipo de manera clara y organizada para facilitar el cumplimiento de las actividades propuestas.</p>
-        <!--<b>AV2</b><p></p>
-        <b>TB2</b><p></p>-->
+        <b>AV2</b><p>Durante este entregable, empleé WhatsApp, Discord y GitHub para comunicar avances, compartir configuraciones y coordinar tareas relacionadas con el despliegue de la Landing Page, la Web Application y el backend. También registré indicaciones sobre dominios, variables de entorno y servicios externos, permitiendo que el equipo comprenda los cambios realizados y continúe el desarrollo de manera organizada.</p>
+        <!--<b>TB2</b><p></p>-->
       <h3>Garcia Villanueva, Leonardo Rafael</h3>
         <b>AV1</b><p>En el desarrollo de este entregable, utilicé WhatsApp para coordinar actividades, realizar preguntas y responder dudas de mis compañeros. Además contribuí con la gestión de las tareas y la continuidad del trabajo.</p>
         <b>TB1</b><p>Durante el desarrollo de este avance continué utilizando WhatsApp para mantener una comunicación constante por escrito con los miembros del equipo, donde compartí mis avances para recibir sugerencias y ayudé a coordinar las actividades relacionadas con las correcciones del avance anterior y la elaboración de este avance, así como también comuniqué mis sugerencias y respondí algunas dudas de forma clara y directa.</p>
-        <!--<b>AV2</b><p></p>
-        <b>TB2</b><p></p>-->
+        <b>AV2</b><p>Durante este avance utilicé principalmente WhatsApp como medio de comunicación escrita para coordinar constantemente con los integrantes del equipo. A través de este medio compartí información sobre las correcciones realizadas en la interfaz de la web application, los ajustes en los user flows y el despliegue del backend en Render. También comuniqué avances, respondí dudas, envié indicaciones y ayudé a organizar las tareas necesarias para completar la entrega. La comunicación escrita fue clara y directa, lo que facilitó que el equipo pudiera dar seguimiento al trabajo realizado y tomar decisiones de manera ordenada.</p>
+        <!--<b>TB2</b><p></p>-->
       <h3>Lozano Leon, Richard Enrique</h3>
         <b>AV1</b><p>Durante el desarrollo de este avance, colaboré en la redacción de secciones del informe relacionadas con los segmentos objetivo, el diseño de entrevistas y apartados del Sprint 1. De igual manera, mantuve comunicación escrita con mis compañeros para coordinar tareas, resolver dudas y dar seguimiento a los avances del trabajo.</p>
         <b>TB1</b><p>Durante este entregable, mantuve comunicación escrita constante con el equipo mediante WhatsApp para coordinar la documentación del Sprint 2, la redefinición del Product Backlog y las correcciones realizadas en algunos mockups de Figma. Asimismo, compartí avances, resolví dudas y propuse mejoras relacionadas con la organización y desarrollo del proyecto, contribuyendo a una coordinación eficiente entre los integrantes.</p>
-        <!--<b>AV2</b><p></p>
-        <b>TB2</b><p></p>-->
+        <b>AV2</b>Durante este avance, mantuve una comunicación escrita constante con el equipo para reportar el progreso de la integración entre frontend y backend, compartir comandos, evidencias de pruebas, resultados de compilación y observaciones sobre errores encontrados. Además, contribuí a organizar la información técnica relacionada con los commits, la configuración del backend, procurando que los mensajes fueran claros, precisos y útiles para que los demás integrantes pudieran comprender los cambios realizados y continuar el trabajo sin confusiones<p></p>
+        <!--<b>TB2</b><p></p>-->
 		  <br>
       </td>
       <td colspan="3">
         <b>AV1</b><p>El grupo utilizó aplicaciones de mensajería como WhatsApp y Discord para coordinar actividades, resolver dudas y organizar el trabajo de manera eficiente. La comunicación fue clara y oportuna para todos los integrantes, lo que permitió una adecuada gestión de tareas y el cumplimiento del avance del proyecto.</p>
         <b>TB1</b><p>En este entregable, el equipo mantuvo una comunicación constante por escrito mediante WhatsApp, por donde se compartieron avances, sugerencias, se resolvieron dudas y se coordinaron actividades relacionadas con las correcciones del avance anterior y el desarrollo del nuevo avance. Además, se asignaron las tareas y los plazos para cada integrante del equipo.</p>
-        <!--<b>AV2</b><p></p>
-        <b>TB2</b><p></p>-->
+        <b>AV2</b><p>En este avance, el equipo mantuvo comunicación constante por escrito mediante WhatsApp, Discord y GitHub, compartiendo avances del backend, evidencias de pruebas con Swagger, configuraciones de despliegue y observaciones sobre la integración frontend-backend. Esta comunicación escrita facilitó la coordinación de tareas, la identificación oportuna de errores y el seguimiento del progreso de cada integrante a lo largo del Sprint 3.</p>
+        <!--<b>TB2</b><p></p>-->
       </td>
     </tr>
   </tbody>
@@ -2939,12 +2958,74 @@ https://trello.com/invite/b/6a00b9d179bdb6064d662339/ATTI4fc75e1cda72c884cfbf255
 
 #### 5.2.2.4. Development Evidence for Sprint Review.
 
+Durante este sprint, el equipo trabajó en la implementación inicial de la Web Application de VitalWatch, tomando como base la estructura del proyecto Angular y la construcción de vistas principales para los roles del sistema. El avance se enfocó en configurar el entorno frontend, integrar Angular Material, habilitar internacionalización, implementar autenticación básica y desarrollar vistas para supervisor y personal médico.
 
+La siguiente tabla presenta los commits más relevantes registrados en el repositorio `vitalwatch-webapp` durante el sprint. Estos commits evidencian el avance técnico alcanzado en la implementación de la aplicación web y sus principales módulos funcionales.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on |
+|---|---|---|---|---|---|
+| vitalwatch-webapp | main | `2359061` | `chore: initial angular project setup` | Created the initial Angular project structure for the VitalWatch web application. | 2026-05-11 |
+| vitalwatch-webapp | main | `dda70b2` | `chore: update package.json.` | Updated project dependencies and scripts required for frontend development. | 2026-05-11 |
+| vitalwatch-webapp | main | `b60b325` | `chore: integrate angular material and update styles` | Integrated Angular Material and updated the base visual styles of the application. | 2026-05-11 |
+| vitalwatch-webapp | main | `1fdad3c` | `feat: i18n configured.` | Configured internationalization support for the web application. | 2026-05-11 |
+| vitalwatch-webapp | main | `9e3ef58` | `feat(iam): login/registration added.` | Implemented login and registration views for the Identity and Access Management module. | 2026-05-13 |
+| vitalwatch-webapp | main | `a26119a` | `feat: add VitalWatch views` | Added the main views for the VitalWatch web application. | 2026-05-13 |
+| vitalwatch-webapp | main | `f15270e` | `feat: supervisor structure was added.` | Added the base structure for supervisor-related views and navigation. | 2026-05-13 |
+| vitalwatch-webapp | main | `f2aa3bd` | `feat(supervisor): dashboard added.` | Implemented the supervisor dashboard view. | 2026-05-13 |
+| vitalwatch-webapp | main | `c5d2cc1` | `feat(supervisor): risk-staff added.` | Added the supervisor view for monitoring staff risk information. | 2026-05-13 |
+| vitalwatch-webapp | main | `efea252` | `feat(supervisor): alerts and register-actions added.` | Implemented supervisor alerts and action registration views. | 2026-05-13 |
+| vitalwatch-webapp | main | `b82384a` | `feat(supervisor): settings added.` | Added the settings view for supervisor users. | 2026-05-13 |
+| vitalwatch-webapp | main | `883fa2e` | `feat(medical-staff): my alerts added.` | Implemented the medical staff alerts view. | 2026-05-13 |
+| vitalwatch-webapp | main | `b0ac07f` | `feat(medical-staff): my history added.` | Added the historical information view for medical staff users. | 2026-05-13 |
+| vitalwatch-webapp | main | `8f5604c` | `feat(medical-staff): recovery added.` | Implemented the recovery view for medical staff users. | 2026-05-13 |
+| vitalwatch-webapp | main | `c196d8b` | `feat(medical-staff): settings added.` | Added the settings view for medical staff users. | 2026-05-13 |
+
+Estos commits demuestran que el sprint permitió construir una primera versión funcional de la aplicación web. El trabajo se concentró en preparar la base técnica del proyecto, configurar herramientas visuales y de internacionalización, implementar el flujo inicial de autenticación y desarrollar vistas principales para los roles de supervisor y personal médico.
 
 
 #### 5.2.2.5. Execution Evidence for Sprint Review.
 
+Durante el Sprint 2 se logró desarrollar una primera versión funcional de la Web Application de VitalWatch. En esta iteración se implementaron las principales vistas orientadas a los roles de supervisor y personal médico, incluyendo el dashboard de supervisión, monitoreo de personal en riesgo, gestión de alertas, registro de acciones preventivas, historial clínico y configuración de cuenta, sentando las bases del frontend para su futura integración con el backend.
 
+<p align="center">
+  <img src="Resources/Images/Execution Evidence for Sprint Review/landing_evidence.png" alt="Execution Evidence for Sprint Review del Sprint 2" width="900"/>
+  <br>
+</p>
+<p align="center">
+  <img src="Resources/Images/Execution Evidence for Sprint Review/landing_evidence_2.png" alt="Execution Evidence for Sprint Review del Sprint 2" width="900"/>
+  <br>
+</p>
+<p align="center">
+  <img src="Resources/Images/Execution Evidence for Sprint Review/landing_evidence_3.png" alt="Execution Evidence for Sprint Review del Sprint 2" width="900"/>
+  <br>
+</p>
+<p align="center">
+  <img src="Resources/Images/Execution Evidence for Sprint Review/landing_evidence_4.png" alt="Execution Evidence for Sprint Review del Sprint 2" width="900"/>
+  <br>
+	<i>Landing page desplegada de VitalWatch.</i>
+</p>
+
+<p align="center">
+  <img src="Resources/Images/Execution Evidence for Sprint Review/app_web_evidence.png" alt="Execution Evidence for Sprint Review del Sprint 2" width="900"/>
+  <br>
+</p>
+<p align="center">
+  <img src="Resources/Images/Execution Evidence for Sprint Review/app_web_evidence_2.png" alt="Execution Evidence for Sprint Review del Sprint 2" width="900"/>
+  <br>
+</p>
+<p align="center">
+  <img src="Resources/Images/Execution Evidence for Sprint Review/app_web_evidence_3.png" alt="Execution Evidence for Sprint Review del Sprint 2" width="900"/>
+  <br>
+</p>
+<p align="center">
+  <img src="Resources/Images/Execution Evidence for Sprint Review/app_web_evidence_4.png" alt="Execution Evidence for Sprint Review del Sprint 2" width="900"/>
+  <br>
+	<i>Aplicación Web desplegada de VitalWatch.</i>
+</p>
+
+Link de la Landing Page: https://vitalwatch.space/
+<br>
+Link de la Aplicación Web: https://app.vitalwatch.space/sign-in
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review.
 
@@ -2955,17 +3036,576 @@ Es decir, aunque aún no existe una implementación final de servicios, el Sprin
 
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review.
 
+<p align="center">
+  <img src="Resources/Images/Deploy/sprint-2-1.jpeg" alt="Deployment Evidence for Sprint Review del Sprint 2" width="900"/>
+  <br>
+</p>
+<p align="center">
+  <img src="Resources/Images/Deploy/sprint-2-2.jpeg" alt="Deployment Evidence for Sprint Review del Sprint 2" width="900"/>
+  <br>
+</p>
+<p align="center">
+  <img src="Resources/Images/Deploy/sprint-2-3.jpeg" alt="Deployment Evidence for Sprint Review del Sprint 2" width="900"/>
+  <br>
+</p>
+<p align="center">
+  <img src="Resources/Images/Deploy/sprint-2-4.jpeg" alt="Deployment Evidence for Sprint Review del Sprint 2" width="900"/>
+  <br>
+</p>
+<p align="center">
+  <img src="Resources/Images/Deploy/sprint-2-5.jpeg" alt="Deployment Evidence for Sprint Review del Sprint 2" width="900"/>
+  <br>
+</p>
+<p align="center">
+  <img src="Resources/Images/Deploy/sprint-2-6.jpeg" alt="Deployment Evidence for Sprint Review del Sprint 2" width="900"/>
+  <br>
+</p>
+<p align="center">
+  <img src="Resources/Images/Deploy/sprint-2-7.jpeg" alt="Deployment Evidence for Sprint Review del Sprint 2" width="900"/>
+  <br>
+</p>
+<p align="center">
+  <img src="Resources/Images/Deploy/sprint-2-8.jpeg" alt="Deployment Evidence for Sprint Review del Sprint 2" width="900"/>
+  <br>
+</p>
+<p align="center">
+  <img src="Resources/Images/Deploy/sprint-2-9.jpeg" alt="Deployment Evidence for Sprint Review del Sprint 2" width="900"/>
+  <br>
+</p>
+<p align="center">
+  <img src="Resources/Images/Deploy/sprint-2-10.jpeg" alt="Deployment Evidence for Sprint Review del Sprint 2" width="900"/>
+  <br>
+</p>
+<p align="center">
+  <img src="Resources/Images/Deploy/sprint-2-11.jpeg" alt="Deployment Evidence for Sprint Review del Sprint 2" width="900"/>
+  <br>
+</p>
+<p align="center">
+  <img src="Resources/Images/Deploy/sprint-2-12.jpeg" alt="Deployment Evidence for Sprint Review del Sprint 2" width="900"/>
+  <br>
+</p>
+<p align="center">
+  <img src="Resources/Images/Deploy/sprint-2-13.jpeg" alt="Deployment Evidence for Sprint Review del Sprint 2" width="900"/>
+  <br>
+</p>
+<p align="center">
+  <img src="Resources/Images/Deploy/sprint-2-14.jpeg" alt="Deployment Evidence for Sprint Review del Sprint 2" width="900"/>
+  <br>
+</p>
+<p align="center">
+  <img src="Resources/Images/Deploy/sprint-2-15.jpeg" alt="Deployment Evidence for Sprint Review del Sprint 2" width="900"/>
+  <br>
+</p>
+<p align="center">
+  <img src="Resources/Images/Deploy/sprint-2-16.jpeg" alt="Deployment Evidence for Sprint Review del Sprint 2" width="900"/>
+  <br>
+</p>
+<p align="center">
+  <img src="Resources/Images/Deploy/sprint-2-17.jpeg" alt="Deployment Evidence for Sprint Review del Sprint 2" width="900"/>
+  <br>
+</p>
+<p align="center">
+  <img src="Resources/Images/Deploy/sprint-2-18.jpeg" alt="Deployment Evidence for Sprint Review del Sprint 2" width="900"/>
+  <br>
+</p>
 
 
 #### 5.2.2.8. Team Collaboration Insights during Sprint.
 
+Para documentar los avances de este Sprint, utilizamos GitHub como medio principal de trabajo colaborativo. A través del repositorio, los integrantes registraron sus cambios mediante commits y mantuvieron actualizados los artefactos relacionados con la Web Application y el reporte del proyecto. Durante este periodo, se evidenció la participación activa de los miembros del equipo en el repositorio, reflejando un trabajo coordinado en el desarrollo e integración de los módulos del frontend correspondientes al Sprint 2.
+
+<p align="center">
+  <img src="Resources/Images/StyleGuidelines/Insight_sprint_2.png" alt="Analisis de colaboración del equipo durante el Sprint 2 en GitHub" width="900"/>
+  <br>
+</p>
+
+<p align="center">
+  <img src="Resources/Images/StyleGuidelines/Insight_front_2.png" alt="Analisis de colaboración del equipo durante el Sprint 2 en GitHub" width="900"/>
+  <br>
+  <i>Analisis de colaboración del equipo durante el Sprint 2 en GitHub.</i>
+</p>
+
+### 5.2.3. Sprint 3
+
+El Sprint 3 marcó el inicio del desarrollo del Web Service de VitalWatch, la capa de backend de la solución. Durante esta iteración el equipo se concentró en la construcción de la RESTful API con Spring Boot, implementando los principales bounded contexts del sistema: Gestión de Identidad y Acceso (IAM), Monitoreo de Fatiga y Alertas Preventivas. Paralelamente se actualizó la Web Application para integrarla con los endpoints desarrollados y se realizó el despliegue conjunto de los tres componentes de la solución: Landing Page, Web Application y Web Service; con el objetivo de contar con una primera versión operativa del producto completo accesible en entorno de producción.
+
+#### 5.2.3.1. Sprint Planning 3.
+
+| Sprint # | Sprint 3 |
+|---|---|
+| **Sprint Planning Background** |  |
+| Date | 2026-06-16 |
+| Time | 09:00 PM |
+| Location | Reunión virtual realizada a través de Discord |
+| Prepared By | Güere Calero, Fernando Julio |
+| Attendees (to planning meeting) | Montes Zamora, Edgar Alexander Mauricio<br>Güere Calero, Fernando Julio<br>León Morales, Johan Yonel<br>Garcia Villanueva, Leonardo Rafael<br>Lozano Leon, Richard Enrique |
+| **Sprint Goal & User Stories** |  |
+| Sprint 2 Review Summary | Durante el Sprint 2 se logró desarrollar la primera versión funcional de la Web Application de VitalWatch con Angular, implementando vistas iniciales para los roles de supervisor y personal médico, junto con mejoras en la landing page relacionadas con el formulario de contacto y la adaptación responsive. El equipo avanzó en la configuración del entorno frontend, integración de Angular Material, habilitación de la internacionalización y la estructura inicial de autenticación en el cliente. |
+| Sprint 2 Retrospective Summary | Como parte de la retrospectiva del Sprint 2, el equipo reconoció como acierto la arquitectura modular adoptada en Angular, que facilita la integración futura con el backend. Como área de mejora se identificó la necesidad de definir los contratos de la API con mayor anticipación antes de iniciar el desarrollo del cliente, con el fin de evitar refactorizaciones en el frontend durante el siguiente sprint. |
+| Sprint 3 Goal | Nuestro enfoque está en desarrollar y desplegar la primera versión del Web Service de VitalWatch como RESTful API con Spring Boot, implementando los bounded contexts de Gestión de Identidad, Monitoreo de Fatiga y Alertas Preventivas. Creemos que esto brindará a supervisores y personal clínico una solución operativa completa con backend funcional, accesible desde la Web Application ya existente. Esto se confirmará cuando el Web Service esté correctamente desplegado en la nube, los principales endpoints respondan exitosamente y la Web Application consuma la API mostrando datos reales del sistema. |
+| Sprint 3 Velocity | 35 |
+| Sum of Story Points | 35 |
+
+#### 5.2.3.2. Aspect Leaders and Collaborators.
+
+En esta sección se determinan los aspectos prioritarios que enmarcan el alcance del Sprint 3, especificando el integrante del equipo que asumió el rol de liderazgo en cada aspecto y quiénes actuaron como colaboradores. Para este sprint los aspectos priorizados son: la planificación y documentación del sprint, el desarrollo del bounded context de Gestión de Identidad y Acceso (IAM) en el backend, el desarrollo del bounded context de Monitoreo de Fatiga y Alertas Preventivas en el backend, la integración del frontend Angular con el Web Service desplegado, y la configuración del despliegue en la nube para los tres productos digitales de VitalWatch.
+
+| Team Member (Last Name, First Name) | GitHub Username | Sprint Planning and Documentation Leader (L) / Collaborator (C) | IAM Backend Development Leader (L) / Collaborator (C) | Fatigue Monitoring & Alerts Backend Leader (L) / Collaborator (C) | Frontend-Backend Integration Leader (L) / Collaborator (C) | Cloud Deployment Configuration Leader (L) / Collaborator (C) |
+|---|---|---|---|---|---|---|
+| Montes Zamora, Edgar Alexander Mauricio | Zenkit0 | C | L | C | C | C |
+| Güere Calero, Fernando Julio | FerG17 | L | C | C | C | C |
+| León Morales, Johan Yonel | TheCap213 | C | C | C | L | C |
+| Garcia Villanueva, Leonardo Rafael | LeonardoGV00 | C | C | L | C | C |
+| Lozano Leon, Richard Enrique | AikoLz | C | C | C | C | L |
+
+#### 5.2.3.3. Sprint Backlog 3.
+
+El Sprint Backlog 3 consolida las technical stories y user stories priorizadas para el desarrollo del Web Service de VitalWatch y su integración con los componentes ya existentes. En esta iteración el equipo se enfocó en implementar los endpoints RESTful correspondientes a los bounded contexts de Gestión de Identidad y Acceso, Monitoreo de Fatiga y Alertas Preventivas, empleando Spring Boot y Java como tecnologías base. Se contempló además la integración del frontend Angular con la API desarrollada, la documentación de los endpoints con Swagger/OpenAPI y la configuración del despliegue del Web Service en un proveedor en la nube. Al cierre del sprint, los tres componentes de la solución (Landing Page, Web Application y Web Service) deben quedar desplegados y operativos.
+
+| Sprint # | Sprint 3 |  |  |  |  |  |  |
+|---|---|---|---|---|---|---|---|
+| **User Story** |  | **Work-Item / Task** |  |  |  |  |  |
+| Id | Title | Id | Title | Descripcion | Estimation (Hours) | Assigned To | Status (To-do / In-Process / To-Review / Done) |
+| TS-04 | Endpoint de registro e inicio de sesión (IAM) | T3-01 | Implementación de endpoints de autenticación con JWT | Desarrollar los endpoints POST /api/v1/auth/register y POST /api/v1/auth/login en el bounded context de IAM, incluyendo validación de datos, persistencia del usuario y generación de token JWT. | 5 | Montes Zamora, Edgar Alexander Mauricio | Done |
+| TS-05 | Endpoint de gestión de perfil del personal clínico | T3-02 | Implementación de endpoints CRUD de perfil del personal | Desarrollar los endpoints GET, PUT y DELETE /api/v1/staff/{id} para la gestión del perfil del personal clínico registrado, con validación de permisos por rol. | 4 | Montes Zamora, Edgar Alexander Mauricio | Done |
+| TS-06 | Endpoint de registro y consulta de datos biométricos | T3-03 | Implementación de endpoints POST y GET /api/v1/biometric-records | Implementar el endpoint de registro de mediciones biométricas (frecuencia cardiaca, horas de sueño, actividad física) y el de consulta histórica por ID de personal clínico. | 4 | Garcia Villanueva, Leonardo Rafael | Done |
+| TS-07 | Endpoint de cálculo y consulta del Fatigue Score | T3-04 | Implementación del algoritmo de Fatigue Score y su endpoint | Desarrollar la lógica de cálculo del Fatigue Score a partir de los datos biométricos y de turnos, y exponerlo mediante GET /api/v1/fatigue-score/{staffId} para su consumo desde el frontend. | 4 | Garcia Villanueva, Leonardo Rafael | Done |
+| TS-08 | Endpoint de gestión de alertas preventivas | T3-05 | Implementación de endpoints GET y POST /api/v1/alerts | Desarrollar los endpoints para la consulta y generación de alertas preventivas vinculadas al nivel de fatiga del personal clínico, con filtrado por tipo de alerta y estado. | 4 | Garcia Villanueva, Leonardo Rafael | Done |
+| TS-09 | Endpoint de historial de evaluaciones de fatiga | T3-06 | Implementación del endpoint GET /api/v1/evaluations/history/{staffId} | Implementar el endpoint para la consulta del historial de evaluaciones de fatiga asociadas a un miembro del personal, accesible para supervisores y personal médico. | 3 | Montes Zamora, Edgar Alexander Mauricio | Done |
+| TS-10 | Documentación de API con Swagger/OpenAPI | T3-07 | Configuración de Swagger UI y documentación de endpoints | Integrar la dependencia springdoc-openapi en el proyecto Spring Boot, configurar la interfaz de Swagger UI y documentar los endpoints principales del Web Service para facilitar su revisión y prueba. | 3 | Güere Calero, Fernando Julio | Done |
+| TS-11 | Despliegue del Web Service en la nube | T3-08 | Configuración y despliegue del backend en proveedor cloud | Configurar el proyecto Spring Boot para su despliegue en Railway/Render, gestionando variables de entorno, conexión con la base de datos en la nube y exposición pública de los endpoints REST. | 4 | Lozano Leon, Richard Enrique | Done |
+| US-14 | Integración del frontend con el Web Service | T3-09 | Integración de servicios Angular con la API REST de VitalWatch | Actualizar los servicios HTTP en el frontend Angular para consumir los endpoints del Web Service desplegado, reflejando datos reales del backend en las vistas de supervisor y personal médico. | 4 | León Morales, Johan Yonel | Done |
+
+**Board del Sprint 3 en Trello:**  
+Aquí se presenta el tablero utilizado para organizar y dar seguimiento a las tareas correspondientes al Sprint 2.
+
+<p align="center">
+  <img src="Resources/Images/StyleGuidelines/Spring_3.png" alt="Board del Sprint 3 en Trello" width="900"/>
+  <br>
+  <i>Figura del Board del Sprint 3 de VitalWatch en Trello.</i>
+</p>
+
+**URL del board:**  
+[Enlace del Trello para el Spring 3](https://trello.com/invite/b/6a3477e47266b2a1ab91694b/ATTI145bc31fe6087748eb7097d95ea705ee9552EA33/vitalwatch-sprint-3)
+
+#### 5.2.3.4. Development Evidence for Sprint Review.
+
+Durante este sprint, el equipo inició y completó el desarrollo del Web Service de VitalWatch utilizando Spring Boot y una arquitectura orientada al dominio (DDD). Se construyeron múltiples bounded contexts (Profiles, IAM, Clinical Risk, Incidents, Shifts, Staff Recovery y Audit) cada uno estructurado en sus capas de dominio, aplicación, infraestructura e interfaces REST. En paralelo, se habilitó la integración con el frontend Angular mediante la exposición de endpoints compatibles con los contratos del cliente, la configuración de CORS y la preparación del entorno de despliegue con Docker y perfil de producción.
+
+La siguiente tabla presenta los commits más relevantes registrados en el repositorio `vitalwatch-platform` durante el sprint. Estos commits evidencian el avance técnico alcanzado en la implementación de la API REST y su preparación para el despliegue en producción.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on |
+|---|---|---|---|---|---|
+| vitalwatch-platform | main | `ce2f785` | `chore: initial commit.` | Initial project setup for the VitalWatch platform backend using Spring Boot and Maven. | 2026-06-13 |
+| vitalwatch-platform | main | `34e40c4` | `feat: configure project base and shared context.` | Set up the base project structure and shared bounded context configuration, including common domain primitives. | 2026-06-13 |
+| vitalwatch-platform | main | `86d0e01` | `feat(iam): add identity and access domain base.` | Defined the domain model for the Identity and Access Management bounded context, including aggregates and entities. | 2026-06-13 |
+| vitalwatch-platform | main | `007f133` | `feat(iam): add identity and access interfaces layer.` | Implemented REST controllers and DTOs for the IAM bounded context, enabling user registration and authentication operations. | 2026-06-13 |
+| vitalwatch-platform | main | `68dab01` | `feat(profiles): add profile interfaces layer.` | Implemented REST controllers and endpoints for managing staff profiles, enabling CRUD operations from the frontend. | 2026-06-13 |
+| vitalwatch-platform | main | `bd400e6` | `feat(clinical-risk): add clinical risk domain base.` | Defined the domain model for the clinical risk bounded context, including aggregates, entities and domain events. | 2026-06-13 |
+| vitalwatch-platform | main | `a24108e` | `feat(clinical-risk): add clinical risk interfaces layer.` | Implemented REST endpoints for clinical risk management, exposing fatigue-related data to the frontend. | 2026-06-13 |
+| vitalwatch-platform | main | `2a9f95e` | `feat(staff-recovery): add staff recovery domain base.` | Defined the domain model for the staff recovery bounded context, handling preventive rest and recovery plans. | 2026-06-13 |
+| vitalwatch-platform | main | `45343cf` | `feat(staff-recovery): add recovery interfaces layer.` | Implemented REST controllers and endpoints for staff recovery management. | 2026-06-13 |
+| vitalwatch-platform | main | `581221c` | `feat(audit): add audit and compliance domain base.` | Defined the domain model for the audit and compliance bounded context, including audit trail aggregates. | 2026-06-13 |
+| vitalwatch-platform | main | `04066c1` | `feat(audit): add audit interfaces layer.` | Implemented REST controllers and endpoints for the audit and compliance bounded context. | 2026-06-13 |
+| vitalwatch-platform | main | `06a003d` | `docs: readme` | Added README documentation for the vitalwatch-platform backend repository. | 2026-06-18 |
+| vitalwatch-platform | feature/backend-frontend-integration | `6645f28` | `chore(cors): allow frontend origins.` | Configured CORS policy to allow cross-origin requests from the Angular frontend application. | 2026-06-17 |
+| vitalwatch-platform | feature/backend-frontend-integration | `fca5386` | `chore(deploy): prepare production profile and openapi server.` | Configured the Spring production profile and OpenAPI server base URL in preparation for cloud deployment. | 2026-06-17 |
+| vitalwatch-platform | feature/backend-frontend-integration | `fc892df` | `chore(deploy): add docker configuration.` | Added Dockerfile and container configuration to enable deployment of the Web Service in a cloud environment. | 2026-06-17 |
+| vitalwatch-platform | feature/backend-frontend-integration | `b1a6c79` | `feat(frontend-compat): add clinical risk endpoints.` | Exposed clinical risk management endpoints with response contracts compatible with the Angular frontend. | 2026-06-17 |
+| vitalwatch-platform | feature/backend-frontend-integration | `5994d47` | `feat(frontend-compat): add clinical alerts and anomalies endpoints.` | Exposed clinical alerts and anomalies endpoints for integration with the alerts module of the web application. | 2026-06-17 |
+| vitalwatch-platform | feature/backend-frontend-integration | `70cbd22` | `fix(frontend-compat): support frontend login contract.` | Adjusted the authentication endpoint response to match the login contract expected by the Angular frontend. | 2026-06-17 |
+| vitalwatch-platform | feature/backend-frontend-integration | `ea082ac` | `chore(config): add production cors configuration.` | Added final production-ready CORS configuration to ensure secure cross-origin communication between frontend and backend. | 2026-06-18 |
+| vitalwatch-platform | feature/backend-frontend-integration | `cf1abe8` | `fix(frontend-compat): polish final frontend contract fields.` | Final adjustments to API response fields to ensure full compatibility with all Angular frontend data contracts. | 2026-06-18 |
+
+Estos commits demuestran que durante el Sprint 3 se construyó la primera versión funcional del Web Service de VitalWatch. El trabajo comenzó con la configuración del proyecto base y la implementación progresiva de los bounded contexts del sistema aplicando arquitectura por capas (dominio, aplicación, infraestructura e interfaces REST). En la etapa final del sprint se habilitó la integración con el frontend mediante la exposición de endpoints compatibles con los contratos del cliente Angular, la configuración de CORS y la preparación del entorno de despliegue con Docker y perfil de producción, dejando el Web Service listo para ser consumido desde la Web Application.
+
+#### 5.2.3.5. Execution Evidence for Sprint Review.
+Durante el Sprint 3 se logró desarrollar e integrar la primera versión funcional del Web Service de VitalWatch. En esta iteración se implementaron los principales bounded contexts del sistema —Gestión de Identidad y Acceso, Perfiles, Riesgo Clínico, Turnos, Recuperación del Personal y Auditoría— exponiendo sus endpoints REST mediante una API documentada con Swagger UI, y dejando el backend desplegado y operativo para su consumo desde la Web Application.
+
+<p align="center">
+  <img src="Resources/Images/Execution Evidence for Sprint Review/evidence_sprint_3.jpeg" alt="Execution Evidence for Sprint Review del Sprint 3" width="900"/>
+  <br>
+	<i>Backend desplegada de VitalWatch.</i>
+</p>
+Link del backend desplegada: https://vitalwatch-platform.onrender.com/swagger-ui/index.html
+
+#### 5.2.3.6. Services Documentation Evidence for Sprint Review.
+
+A diferencia de los sprints anteriores, el Sprint 3 marcó el inicio real de la implementación y documentación de Web Services en el proyecto VitalWatch. Durante esta iteración se desarrolló la primera versión del backend como RESTful API con Spring Boot, estructurada bajo una arquitectura orientada al dominio (DDD). El sistema se organiza en siete bounded contexts, cada uno con sus propios controllers REST: **IAM** (gestión de identidad y acceso), **Profiles** (perfiles del personal), **Clinical Risk** (lecturas de signos vitales y evaluaciones de riesgo clínico), **Shifts** (turnos y asignaciones), **Staff Recovery** (planes y acciones de recuperación), **Audit** (trazabilidad de eventos) y **Subscriptions** (planes de suscripción). Todos los endpoints están documentados automáticamente con Springdoc OpenAPI y accesibles desde la interfaz de Swagger UI del servicio desplegado.
+
+A continuación se presentan los principales endpoints implementados, organizados por bounded context y derivados directamente de los controllers del repositorio `vitalwatch-platform`:
+
+| Bounded Context | Endpoint | HTTP Verb | Descripción | Response Status |
+|---|---|---|---|---|
+| IAM | `/api/v1/hospital-workspaces` | POST | Crea un workspace hospitalario y su cuenta de administrador. | 201 Created |
+| IAM | `/api/v1/hospital-workspaces/{hospitalWorkspaceId}` | GET | Retorna el workspace hospitalario identificado por su ID. | 200 OK / 404 Not Found |
+| IAM | `/api/v1/users` | GET | Retorna usuarios filtrados por workspace, organización o email. | 200 OK |
+| IAM | `/api/v1/users` | POST | Crea una cuenta de usuario compatible con el contrato del frontend Angular. | 201 Created / 409 Conflict |
+| IAM | `/api/v1/users/{userId}` | PATCH | Actualiza el rol o estado de activación de un usuario. | 200 OK / 400 Bad Request |
+| Profiles | `/api/v1/profiles` | POST | Crea un perfil de personal clínico con datos de contacto y dirección. | 201 Created / 409 Conflict |
+| Profiles | `/api/v1/profiles` | GET | Retorna el listado completo de perfiles del personal registrado. | 200 OK |
+| Profiles | `/api/v1/profiles/{profileId}` | GET | Retorna el detalle del perfil de un miembro del personal por su ID. | 200 OK / 404 Not Found |
+| Clinical Risk | `/api/v1/vital-sign-readings` | POST | Registra una lectura de signos vitales y carga de trabajo para el monitoreo de fatiga. | 201 Created |
+| Clinical Risk | `/api/v1/vital-sign-readings?userAccountId={id}` | GET | Retorna el historial de lecturas de signos vitales de un usuario. | 200 OK |
+| Clinical Risk | `/api/v1/clinical-risk-assessments` | POST | Crea una evaluación de riesgo clínico a partir de una lectura de signos vitales. | 201 Created |
+| Clinical Risk | `/api/v1/clinical-risk-assessments?hospitalWorkspaceId={id}` | GET | Retorna todas las evaluaciones de riesgo del workspace hospitalario. | 200 OK |
+| Clinical Risk | `/api/v1/clinical-risk-assessments/latest?userAccountId={id}` | GET | Retorna la evaluación de riesgo clínico más reciente del usuario. | 200 OK / 404 Not Found |
+| Clinical Risk | `/api/v1/clinical-risk-assessments/{id}/review` | PATCH | Marca una evaluación de riesgo clínico como revisada por el supervisor. | 200 OK |
+| Clinical Risk | `/api/v1/clinical-risk-assessments/{id}/escalate` | PATCH | Escala una evaluación de riesgo alto o crítico para intervención inmediata. | 200 OK |
+| Shifts | `/api/v1/work-shifts` | POST | Crea un turno de trabajo hospitalario. | 201 Created |
+| Shifts | `/api/v1/work-shifts?hospitalWorkspaceId={id}` | GET | Retorna los turnos de trabajo del workspace hospitalario. | 200 OK |
+| Shifts | `/api/v1/shift-assignments` | POST | Asigna un usuario a un turno de trabajo existente. | 201 Created |
+| Shifts | `/api/v1/shift-assignments/user?userAccountId={id}` | GET | Retorna las asignaciones de turno de un usuario específico. | 200 OK |
+| Shifts | `/api/v1/shift-assignments/{shiftAssignmentId}/confirm` | PATCH | Confirma la asignación de turno de un usuario. | 200 OK |
+| Staff Recovery | `/api/v1/recovery-plans` | POST | Crea un plan de recuperación preventiva tras la detección de fatiga o incidente. | 201 Created |
+| Staff Recovery | `/api/v1/recovery-plans?hospitalWorkspaceId={id}` | GET | Retorna los planes de recuperación activos del workspace hospitalario. | 200 OK |
+| Staff Recovery | `/api/v1/recovery-plans/user?userAccountId={id}` | GET | Retorna los planes de recuperación asociados a un usuario. | 200 OK |
+| Staff Recovery | `/api/v1/recovery-plans/{recoveryPlanId}/start` | PATCH | Inicia la ejecución de un plan de recuperación. | 200 OK |
+| Staff Recovery | `/api/v1/recovery-actions` | POST | Agrega una acción concreta (pausa, descanso, reducción de turno) a un plan de recuperación. | 201 Created |
+| Audit | `/api/v1/audit-logs` | POST | Registra un evento auditable del sistema (acción del usuario o evento crítico). | 201 Created |
+| Audit | `/api/v1/audit-logs?hospitalWorkspaceId={id}` | GET | Retorna la trazabilidad de eventos auditables del workspace hospitalario. | 200 OK |
+| Audit | `/api/v1/audit-logs/actor?actorUserAccountId={id}` | GET | Retorna los eventos registrados por un usuario específico. | 200 OK |
+| Subscriptions | `/api/v1/subscription-plans` | GET | Retorna los planes de suscripción disponibles en la plataforma VitalWatch. | 200 OK |
+| Subscriptions | `/api/v1/subscription-plans` | POST | Crea un nuevo plan de suscripción. | 201 Created |
+
+La documentación completa de cada endpoint (incluyendo esquemas de request/response, validaciones y códigos de error) se encuentra disponible en la interfaz de Swagger UI del Web Service desplegado.
+
+#### 5.2.3.7. Software Deployment Evidence for Sprint Review.
+
+<p align="center">
+  <img src="Resources/Images/Deploy/deploy_sprint_3.jpeg" alt="Deployment Evidence for Sprint Review del Sprint 3" width="900"/>
+  <br>
+</p>
+<p align="center">
+  <img src="Resources/Images/Deploy/deploy_sprint_3_1.jpeg" alt="Execution Evidence for Sprint Review del Sprint 3" width="900"/>
+  <br>
+	<i>Backend desplegada de VitalWatch.</i>
+</p>
 
 
-<!--## 5.3. Validation Interviews.
+
+#### 5.2.3.8. Team Collaboration Insights during Sprint.
+
+Para documentar los avances de este Sprint, utilizamos GitHub como medio principal de trabajo colaborativo. A través del repositorio, los integrantes registraron sus cambios mediante commits y mantuvieron actualizados los artefactos relacionados con el Web Service y el reporte del proyecto. Durante este periodo, se evidenció la participación activa de los miembros del equipo en el repositorio, reflejando un trabajo coordinado en la implementación del backend, la exposición de endpoints REST y la preparación del entorno de despliegue correspondientes al Sprint 3.
+
+<p align="center">
+  <img src="Resources/Images/StyleGuidelines/insight_sprint_3.png" alt="Analisis de colaboración del equipo durante el Sprint 3 en GitHub" width="900"/>
+  <br>
+</p>
+
+<p align="center">
+  <img src="Resources/Images/StyleGuidelines/insight_back_3.png" alt="Analisis de colaboración del equipo durante el Sprint 3 en GitHub" width="900"/>
+  <br>
+  <i>Analisis de colaboración del equipo durante el Sprint 3 en GitHub.</i>
+</p>
+
+
+## 5.3. Validation Interviews.
+
 ### 5.3.1. Diseño de Entrevistas.
+#### Segmento 1: Personal administrativo de clínicas y hospitales
+Para las entrevistas de validación se evaluará la usabilidad, viabilidad y eficiencia de la plataforma web **VitalWatch** desde la perspectiva del personal encargado de la gestión de recursos humanos y la continuidad operacional del centro de salud. Esto se logrará considerando los avances del proyecto hasta el sprint 2 y 3, ajustándose al progreso entregado por el equipo de desarrollo y a la disponibilidad coordinada con los entrevistados. Se recogerá el feedback de cada participante respecto al uso del panel administrativo y de supervisión, enfocándose en las funcionalidades orientadas al monitoreo del nivel de fatiga y la gestión preventiva de turnos dentro del flujo operativo hospitalario.
+
+##### Objetivos de la Entrevista:
+1) Validar la experiencia de usuario (UX) y la interfaz de usuario (UI) del panel de administración y supervisión (*Dashboard General* y *Resumen de Turno*), evaluando si el usuario comprende la arquitectura de navegación y puede acceder de forma intuitiva a los indicadores de riesgo del personal.
+
+2) Evaluar si VitalWatch ofrece una propuesta de valor diferencial frente a otros sistemas convencionales de gestión hospitalaria, y si las funcionalidades base relacionadas a la visualización de la fatiga acumulada satisfacen las necesidades operativas de la supervisión médica.
+
+##### Criterios de Evaluación:
+- Evaluar si el usuario (Admin / Supervisor) puede navegar por la aplicación web con facilidad y familiarizarse con el dashboard general del sistema.
+- Medir el tiempo que toma al usuario comprender los indicadores resumen (*personal activo, en riesgo, alertas clínicas activas*) presentados en el panel principal.
+- Evaluar la comprensión del cálculo del *Fatigue Score* (Nivel de Fatiga) como herramienta para la toma de decisiones preventivas.
+- Evaluar si el supervisor puede identificar y acceder a la sección de *Personal en Riesgo* desde el menú lateral sin ambigüedades.
+- Evaluar si el usuario comprende el proceso de registro de una *Nueva acción preventiva* (como pausas o descansos obligatorios), incluyendo los campos requeridos del formulario.
+- Evaluar si el supervisor puede consultar las sugerencias de reemplazos operacionales y gestionar la redistribución laboral de manera intuitiva ante un bloqueo de turno.
+
+*Se considerarán los siguientes User Flows*:
+* **Rol Administrador / Supervisor:** Consultar resumen general del centro y gestionar asignaciones del personal clínico.
+  
+---
+
+#### Segmento 2: Personal clinico
+Para las entrevistas de validación se evaluará la usabilidad, viabilidad y eficiencia de **VitalWatch** desde la perspectiva del personal clínico que se encuentra expuesto a guardias y jornadas de alta exigencia (*Clinical Staff*). Esto se logrará considerando los avances del proyecto hasta el sprint 2 y 3, variando según el progreso propuesto por el equipo de desarrollo y la coordinación con los entrevistados. Se recogerá el feedback de cada participante en el uso de la aplicación web (vista médica), con especial énfasis en las funcionalidades de auto-monitoreo de salud, recepción de alertas vibratorias/visuales de fatiga y control de recuperación clínica.
+
+##### Objetivos de la Entrevista:
+1) Validar la experiencia de usuario (UX) y la interfaz de usuario (UI) del módulo *Mi Estado de Salud*, evaluando si el médico o enfermero comprende la arquitectura de navegación y puede acceder de manera intuitiva al monitoreo de sus propios signos vitales e historial de riesgo.
+
+2) Evaluar si VitalWatch representa un beneficio real para el cuidado del bienestar del profesional durante su jornada y si el módulo de recomendaciones de descanso y solicitudes de relevo cubre satisfactoriamente sus necesidades de protección frente al burnout y errores clínicos.
+
+##### Criterios de Evaluación:
+- Evaluar si el personal clínico puede navegar por su panel personalizado con facilidad y comprender el estado actual de su nivel de riesgo.
+- Medir el tiempo que toma al usuario sincronizar sus datos biométricos y comprender las gráficas de evolución temporal (*Frecuencia cardíaca, cortisol, ritmo de sueño*).
+- Evaluar la comprensión de la propuesta de valor de la solución, en especial respecto al respaldo legal/técnico que proporcionan las alertas para justificar un descanso obligatorio.
+- Evaluar si el usuario puede identificar y acceder a la sección de *Mis Turnos* y *Mi Recuperación* desde el panel principal sin ambigüedades.
+- Evaluar si el médico comprende los indicadores resumen de su estado de recuperación y sabe cómo interpretar las recomendaciones preventivas automáticas generadas por el sistema.
+- Evaluar si el usuario puede realizar una *Solicitud de relevo preventivo* de manera intuitiva cuando el sistema detecta que ha superado el umbral seguro de fatiga.
+
+*Se considerarán los siguientes User Flows*:
+* **Rol Personal Clínico (Médico / Enfermero):** Monitoreo individual y gestión de bienestar clínico.
+
 ### 5.3.2. Registro de Entrevistas.
+**PRIMER SEGMENTO OBJETIVO (Personal administrativo de clínicas y hospitales)** <br>
+**Userflow**: Rol Administrador / Supervisor
+
+<u>Entrevista 1:</u>
+
+Entrevistador: Fernando Julio Güere Calero
+
+Datos del entrevistado
+
+- **Nombre: Yeny Edith** 
+- **Apellidos: Calero Orbezo** 
+- **Edad: 52 años** 
+- **Distrito: Chaclacayo** 
+- **Timing: 7:10** 
+
+<p align="center">
+  <img src="Resources/Images/Interview/Entrevista_S1_Open.png" alt="Entrevista de validación" width="500"/>
+  <br/><i>Evidencia de entrevista: Yeny Calero </i>
+</p>
+
+**Resumen descriptivo**
+
+<div align="justify">
+La entrevista de validación realizada a Yeny Calero, de 52 años, ofreció un respaldo altamente positivo al despliegue de la landing page y la aplicación web de VitalWatch. Tras interactuar con la plataforma, la participante evaluó el sistema de manera global, manifestando que percibe la propuesta como una herramienta muy completa y sólida para los objetivos de prevención de fatiga en el sector salud. Durante la sesión, resaltó de forma recurrente la calidad y estética del diseño de las interfaces, valorando la claridad visual y la organización de los elementos dentro del panel. Aunque su retroalimentación se centró en impresiones generales más que en la evaluación de flujos técnicos específicos, demostró un alto nivel de satisfacción y confianza en la solución; como conclusión del proceso, afirmó con entusiasmo que promocionaría y compartiría activamente la aplicación con otros colegas del entorno de gestión hospitalaria, validando el valor integral de la herramienta y su fuerte potencial de recomendación dentro de su segmento operativo.
+</div>
+
+***Enlace del video:*** [Ver grabación aquí](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202413169_upc_edu_pe/IQD3RzQVjdrNTIvJk3g6Zw65Adqs5ZMHcWd1vxrnB7ODMjc?e=TDuKfx&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+<u>Entrevista 2:</u>
+
+Entrevistador:
+
+Datos del entrevistado
+
+- **Nombre:** 
+- **Apellidos:** 
+- **Edad:** 
+- **Distrito:** 
+- **Timing:** 
+
+<p align="center">
+  <img src="Resources/Images/Interview/-colocar_nombre_archivo-" alt="Entrevista de validación" width="500"/>
+  <br/><i>Evidencia de entrevista: **Nombre del entrevistad** </i>
+</p>
+
+**Resumen descriptivo:**
+
+<div align="justify">
+Resumen de la entrevista
+</div>
+
+***Enlace del video:*** [Ver grabación aquí]()
+
+<u>Entrevista 3:</u>
+
+Entrevistador:
+
+Datos del entrevistado
+
+- **Nombre:** 
+- **Apellidos:** 
+- **Edad:** 
+- **Distrito:** 
+- **Timing:** 
+
+<p align="center">
+  <img src="Resources/Images/Interview/-colocar_nombre_archivo-" alt="Entrevista de validación" width="500"/>
+  <br/><i>Evidencia de entrevista: **Nombre del entrevistad** </i>
+</p>
+
+**Resumen descriptivo:**
+
+<div align="justify">
+Resumen de la entrevista
+</div>
+
+***Enlace del video:*** [Ver grabación aquí]()
+
+---
+
+**SEGUNDO SEGMENTO OBJETIVO (Personal clinico)** <br>
+**Userflow**: Rol Personal Clínico (Médico / Enfermero)
+
+<u>Entrevista 1:</u>
+
+Entrevistador: Fernando Julio Güere Calero
+
+Datos del entrevistado
+
+- **Nombre: Yeny Edith** 
+- **Apellidos: Güere Calero** 
+- **Edad: 24 años** 
+- **Distrito: Chaclacayo** 
+- **Timing: 7:54** 
+
+<p align="center">
+  <img src="Resources/Images/Interview/Entrevista_S2_Open.png" alt="Entrevista de validación" width="500"/>
+  <br/><i>Evidencia de entrevista: Alejandra Güere </i>
+</p>
+
+**Resumen descriptivo:**
+
+<div align="justify">
+La entrevista de validación realizada a Alejandra Güere, de 24 años, demostró la viabilidad y el alto valor percibido de la aplicación web de VitalWatch desde la perspectiva del personal clínico. Tras interactuar con su panel personalizado, la participante resaltó de inmediato la calidad del diseño de la interfaz y la fluidez en su funcionalidad general, calificando la herramienta como sumamente intuitiva para el día a día en las guardias. Asimismo, enfatizó la enorme importancia de contar con secciones dedicadas específicamente al monitoreo y manejo de valores críticos biométricos como la frecuencia cardíaca, el nivel de cortisol y el ritmo de sueño, elementos que consideró indispensables para anticiparse al colapso físico. Finalmente, validó que la presentación visual de estas métricas facilita la comprensión inmediata de su propio estado de salud, mostrando una alta disposición para adoptar el sistema y recomendándolo como un respaldo esencial para el bienestar y la seguridad de sus colegas en el entorno hospitalario.
+</div>
+
+***Enlace del video:*** [Ver grabación aquí](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202413169_upc_edu_pe/IQAZItC86M_AS54dEx9sS7_oAYrUTJaM7cIzy4E2dK6rK5Q?e=EzCm2k&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+<u>Entrevista 2:</u>
+
+Entrevistador:
+
+Datos del entrevistado
+
+- **Nombre:** 
+- **Apellidos:** 
+- **Edad:** 
+- **Distrito:** 
+- **Timing:** 
+
+<p align="center">
+  <img src="Resources/Images/Interview/-colocar_nombre_archivo-" alt="Entrevista de validación" width="500"/>
+  <br/><i>Evidencia de entrevista: **Nombre del entrevistad** </i>
+</p>
+
+**Resumen descriptivo:**
+
+<div align="justify">
+Resumen de la entrevista
+</div>
+
+***Enlace del video:*** [Ver grabación aquí]()
+
+<u>Entrevista 3:</u>
+
+Entrevistador:
+
+Datos del entrevistado
+
+- **Nombre:** 
+- **Apellidos:** 
+- **Edad:** 
+- **Distrito:** 
+- **Timing:** 
+
+<p align="center">
+  <img src="Resources/Images/Interview/-colocar_nombre_archivo-" alt="Entrevista de validación" width="500"/>
+  <br/><i>Evidencia de entrevista: **Nombre del entrevistad** </i>
+</p>
+
+**Resumen descriptivo:**
+
+<div align="justify">
+Resumen de la entrevista
+</div>
+
+***Enlace del video:*** [Ver grabación aquí]()
+
 ### 5.3.3. Evaluaciones según heurísticas.
-## 5.4. Video About-the-Product.-->
+
+### UX Heuristics & Principles Evaluation
+
+#### Tabla resumen de problemas encontrados
+
+| # | Problema | Escala de severidad | Heurística / Principio violado |
+|---|---|---:|---|
+| 1 | La tabla comparativa de planes es demasiado extensa y puede hacer que el usuario pierda de vista a qué plan corresponde cada columna. | 2 | Usability: Recognition rather than recall / Information Architecture: Is it usable? |
+| 2 | El módulo de suscripción muestra claves internas de internacionalización cuando la aplicación está configurada en español. | 3 | Usability: Consistency and standards / Inclusive Design: Provide comparable experiences / Information Architecture: Is it understandable? |
+| 3 | Los formularios presentan validaciones insuficientes y un manejo de errores poco robusto. | 2 | Usability: Error prevention / Usability: Help users recognize, diagnose, and recover from errors / Information Architecture: Is it usable? |
+
+---
+
+#### Problema #1: La tabla comparativa de planes es demasiado extensa
+
+**Severidad:** 2  
+**Heurística violada:** Usability: Recognition rather than recall / Information Architecture: Is it usable?
+
+**Problema:**  
+La tabla comparativa de planes presenta una gran cantidad de características distribuidas en varias secciones. Debido a su extensión vertical, el usuario puede perder de vista el encabezado y olvidar qué plan corresponde a cada columna mientras revisa la información ubicada en la parte inferior.
+
+Esto incrementa el esfuerzo cognitivo, ya que el usuario debe recordar constantemente la posición de los planes Basic, Professional y Enterprise para interpretar correctamente cada característica.
+
+**Recomendación:**  
+Mantener fijo el encabezado de los planes durante el desplazamiento vertical. También se recomienda resaltar visualmente la columna seleccionada o dividir la comparación en categorías plegables para reducir la cantidad de información mostrada simultáneamente.
+
+---
+
+#### Problema #2: Traducción incompleta en el módulo de suscripción
+
+**Severidad:** 3  
+**Heurística violada:** Usability: Consistency and standards / Inclusive Design: Provide comparable experiences / Information Architecture: Is it understandable?
+
+**Problema:**  
+Al cambiar la aplicación al idioma español, el módulo de suscripción muestra directamente claves internas de internacionalización en lugar de textos comprensibles para el usuario.
+
+Entre las claves visibles se encuentran:
+
+- `subscription.admin.title`
+- `subscription.admin.metrics.current-plan`
+- `subscription.admin.status.active`
+- `subscription.admin.change-plan`
+- `subscription.admin.table.date`
+
+En la versión en inglés, la información se muestra correctamente. Por ello, los usuarios que utilizan el idioma español reciben una experiencia inferior e inconsistente.
+
+El problema afecta información importante como:
+
+- Plan actual.
+- Estado de la suscripción.
+- Costo mensual.
+- Cambio de plan.
+- Historial de pagos.
+
+Las claves técnicas no permiten que el usuario comprenda fácilmente el propósito de cada elemento de la interfaz.
+
+**Evidencia:**
+
+<p align="center">
+  <img src="Resources/Images/Mockups/ProblemaTraduccion.png" alt="Heuristicas" width="500"/>
+  <br/><i>Evidencia de heuristica </i>
+</p>
+
+**Recomendación:**  
+Completar las claves faltantes en el archivo de traducción en español y comprobar que coincidan exactamente con las claves utilizadas por los componentes.
+
+También se recomienda configurar un idioma de respaldo para que, cuando una traducción no esté disponible, se muestre el texto en inglés en lugar de la clave interna.
+
+---
+
+#### Problema #3: Validaciones insuficientes y manejo de errores poco robusto
+
+**Severidad:** 2  
+**Heurística violada:** Usability: Error prevention / Usability: Help users recognize, diagnose, and recover from errors / Information Architecture: Is it usable?
+
+**Principio de seguridad relacionado:** Validación y saneamiento de entradas / Integridad de los datos.
+
+**Problema:**  
+Durante los flujos de registro y uso de formularios, la aplicación acepta una amplia variedad de datos sin validar suficientemente su formato, longitud o coherencia.
+
+La validación más visible se concentra principalmente en el campo de correo electrónico, por ejemplo, solicitando la presencia del carácter `@`. Sin embargo, otros campos permiten introducir información con pocas restricciones.
+
+Este comportamiento puede generar registros incorrectos, inconsistentes o poco confiables. Aunque no bloquea directamente el flujo, reduce la calidad de los datos almacenados y la confiabilidad general de la aplicación.
+
+**Recomendación:**  
+Aplicar validaciones tanto en el frontend como en el backend. Se recomienda incluir:
+
+- Longitud mínima y máxima.
+- Restricciones específicas para números, fechas y textos.
+- Mensajes claros junto al campo que presenta el error.
+- Saneamiento de entradas.
+- Validación del lado servidor, incluso si el frontend ya realiza validaciones.
+- Bloqueo del envío mientras los datos no cumplan con las condiciones establecidas.
+
+
+## 5.4. Video About-the-Product.
+<p align="center">
+  <img src="Resources/Images/Execution Evidence for Sprint Review/landing_evidence.png" alt="Execution Evidence for Sprint Review del Sprint 2" width="900"/>
+  <br>
+	<i>Video About the Product </i>
+</p>
+Link: https://upcedupe-my.sharepoint.com/:f:/g/personal/u20231h059_upc_edu_pe/IgCcuJFjnGKrQ6nYthpsDOFnATTrUjCwC2XvUDZjsiCvU4A?e=TUcdLF
+
 ---
 # Conclusiones
 
@@ -2975,9 +3615,25 @@ Además, se realizaron diferentes actividades como entrevistas a usuarios, anál
 
 Con esto se pudo validar que la solución propuesta responde a una necesidad real, mostrando que el monitoreo de fatiga y la generación de alertas pueden contribuir a una mejor gestión del personal y a la prevención de riesgos en el sector de salud.
 
+A lo largo del ciclo de desarrollo del proyecto, el equipo logró consolidar una solución de tres capas completamente funcional y desplegada: una Landing Page que comunica la propuesta de valor de VitalWatch a los segmentos objetivo, una Web Application desarrollada en Angular que permite a supervisores y personal médico interactuar con el sistema, y un Web Service construido con Spring Boot que centraliza la lógica de negocio y expone los datos a través de una RESTful API documentada con Swagger UI. Este resultado evidencia la capacidad del equipo para llevar un producto desde su concepción hasta un estado operativo en producción.
+
+La adopción de Domain Driven Design como base arquitectónica resultó clave para estructurar el backend de manera escalable y coherente. La separación en bounded contexts —Gestión de Identidad y Acceso, Perfiles, Riesgo Clínico, Turnos, Recuperación del Personal, Auditoría y Suscripciones— permitió que cada área de la solución evolucionara de forma independiente, facilitó la distribución del trabajo entre los integrantes del equipo y sentó las bases para futuras ampliaciones del sistema sin comprometer la integridad del modelo de dominio.
+
+Finalmente, el proceso de integración entre el frontend Angular y el Web Service de Spring Boot evidenció la importancia de definir los contratos de la API con anticipación y de mantener una comunicación técnica constante entre los miembros del equipo. La configuración de CORS, la gestión de variables de entorno, el uso de Docker para el despliegue y la validación de respuestas mediante Swagger UI fueron aspectos que reforzaron las competencias técnicas del equipo en el desarrollo de software orientado a entornos reales. VitalWatch se presenta, al cierre de esta etapa, como una solución viable, documentada y desplegada, con potencial de escalar hacia una plataforma de monitoreo clínico de mayor alcance.
+
+# Recomendaciones
+
+Se recomienda incorporar en futuras iteraciones la autenticación basada en roles con mayor granularidad, de modo que los permisos de acceso a los endpoints del Web Service reflejen con precisión las responsabilidades de cada perfil (administrador, supervisor y personal médico) garantizando así la seguridad de los datos clínicos gestionados por la plataforma. Asimismo, se sugiere implementar pruebas automatizadas de integración que validen la comunicación entre el frontend Angular y el backend Spring Boot, reduciendo el riesgo de regresiones durante el crecimiento del sistema.
+
+Para maximizar el impacto clínico de VitalWatch, se recomienda explorar la incorporación de modelos de análisis predictivo sobre los datos biométricos registrados, con el fin de anticipar situaciones de riesgo antes de que se materialicen en alertas críticas. Del mismo modo, sería valioso llevar a cabo sesiones de validación con personal clínico real en entornos hospitalarios, recogiendo retroalimentación directa sobre la usabilidad del dashboard y la pertinencia de los indicadores de fatiga mostrados, lo que permitiría orientar las siguientes versiones del producto hacia una experiencia más alineada con los flujos de trabajo reales del sector salud.
+
+# About The Team
+Video: https://upcedupe-my.sharepoint.com/:f:/g/personal/u20231h059_upc_edu_pe/IgCCZVN_f5IHRIybOiqCzNuTAa0rvwjN48m2RQ2K-gJXFks?e=QRrE9Y
+
 # Bibliografía
 Castro Arévalo, N., & Saavedra Leveau, C. A. (2025). Burnout en profesionales de la salud en Tacna. *Newman Business Review, 11*(2), 29–44. 
 https://doi.org/10.22451/3002.nbr2025.vol11.2.10111
   
 # Anexos
-Video AV2: 
+Video AV2: https://upcedupe-my.sharepoint.com/:f:/g/personal/u20231h059_upc_edu_pe/IgAmOqtc-IdIRLyfVrOc7WaZAeUNf2FbsEagRgpKq9oU3G0?e=8R57oD
+
